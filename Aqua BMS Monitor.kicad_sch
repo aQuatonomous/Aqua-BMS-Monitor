@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d7eeacc8-0d33-4ea5-a0aa-fd0653295080")
-	(paper "A2")
+	(paper "A1")
 	(lib_symbols
 		(symbol "BQ76952PFBR:BQ76952PFBR"
 			(pin_names
@@ -4846,7 +4846,7 @@
 	)
 	(rectangle
 		(start 368.3 342.9)
-		(end 488.95 393.7)
+		(end 476.25 393.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -5356,6 +5356,16 @@
 			)
 		)
 		(uuid "f2b0e804-b9a7-41b0-b95c-f226894c395d")
+	)
+	(text "Blocking fets"
+		(exclude_from_sim no)
+		(at 457.2 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f35ebee8-e5ef-4133-954e-3fe6a4091add")
 	)
 	(text "Can add a place to gnd for reverse protection"
 		(exclude_from_sim no)
@@ -6028,12 +6038,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac213790-2e00-4e85-9d66-46b4e8589a47")
-	)
-	(junction
-		(at 454.66 276.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac80e262-df19-4a45-ab0b-4cdc96d9f0b4")
 	)
 	(junction
 		(at 163.83 245.11)
@@ -6985,7 +6989,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 264.16) (xy 454.66 264.16)
+			(xy 403.86 264.16) (xy 450.85 264.16)
 		)
 		(stroke
 			(width 0)
@@ -7025,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 264.16) (xy 454.66 276.86)
+			(xy 450.85 264.16) (xy 450.85 276.86)
 		)
 		(stroke
 			(width 0)
@@ -7765,7 +7769,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 287.02) (xy 431.8 293.37)
+			(xy 431.8 288.29) (xy 431.8 293.37)
 		)
 		(stroke
 			(width 0)
@@ -8262,16 +8266,6 @@
 			(type default)
 		)
 		(uuid "6186c39f-70a8-4c71-882d-4e5064aee8c3")
-	)
-	(wire
-		(pts
-			(xy 454.66 276.86) (xy 477.52 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618fad09-f090-4652-8f4f-a077af95c3c2")
 	)
 	(wire
 		(pts
@@ -10485,16 +10479,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 276.86) (xy 454.66 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9f0b12-7ef2-4b0b-a99f-f269864f18b2")
-	)
-	(wire
-		(pts
 			(xy 393.7 264.16) (xy 393.7 276.86)
 		)
 		(stroke
@@ -11055,6 +11039,16 @@
 	)
 	(wire
 		(pts
+			(xy 450.85 276.86) (xy 477.52 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83771ae-aa38-4645-858e-8cd7a834b788")
+	)
+	(wire
+		(pts
 			(xy 556.26 160.02) (xy 558.8 160.02)
 		)
 		(stroke
@@ -11075,7 +11069,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 276.86) (xy 431.8 279.4)
+			(xy 431.8 276.86) (xy 431.8 280.67)
 		)
 		(stroke
 			(width 0)
@@ -24952,7 +24946,7 @@
 	)
 	(symbol
 		(lib_id "BQ76952PFBR:R")
-		(at 431.8 283.21 180)
+		(at 431.8 284.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24961,7 +24955,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5074237-1b68-4b2a-bf49-3a89b797aaeb")
 		(property "Reference" "R37"
-			(at 434.34 281.9399 0)
+			(at 434.34 283.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24970,7 +24964,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 434.34 284.4799 0)
+			(at 434.34 285.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24979,7 +24973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 433.578 283.21 90)
+			(at 433.578 284.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24988,7 +24982,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 431.8 283.21 0)
+			(at 431.8 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24997,7 +24991,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 431.8 283.21 0)
+			(at 431.8 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

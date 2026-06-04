@@ -4857,6 +4857,18 @@
 		(uuid 71ae8630-4921-4587-b69e-a6c031aff48c)
 	)
 	(rectangle
+		(start 558.8 255.27)
+		(end 800.1 546.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 74978a77-b5bd-48ec-a91d-00cab5f25c55)
+	)
+	(rectangle
 		(start 16.51 290.83)
 		(end 204.47 388.62)
 		(stroke
@@ -5164,6 +5176,16 @@
 			)
 		)
 		(uuid "84f4b29a-108b-4322-9fdd-c6b5a1efd495")
+	)
+	(text "Alisa's corner"
+		(exclude_from_sim no)
+		(at 578.612 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88822ba1-7bd9-456e-bf57-f8d59e7b1f77")
 	)
 	(text "Needs NET tie to ground, I think this is not right..."
 		(exclude_from_sim no)

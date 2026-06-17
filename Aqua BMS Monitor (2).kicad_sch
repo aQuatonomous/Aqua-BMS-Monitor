@@ -3582,6 +3582,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:GDT_2Pin"
 			(pin_numbers
 				(hide yes)
@@ -4161,6 +4313,117 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Graphic:SYM_Arrow_Normal"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SYM_Arrow_Normal"
+				(at 0.254 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Filled arrow, 200mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SYM_Arrow_Normal_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.762 -0.508) (xy 0.762 0.508) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -7635,6 +7898,16 @@
 		)
 		(uuid "154258c8-f3bb-43ba-9eee-d0cff8b5c6c4")
 	)
+	(text "100 nF? ->"
+		(exclude_from_sim no)
+		(at 39.116 174.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1718895b-ea51-4365-8581-40f56cbc1c1c")
+	)
 	(text "May need to meddle with values otherwise fine"
 		(exclude_from_sim no)
 		(at 137.922 222.25 0)
@@ -7694,6 +7967,16 @@
 			)
 		)
 		(uuid "23d9c27b-d06b-461d-adab-de14303884bf")
+	)
+	(text "Voltage on REGIN should not exceed BAT"
+		(exclude_from_sim no)
+		(at 201.422 229.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27147342-6676-46e3-917d-7b1e81b3e379")
 	)
 	(text "Pre Charge/Discharge circuit"
 		(exclude_from_sim no)
@@ -7816,6 +8099,16 @@
 		)
 		(uuid "5da8f86f-7b0a-4296-8fb7-1b91caadda62")
 	)
+	(text "Where did you come from ->\nOvervoltage protection"
+		(exclude_from_sim no)
+		(at 35.56 235.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62235e5d-1a86-4afd-a02c-9ed65bf61f2c")
+	)
 	(text "Pull down and zener diode used to keep steady difference. Review zener application"
 		(exclude_from_sim no)
 		(at 53.848 313.944 0)
@@ -7868,13 +8161,23 @@
 	)
 	(text "This will need to be reviewed:\n- Cap values\n- Two extenal caps to ground\n- Shunt resistor value on CC \nand curr requirements\n"
 		(exclude_from_sim yes)
-		(at 69.85 181.61 0)
+		(at 71.374 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "763c3de3-c9c5-4820-a570-6bd295857982")
+	)
+	(text "Pre-charge and pre-discharge circuits"
+		(exclude_from_sim no)
+		(at 747.776 503.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7aeea73d-3e61-4e5b-8d19-33ea6c588929")
 	)
 	(text "- values will likely need to be better tailored to our application\n- CP is the power for CHG or DSG\n- There is an in depth discussion on how to select these in the application report"
 		(exclude_from_sim no)
@@ -7965,6 +8268,16 @@
 			)
 		)
 		(uuid "9b4a6982-d489-4118-84b9-cadb52d0a996")
+	)
+	(text "ALERT, CFETOFF, DFETOFF, TS1, TS2, TS3, HDQ, DCHG, and DDSG are also for thermistor temp measurement"
+		(exclude_from_sim no)
+		(at 203.2 160.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a34416bc-1ae5-418c-88c7-01bfe6359c9f")
 	)
 	(text "This CD part look nothing like the og schematic?\n"
 		(exclude_from_sim no)
@@ -8059,7 +8372,7 @@
 	)
 	(text "Can be split for heat disipation - Vid 440"
 		(exclude_from_sim no)
-		(at 154.178 227.076 0)
+		(at 138.43 225.044 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8128,6 +8441,16 @@
 		)
 		(uuid "eca9ec5f-d0f8-4352-8e7f-d0b48f6cd09f")
 	)
+	(text "10k resistor typically connected\nbetween PACK+ and LD"
+		(exclude_from_sim no)
+		(at 90.932 276.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee57e337-5c1e-4fe4-bb03-6b24c60eeb67")
+	)
 	(text "External 12V supply in"
 		(exclude_from_sim no)
 		(at 96.012 27.432 0)
@@ -8138,6 +8461,16 @@
 		)
 		(uuid "f2b0e804-b9a7-41b0-b95c-f226894c395d")
 	)
+	(text "Backfeeding protection ->"
+		(exclude_from_sim no)
+		(at 31.242 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2c842d1-9d26-43d5-8aa6-6efad1771b2f")
+	)
 	(text "Blocking fets"
 		(exclude_from_sim no)
 		(at 457.2 251.46 0)
@@ -8147,6 +8480,16 @@
 			)
 		)
 		(uuid "f35ebee8-e5ef-4133-954e-3fe6a4091add")
+	)
+	(text "1 uF? ^"
+		(exclude_from_sim no)
+		(at 72.644 234.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5655601-8893-4e6c-b849-4fa2f81469ea")
 	)
 	(text "Can add a place to gnd for reverse protection"
 		(exclude_from_sim no)
@@ -8215,7 +8558,7 @@
 		(uuid "047569f7-28a8-41d6-8a14-e9b2d849cfe2")
 	)
 	(junction
-		(at 576.58 488.95)
+		(at 591.82 494.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "052dc35a-2b6d-4f0d-8161-988e91206280")
@@ -8239,7 +8582,7 @@
 		(uuid "069b24a9-739d-45c9-856c-3e433591dac5")
 	)
 	(junction
-		(at 595.63 496.57)
+		(at 610.87 501.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "075f7758-ff78-46f8-adcc-a6594b9378a5")
@@ -8359,12 +8702,6 @@
 		(uuid "1fa61d86-892a-44d9-88b0-80b573dc69c3")
 	)
 	(junction
-		(at 600.71 502.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21c1b6e6-b5cf-4f4a-a3d7-174bc9144e81")
-	)
-	(junction
 		(at 91.44 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8455,6 +8792,12 @@
 		(uuid "33bfd639-1268-4808-b9bb-52d7f3f404e8")
 	)
 	(junction
+		(at 591.82 463.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f1f6b7-c706-4a55-be46-58557ce6d752")
+	)
+	(junction
 		(at 603.25 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8533,12 +8876,6 @@
 		(uuid "3f6c1620-0743-4ac7-99d0-821137ae5ae9")
 	)
 	(junction
-		(at 576.58 458.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42ee0582-4b85-4162-98ed-31dfdb622843")
-	)
-	(junction
 		(at 53.34 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8563,7 +8900,7 @@
 		(uuid "4870b25b-a8e6-4464-bb77-a77bdaaa80f4")
 	)
 	(junction
-		(at 576.58 473.71)
+		(at 591.82 478.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48ea3429-4206-4f7f-abfb-4a32ddf337c8")
@@ -8587,6 +8924,12 @@
 		(uuid "49fbd19c-ff9b-4fa6-943c-8170ac3b7f7e")
 	)
 	(junction
+		(at 673.1 481.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b781a25-5d8b-40d5-a730-311fa68cca43")
+	)
+	(junction
 		(at 171.45 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8599,19 +8942,25 @@
 		(uuid "4e968078-8a0e-4f87-9923-e0ba7e62a330")
 	)
 	(junction
+		(at 615.95 508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5008ff6c-4f8d-4650-84e8-d2004fdb691c")
+	)
+	(junction
 		(at 373.38 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "519985be-166f-4cfb-a3e3-d64703f7e4ea")
 	)
 	(junction
-		(at 595.63 488.95)
+		(at 610.87 494.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52084f74-0579-4e50-bcf4-9397c288616b")
 	)
 	(junction
-		(at 595.63 473.71)
+		(at 610.87 478.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f51138-afd2-4110-beae-a2a13ad716bc")
@@ -8629,7 +8978,7 @@
 		(uuid "53ef2591-b188-4035-82d5-ec644106e7d4")
 	)
 	(junction
-		(at 595.63 481.33)
+		(at 610.87 486.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "543c63ca-bb9f-4b47-b390-d541518af4a9")
@@ -8653,7 +9002,13 @@
 		(uuid "5883f726-5229-4b15-8110-e68e2f15519a")
 	)
 	(junction
-		(at 576.58 481.33)
+		(at 163.83 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4ec2bc-f90b-4fae-b689-3f553e8b1fb0")
+	)
+	(junction
+		(at 591.82 486.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c3f9883-1dab-4c77-9f8b-866f97d7042e")
@@ -8713,6 +9068,12 @@
 		(uuid "61c0873d-875d-42aa-a4dd-967aa97b3966")
 	)
 	(junction
+		(at 701.04 487.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b98bcb-4454-47ed-a872-c4b7a0cdd77e")
+	)
+	(junction
 		(at 556.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8735,6 +9096,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68197544-48ae-4d70-a10e-c06810f8ffe8")
+	)
+	(junction
+		(at 198.12 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68239bd2-7fb7-40b7-9746-803d53c681fa")
 	)
 	(junction
 		(at 750.57 269.24)
@@ -8771,6 +9138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71c9207e-1b57-429e-9d39-6bd9cd89cb71")
+	)
+	(junction
+		(at 701.04 477.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725d9947-f07f-413d-9517-ccf26ae66a5f")
 	)
 	(junction
 		(at 325.12 323.85)
@@ -8825,12 +9198,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79ee9f3e-0590-4057-9ba6-b7358f228e91")
-	)
-	(junction
-		(at 650.24 458.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ae7573b-8925-4093-9d22-3209386a25fa")
 	)
 	(junction
 		(at 120.65 346.71)
@@ -8911,10 +9278,22 @@
 		(uuid "854dcd67-59b2-46c6-9f82-3e5082446cfb")
 	)
 	(junction
+		(at 701.04 495.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ce4d1d-dde5-44b2-b641-9838a80c3eab")
+	)
+	(junction
 		(at 546.1 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86572921-416b-4d69-b95b-2cbd96c49964")
+	)
+	(junction
+		(at 198.12 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86dbbf92-6f06-4577-9647-4c0eb2205db5")
 	)
 	(junction
 		(at 680.72 269.24)
@@ -9031,7 +9410,7 @@
 		(uuid "9f3f4a4c-d2ee-4423-8fe5-d66f4088477b")
 	)
 	(junction
-		(at 610.87 458.47)
+		(at 626.11 463.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a05b9e33-411c-4830-94c5-c2c05c6cbbe8")
@@ -9079,12 +9458,6 @@
 		(uuid "ac213790-2e00-4e85-9d66-46b4e8589a47")
 	)
 	(junction
-		(at 163.83 245.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad078a32-a419-45ee-b271-ab152a845046")
-	)
-	(junction
 		(at 171.45 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9095,6 +9468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adb37747-6397-4fac-9013-6dfff6d1769d")
+	)
+	(junction
+		(at 701.04 481.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af24ba6c-1388-4b8f-927e-e991cf87b11c")
 	)
 	(junction
 		(at 53.34 173.99)
@@ -9139,6 +9518,12 @@
 		(uuid "b54cd501-d222-4c38-b0e9-75e3d0a0362a")
 	)
 	(junction
+		(at 198.12 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fd2992-92f9-45e8-ac16-69919509c052")
+	)
+	(junction
 		(at 36.83 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9181,6 +9566,12 @@
 		(uuid "c5a74a58-2429-4c9f-bba6-46a247d4fb3b")
 	)
 	(junction
+		(at 701.04 472.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ef1a8e-6cd6-472d-b960-4b32065e7ccd")
+	)
+	(junction
 		(at 59.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9211,6 +9602,12 @@
 		(uuid "c8c8b277-7eef-474a-ae83-fb98a068af88")
 	)
 	(junction
+		(at 656.59 463.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb93ec82-49fc-444d-bc75-d045606898a8")
+	)
+	(junction
 		(at 175.26 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9221,12 +9618,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce865f13-79c1-47b4-8eb0-5da4b1cfae66")
-	)
-	(junction
-		(at 628.65 486.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cee598bf-af4a-4e6f-b202-e044bd2b1e8a")
 	)
 	(junction
 		(at 72.39 91.44)
@@ -9343,6 +9734,12 @@
 		(uuid "e3a3c2cf-ea2d-44d2-82fe-e445d5bf9c13")
 	)
 	(junction
+		(at 673.1 487.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e67cc924-9f63-43f0-9089-5599bf0ffcb1")
+	)
+	(junction
 		(at 546.1 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9355,7 +9752,7 @@
 		(uuid "e8201c19-4f71-4c64-a148-d031d1966f19")
 	)
 	(junction
-		(at 623.57 458.47)
+		(at 638.81 463.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb0ed381-1172-48d1-95e6-93e5125c952c")
@@ -9415,13 +9812,13 @@
 		(uuid "f8cdcd41-8d25-4a34-945e-7680f13c3ee5")
 	)
 	(junction
-		(at 595.63 458.47)
+		(at 610.87 463.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f905621b-91df-404b-8d04-602a2292a431")
 	)
 	(junction
-		(at 628.65 458.47)
+		(at 643.89 463.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9ac4f47-9460-49f6-9886-52527c38a0cd")
@@ -9455,12 +9852,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbb76b25-2794-4bbf-848f-0a70f3a1c14f")
-	)
-	(junction
-		(at 628.65 468.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc8a594d-fa8c-44c9-a51d-dfea0dce8206")
 	)
 	(junction
 		(at 77.47 107.95)
@@ -9532,7 +9923,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 458.47) (xy 595.63 462.28)
+			(xy 610.87 463.55) (xy 610.87 467.36)
 		)
 		(stroke
 			(width 0)
@@ -9542,7 +9933,7 @@
 	)
 	(wire
 		(pts
-			(xy 585.47 496.57) (xy 595.63 496.57)
+			(xy 600.71 501.65) (xy 610.87 501.65)
 		)
 		(stroke
 			(width 0)
@@ -9612,16 +10003,6 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 502.92) (xy 600.71 506.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e7399d-6d6d-4d5e-b5de-d45349fae1ba")
-	)
-	(wire
-		(pts
 			(xy 556.26 165.1) (xy 558.8 165.1)
 		)
 		(stroke
@@ -9682,6 +10063,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 481.33) (xy 701.04 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0676c1c0-97d2-4f81-9f68-212a5cfe394b")
+	)
+	(wire
+		(pts
 			(xy 181.61 120.65) (xy 181.61 129.54)
 		)
 		(stroke
@@ -9699,6 +10090,16 @@
 			(type default)
 		)
 		(uuid "06c36349-73fd-463e-8022-ea905028c835")
+	)
+	(wire
+		(pts
+			(xy 673.1 487.68) (xy 673.1 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f91f58-7b29-4455-b066-fe0a2530e6a4")
 	)
 	(wire
 		(pts
@@ -9752,7 +10153,7 @@
 	)
 	(wire
 		(pts
-			(xy 585.47 488.95) (xy 595.63 488.95)
+			(xy 600.71 494.03) (xy 610.87 494.03)
 		)
 		(stroke
 			(width 0)
@@ -9789,16 +10190,6 @@
 			(type default)
 		)
 		(uuid "09464a27-f82c-4877-bf25-385c2d4b50a4")
-	)
-	(wire
-		(pts
-			(xy 628.65 486.41) (xy 641.35 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a906dc-3d5d-4160-8a5b-bb248f4d1cd8")
 	)
 	(wire
 		(pts
@@ -9852,6 +10243,16 @@
 	)
 	(wire
 		(pts
+			(xy 706.12 502.92) (xy 712.47 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d08e4fd-5af6-4200-991f-b890ed3ef936")
+	)
+	(wire
+		(pts
 			(xy 146.05 252.73) (xy 156.21 252.73)
 		)
 		(stroke
@@ -9882,7 +10283,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 458.47) (xy 610.87 458.47)
+			(xy 610.87 463.55) (xy 626.11 463.55)
 		)
 		(stroke
 			(width 0)
@@ -9979,6 +10380,16 @@
 			(type default)
 		)
 		(uuid "10daddb2-b359-49cc-91c9-64fc88f3866d")
+	)
+	(wire
+		(pts
+			(xy 673.1 487.68) (xy 683.26 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11564879-0482-4cdf-9e8f-250a84407a51")
 	)
 	(wire
 		(pts
@@ -10082,6 +10493,26 @@
 	)
 	(wire
 		(pts
+			(xy 673.1 481.33) (xy 683.26 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cc556c-c435-4890-b181-fb6bcc3b12e6")
+	)
+	(wire
+		(pts
+			(xy 198.12 176.53) (xy 218.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a5bbd8-f244-4fa2-8e93-7927268f52ea")
+	)
+	(wire
+		(pts
 			(xy 405.13 293.37) (xy 405.13 311.15)
 		)
 		(stroke
@@ -10119,6 +10550,16 @@
 			(type default)
 		)
 		(uuid "17886f74-fe21-4d5a-9d9a-9a6d897cc890")
+	)
+	(wire
+		(pts
+			(xy 198.12 185.42) (xy 198.12 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a78478-287c-4de2-a648-8f17835d0334")
 	)
 	(wire
 		(pts
@@ -10202,6 +10643,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 185.42) (xy 64.77 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2b93e6-e35f-4833-af35-0284a2089fbd")
+	)
+	(wire
+		(pts
 			(xy 415.29 308.61) (xy 415.29 311.15)
 		)
 		(stroke
@@ -10219,16 +10670,6 @@
 			(type default)
 		)
 		(uuid "1d67f17d-39db-4214-abe5-8d263ffddb99")
-	)
-	(wire
-		(pts
-			(xy 600.71 514.35) (xy 600.71 516.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbf6561-b982-4882-968d-b8289a2caaff")
 	)
 	(wire
 		(pts
@@ -10462,7 +10903,7 @@
 	)
 	(wire
 		(pts
-			(xy 610.87 458.47) (xy 610.87 473.71)
+			(xy 626.11 463.55) (xy 626.11 478.79)
 		)
 		(stroke
 			(width 0)
@@ -10502,7 +10943,7 @@
 	)
 	(wire
 		(pts
-			(xy 621.03 486.41) (xy 628.65 486.41)
+			(xy 636.27 491.49) (xy 643.89 491.49)
 		)
 		(stroke
 			(width 0)
@@ -10522,7 +10963,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 516.89) (xy 702.31 516.89)
+			(xy 615.95 515.62) (xy 668.02 515.62)
 		)
 		(stroke
 			(width 0)
@@ -10732,6 +11173,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 468.63) (xy 701.04 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c27cde5-db5e-4a40-9153-e360f4e958f5")
+	)
+	(wire
+		(pts
 			(xy 330.2 372.11) (xy 335.28 372.11)
 		)
 		(stroke
@@ -10752,7 +11203,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 488.95) (xy 600.71 488.95)
+			(xy 610.87 494.03) (xy 615.95 494.03)
 		)
 		(stroke
 			(width 0)
@@ -10802,7 +11253,7 @@
 	)
 	(wire
 		(pts
-			(xy 628.65 476.25) (xy 628.65 477.52)
+			(xy 643.89 481.33) (xy 643.89 482.6)
 		)
 		(stroke
 			(width 0)
@@ -10822,13 +11273,23 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 481.33) (xy 600.71 481.33)
+			(xy 610.87 486.41) (xy 615.95 486.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ffc0a79-62da-4377-bb74-1dbb62d95c63")
+	)
+	(wire
+		(pts
+			(xy 218.44 176.53) (xy 218.44 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d421b4-f8cc-4246-a906-609bc184553c")
 	)
 	(wire
 		(pts
@@ -10862,7 +11323,7 @@
 	)
 	(wire
 		(pts
-			(xy 628.65 485.14) (xy 628.65 486.41)
+			(xy 643.89 490.22) (xy 643.89 491.49)
 		)
 		(stroke
 			(width 0)
@@ -10912,7 +11373,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 481.33) (xy 600.71 483.87)
+			(xy 615.95 486.41) (xy 615.95 488.95)
 		)
 		(stroke
 			(width 0)
@@ -10932,7 +11393,7 @@
 	)
 	(wire
 		(pts
-			(xy 577.85 488.95) (xy 576.58 488.95)
+			(xy 593.09 494.03) (xy 591.82 494.03)
 		)
 		(stroke
 			(width 0)
@@ -10952,7 +11413,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 488.95) (xy 576.58 496.57)
+			(xy 591.82 494.03) (xy 591.82 501.65)
 		)
 		(stroke
 			(width 0)
@@ -11082,6 +11543,16 @@
 	)
 	(wire
 		(pts
+			(xy 690.88 487.68) (xy 701.04 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b87e9e7-c82f-4844-a26e-5bc833178edf")
+	)
+	(wire
+		(pts
 			(xy 373.38 193.04) (xy 379.73 193.04)
 		)
 		(stroke
@@ -11122,7 +11593,7 @@
 	)
 	(wire
 		(pts
-			(xy 585.47 473.71) (xy 595.63 473.71)
+			(xy 600.71 478.79) (xy 610.87 478.79)
 		)
 		(stroke
 			(width 0)
@@ -11222,7 +11693,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 481.33) (xy 577.85 481.33)
+			(xy 591.82 486.41) (xy 593.09 486.41)
 		)
 		(stroke
 			(width 0)
@@ -11242,7 +11713,17 @@
 	)
 	(wire
 		(pts
-			(xy 599.44 491.49) (xy 600.71 491.49)
+			(xy 636.27 495.3) (xy 640.08 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bfb1a7-1ab0-46b4-8ad8-926d1f0734a9")
+	)
+	(wire
+		(pts
+			(xy 614.68 496.57) (xy 615.95 496.57)
 		)
 		(stroke
 			(width 0)
@@ -11552,7 +12033,7 @@
 	)
 	(wire
 		(pts
-			(xy 577.85 496.57) (xy 576.58 496.57)
+			(xy 593.09 501.65) (xy 591.82 501.65)
 		)
 		(stroke
 			(width 0)
@@ -11622,6 +12103,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 172.72) (xy 198.12 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521dcccd-c34d-4ab8-949c-ffa0af02ea21")
+	)
+	(wire
+		(pts
 			(xy 410.21 311.15) (xy 415.29 311.15)
 		)
 		(stroke
@@ -11629,6 +12120,16 @@
 			(type default)
 		)
 		(uuid "5258b58c-16ff-4f72-9ea1-4e6cf966f5a5")
+	)
+	(wire
+		(pts
+			(xy 198.12 170.18) (xy 198.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529a6bd8-5368-4795-9d14-9a6e7c8ff4af")
 	)
 	(wire
 		(pts
@@ -11752,7 +12253,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 495.3) (xy 600.71 502.92)
+			(xy 615.95 500.38) (xy 615.95 508)
 		)
 		(stroke
 			(width 0)
@@ -11772,7 +12273,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 481.33) (xy 576.58 488.95)
+			(xy 591.82 486.41) (xy 591.82 494.03)
 		)
 		(stroke
 			(width 0)
@@ -11999,6 +12500,16 @@
 			(type default)
 		)
 		(uuid "6186c39f-70a8-4c71-882d-4e5064aee8c3")
+	)
+	(wire
+		(pts
+			(xy 673.1 472.44) (xy 673.1 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6193e8c9-8e62-4fab-8f58-e4fc8c16f619")
 	)
 	(wire
 		(pts
@@ -12292,7 +12803,7 @@
 	)
 	(wire
 		(pts
-			(xy 623.57 458.47) (xy 628.65 458.47)
+			(xy 638.81 463.55) (xy 643.89 463.55)
 		)
 		(stroke
 			(width 0)
@@ -12342,7 +12853,7 @@
 	)
 	(wire
 		(pts
-			(xy 628.65 458.47) (xy 628.65 468.63)
+			(xy 643.89 463.55) (xy 643.89 473.71)
 		)
 		(stroke
 			(width 0)
@@ -12352,13 +12863,13 @@
 	)
 	(wire
 		(pts
-			(xy 650.24 458.47) (xy 702.31 458.47)
+			(xy 198.12 185.42) (xy 218.44 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74a52e5a-a7e8-4436-8bd8-d612dd1a54dc")
+		(uuid "74e22503-3ce8-4e5c-8790-d6e79b9329c4")
 	)
 	(wire
 		(pts
@@ -12542,6 +13053,16 @@
 	)
 	(wire
 		(pts
+			(xy 591.82 458.47) (xy 591.82 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc9a5ca-218c-4f6a-96dd-54360e2c0aa3")
+	)
+	(wire
+		(pts
 			(xy 379.73 220.98) (xy 386.08 220.98)
 		)
 		(stroke
@@ -12559,6 +13080,16 @@
 			(type default)
 		)
 		(uuid "7e7c3358-539a-4e4b-89f3-c4b900bb6d4e")
+	)
+	(wire
+		(pts
+			(xy 720.09 502.92) (xy 722.63 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7fae87-5d4e-4cfd-9a66-6605bf7adbea")
 	)
 	(wire
 		(pts
@@ -12812,16 +13343,6 @@
 	)
 	(wire
 		(pts
-			(xy 641.35 468.63) (xy 628.65 468.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c5f6cb-404f-4ea2-a89e-6fbdc0f79556")
-	)
-	(wire
-		(pts
 			(xy 311.15 372.11) (xy 313.69 372.11)
 		)
 		(stroke
@@ -12832,7 +13353,7 @@
 	)
 	(wire
 		(pts
-			(xy 621.03 482.6) (xy 623.57 482.6)
+			(xy 636.27 487.68) (xy 638.81 487.68)
 		)
 		(stroke
 			(width 0)
@@ -12862,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 473.71) (xy 576.58 481.33)
+			(xy 591.82 478.79) (xy 591.82 486.41)
 		)
 		(stroke
 			(width 0)
@@ -12962,7 +13483,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 502.92) (xy 650.24 502.92)
+			(xy 615.95 508) (xy 656.59 508)
 		)
 		(stroke
 			(width 0)
@@ -13132,7 +13653,7 @@
 	)
 	(wire
 		(pts
-			(xy 650.24 481.33) (xy 650.24 502.92)
+			(xy 656.59 486.41) (xy 656.59 508)
 		)
 		(stroke
 			(width 0)
@@ -13322,6 +13843,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 477.52) (xy 701.04 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6f55b3-bf24-440d-a31a-9b6b354c51f3")
+	)
+	(wire
+		(pts
 			(xy 669.29 346.71) (xy 669.29 353.06)
 		)
 		(stroke
@@ -13372,6 +13903,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 458.47) (xy 701.04 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff32ecf-d210-4991-b4b9-b22fe991d0b4")
+	)
+	(wire
+		(pts
 			(xy 64.77 83.82) (xy 64.77 87.63)
 		)
 		(stroke
@@ -13392,7 +13933,7 @@
 	)
 	(wire
 		(pts
-			(xy 610.87 458.47) (xy 623.57 458.47)
+			(xy 626.11 463.55) (xy 638.81 463.55)
 		)
 		(stroke
 			(width 0)
@@ -13442,7 +13983,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 496.57) (xy 599.44 496.57)
+			(xy 610.87 501.65) (xy 614.68 501.65)
 		)
 		(stroke
 			(width 0)
@@ -13492,16 +14033,6 @@
 	)
 	(wire
 		(pts
-			(xy 641.35 481.33) (xy 641.35 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f0da7d-8250-43b8-a949-61dd2f290512")
-	)
-	(wire
-		(pts
 			(xy 361.95 204.47) (xy 373.38 204.47)
 		)
 		(stroke
@@ -13542,6 +14073,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 185.42) (xy 45.72 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a671f9e1-2b52-41ee-8338-df6a92e591e0")
+	)
+	(wire
+		(pts
 			(xy 171.45 293.37) (xy 121.92 293.37)
 		)
 		(stroke
@@ -13562,7 +14103,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 473.71) (xy 600.71 473.71)
+			(xy 610.87 478.79) (xy 615.95 478.79)
 		)
 		(stroke
 			(width 0)
@@ -13622,7 +14163,7 @@
 	)
 	(wire
 		(pts
-			(xy 628.65 458.47) (xy 650.24 458.47)
+			(xy 643.89 463.55) (xy 656.59 463.55)
 		)
 		(stroke
 			(width 0)
@@ -13662,7 +14203,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 488.95) (xy 600.71 487.68)
+			(xy 615.95 494.03) (xy 615.95 492.76)
 		)
 		(stroke
 			(width 0)
@@ -13702,7 +14243,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 473.71) (xy 600.71 480.06)
+			(xy 615.95 478.79) (xy 615.95 485.14)
 		)
 		(stroke
 			(width 0)
@@ -14132,16 +14673,6 @@
 	)
 	(wire
 		(pts
-			(xy 621.03 490.22) (xy 628.65 490.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbb360e-f969-4716-99d9-a4ca62237e68")
-	)
-	(wire
-		(pts
 			(xy 379.73 191.77) (xy 379.73 193.04)
 		)
 		(stroke
@@ -14162,7 +14693,7 @@
 	)
 	(wire
 		(pts
-			(xy 599.44 496.57) (xy 599.44 491.49)
+			(xy 614.68 501.65) (xy 614.68 496.57)
 		)
 		(stroke
 			(width 0)
@@ -14192,7 +14723,7 @@
 	)
 	(wire
 		(pts
-			(xy 623.57 482.6) (xy 623.57 458.47)
+			(xy 638.81 487.68) (xy 638.81 463.55)
 		)
 		(stroke
 			(width 0)
@@ -14442,6 +14973,16 @@
 	)
 	(wire
 		(pts
+			(xy 673.1 502.92) (xy 695.96 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d6df10-ee27-49e6-98bf-afa7a6a8c85e")
+	)
+	(wire
+		(pts
 			(xy 400.05 201.93) (xy 402.59 201.93)
 		)
 		(stroke
@@ -14512,6 +15053,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 487.68) (xy 701.04 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3e9a25-82a9-450a-b661-8305fcbd84e9")
+	)
+	(wire
+		(pts
 			(xy 172.72 104.14) (xy 181.61 104.14)
 		)
 		(stroke
@@ -14549,6 +15100,16 @@
 			(type default)
 		)
 		(uuid "cd275c8f-ba01-43f3-a5d5-4aa4fedb62eb")
+	)
+	(wire
+		(pts
+			(xy 656.59 463.55) (xy 666.75 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd41f85f-8437-4175-a857-474cf0be682b")
 	)
 	(wire
 		(pts
@@ -14712,7 +15273,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 469.9) (xy 595.63 473.71)
+			(xy 610.87 474.98) (xy 610.87 478.79)
 		)
 		(stroke
 			(width 0)
@@ -14769,16 +15330,6 @@
 			(type default)
 		)
 		(uuid "d8d2465d-f275-495c-b8d9-d9a11a6a7ad8")
-	)
-	(wire
-		(pts
-			(xy 641.35 473.71) (xy 641.35 468.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9196152-9fcf-4a40-bc2e-2930e6fa0b80")
 	)
 	(wire
 		(pts
@@ -14892,7 +15443,7 @@
 	)
 	(wire
 		(pts
-			(xy 585.47 481.33) (xy 595.63 481.33)
+			(xy 600.71 486.41) (xy 610.87 486.41)
 		)
 		(stroke
 			(width 0)
@@ -14902,7 +15453,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 458.47) (xy 576.58 473.71)
+			(xy 591.82 463.55) (xy 591.82 478.79)
 		)
 		(stroke
 			(width 0)
@@ -15082,6 +15633,16 @@
 	)
 	(wire
 		(pts
+			(xy 701.04 472.44) (xy 701.04 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bbbdfa-91cf-4cf8-a93f-53d822b7d2bc")
+	)
+	(wire
+		(pts
 			(xy 554.99 157.48) (xy 556.26 157.48)
 		)
 		(stroke
@@ -15092,13 +15653,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 245.11) (xy 163.83 245.11)
+			(xy 153.67 245.11) (xy 163.83 245.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7505fca-82e6-4db7-a7a3-de9d2068d248")
+	)
+	(wire
+		(pts
+			(xy 647.7 495.3) (xy 701.04 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e753f3e7-9fe2-4311-a6ea-a5b9693353e1")
 	)
 	(wire
 		(pts
@@ -15302,6 +15873,16 @@
 	)
 	(wire
 		(pts
+			(xy 673.1 481.33) (xy 673.1 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1614eb-1dfa-4b36-b63a-e0e4900b08e5")
+	)
+	(wire
+		(pts
 			(xy 298.45 323.85) (xy 311.15 323.85)
 		)
 		(stroke
@@ -15349,6 +15930,26 @@
 			(type default)
 		)
 		(uuid "f03dba1a-0c69-4ea0-8558-1d890f14a83e")
+	)
+	(wire
+		(pts
+			(xy 690.88 472.44) (xy 701.04 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d83afc-d5d2-4732-99a6-817ffedd94ee")
+	)
+	(wire
+		(pts
+			(xy 690.88 481.33) (xy 701.04 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13284c5-c1b0-4f1a-8406-94993f2b01d4")
 	)
 	(wire
 		(pts
@@ -15412,7 +16013,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 458.47) (xy 595.63 458.47)
+			(xy 591.82 463.55) (xy 610.87 463.55)
 		)
 		(stroke
 			(width 0)
@@ -15452,7 +16053,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 473.71) (xy 577.85 473.71)
+			(xy 591.82 478.79) (xy 593.09 478.79)
 		)
 		(stroke
 			(width 0)
@@ -15482,7 +16083,7 @@
 	)
 	(wire
 		(pts
-			(xy 650.24 458.47) (xy 650.24 473.71)
+			(xy 656.59 463.55) (xy 656.59 478.79)
 		)
 		(stroke
 			(width 0)
@@ -15692,6 +16293,16 @@
 	)
 	(wire
 		(pts
+			(xy 673.1 472.44) (xy 683.26 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8ecce3-95e5-43e9-80c3-01bc4ffa1397")
+	)
+	(wire
+		(pts
 			(xy 410.21 311.15) (xy 410.21 314.96)
 		)
 		(stroke
@@ -15699,6 +16310,16 @@
 			(type default)
 		)
 		(uuid "ff52de8e-2da7-45ad-b299-428d05eafdce")
+	)
+	(wire
+		(pts
+			(xy 198.12 184.15) (xy 198.12 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb996e3-18d9-4772-9190-299f88405190")
 	)
 	(wire
 		(pts
@@ -15914,7 +16535,7 @@
 	)
 	(global_label "FUSE"
 		(shape input)
-		(at 636.27 490.22 0)
+		(at 701.04 458.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15924,7 +16545,7 @@
 		)
 		(uuid "09d8c05e-9987-4d54-ae68-e4ab1d1045aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 644.0328 490.22 0)
+			(at 701.04 450.7072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16248,33 +16869,9 @@
 			)
 		)
 	)
-	(global_label "BAT -"
+	(global_label "1P{slash}2N"
 		(shape input)
-		(at 80.01 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35cf55ba-8f3e-4368-ae50-f78dcf36f1d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8614 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VC1"
-		(shape input)
-		(at 576.58 473.71 180)
+		(at 591.82 478.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16284,7 +16881,7 @@
 		)
 		(uuid "38a18339-e8d5-41d6-a391-1928a98c90d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 570.0267 473.71 0)
+			(at 582.4848 478.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16632,6 +17229,30 @@
 			)
 		)
 	)
+	(global_label "1N"
+		(shape input)
+		(at 591.82 463.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56beefa0-70f2-4936-a7b3-f4e958495f75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 586.2948 463.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DSG"
 		(shape input)
 		(at 410.21 328.93 270)
@@ -16776,6 +17397,30 @@
 			)
 		)
 	)
+	(global_label "HDQ"
+		(shape input)
+		(at 198.12 170.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f7736ae-5adb-415f-8686-4d2de1c28189")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 163.2638 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape bidirectional)
 		(at 662.94 389.89 0)
@@ -16872,9 +17517,9 @@
 			)
 		)
 	)
-	(global_label "BAT -"
+	(global_label "PACK -"
 		(shape input)
-		(at 702.31 458.47 0)
+		(at 666.75 463.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16884,7 +17529,7 @@
 		)
 		(uuid "679b9b64-6bc0-4b6e-8364-b8aafa7ec663")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 711.1614 458.47 0)
+			(at 677.1738 463.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17208,9 +17853,9 @@
 			)
 		)
 	)
-	(global_label "BAT +"
+	(global_label "PACK +"
 		(shape input)
-		(at 702.31 516.89 0)
+		(at 668.02 515.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17220,7 +17865,7 @@
 		)
 		(uuid "84a0c7d6-23f5-4555-85d6-2664e662c0fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 711.1614 516.89 0)
+			(at 678.4438 515.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17474,7 +18119,7 @@
 	)
 	(global_label "REGIN"
 		(shape input)
-		(at 158.75 245.11 180)
+		(at 153.67 245.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17484,7 +18129,7 @@
 		)
 		(uuid "a7dec461-65cc-4071-a442-51fccd8124b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1405 245.11 0)
+			(at 145.0605 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17712,9 +18357,9 @@
 			)
 		)
 	)
-	(global_label "VC2"
+	(global_label "2P{slash}3N"
 		(shape input)
-		(at 576.58 481.33 180)
+		(at 591.82 486.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17724,7 +18369,7 @@
 		)
 		(uuid "b92a5cfe-6406-493b-a231-ac0d07aa9ce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 570.0267 481.33 0)
+			(at 582.4848 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17808,9 +18453,9 @@
 			)
 		)
 	)
-	(global_label "VC4"
+	(global_label "4P"
 		(shape input)
-		(at 576.58 496.57 180)
+		(at 591.82 501.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17820,7 +18465,7 @@
 		)
 		(uuid "c9df1257-66d9-47c6-b329-3669ca4a2f8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 570.0267 496.57 0)
+			(at 586.3553 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18144,9 +18789,9 @@
 			)
 		)
 	)
-	(global_label "VC3"
+	(global_label "3P{slash}4N"
 		(shape input)
-		(at 576.58 488.95 180)
+		(at 591.82 494.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18156,7 +18801,7 @@
 		)
 		(uuid "dd8b522f-016c-4568-a7fd-5a70e358b351")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 570.0267 488.95 0)
+			(at 582.4848 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18528,7 +19173,7 @@
 			(uuid "7c40ff53-e07b-4918-ad5d-a2ff9d7f11c8")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R28")
 					(unit 1)
@@ -18608,7 +19253,7 @@
 			(uuid "2df5469d-25e3-4791-97b3-923c23265a2c")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C24")
 					(unit 1)
@@ -18696,7 +19341,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C15")
 					(unit 1)
@@ -18778,7 +19423,7 @@
 			(uuid "7e336a2e-7c07-4435-b594-3227e55c9a2a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D13")
 					(unit 1)
@@ -18894,7 +19539,7 @@
 			(uuid "4e5a3040-d84d-4aa4-8a0c-8337dace45b6")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q10")
 					(unit 1)
@@ -18972,7 +19617,7 @@
 			(uuid "1d1c523c-6fb3-470e-9b89-e362994ceec7")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR010")
 					(unit 1)
@@ -19050,7 +19695,7 @@
 			(uuid "2236b4ba-d10c-4826-a538-c030f6cee72d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR08")
 					(unit 1)
@@ -19128,9 +19773,91 @@
 			(uuid "cb326616-09bb-4989-8552-a4b94b13fe7a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07a626fb-871f-4958-a508-ae97e5b70805")
+		(property "Reference" "C41"
+			(at 68.58 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 68.58 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.7352 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2110776b-a9fb-4e0f-aa18-afa050e33719")
+		)
+		(pin "1"
+			(uuid "102fe836-3fbc-4d4a-aaf7-175e85d94a1e")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -19208,7 +19935,7 @@
 			(uuid "45a79b77-77af-431d-be0a-c6c8ca0937fe")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC3")
 					(unit 1)
@@ -19286,7 +20013,7 @@
 			(uuid "1698ff7f-2636-4dd9-a869-c86bffd3d5e4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR023")
 					(unit 1)
@@ -19365,7 +20092,7 @@
 			(uuid "07ed72fc-f401-49c9-aecb-7ac0bd8a5e48")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C29")
 					(unit 1)
@@ -19481,7 +20208,7 @@
 			(uuid "a0f3c76a-9927-4370-b3d3-c5a64796ca11")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q2")
 					(unit 1)
@@ -19560,7 +20287,7 @@
 			(uuid "10bc8ea5-bea9-4981-8eca-8b36eff46972")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R45")
 					(unit 1)
@@ -19642,7 +20369,7 @@
 			(uuid "55bd6626-e64a-4365-bf60-e92a88f73250")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R23")
 					(unit 1)
@@ -19652,7 +20379,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 632.46 490.22 270)
+		(at 643.89 495.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19662,7 +20389,7 @@
 		(dnp no)
 		(uuid "100ee1b3-3146-41b2-891a-a0d9d2a639c0")
 		(property "Reference" "R54"
-			(at 632.46 492.76 90)
+			(at 643.89 497.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19672,7 +20399,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 632.46 495.046 90)
+			(at 643.89 500.126 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19682,7 +20409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 632.46 488.442 90)
+			(at 643.89 493.522 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19693,7 +20420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 632.46 490.22 0)
+			(at 643.89 495.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19704,7 +20431,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 632.46 490.22 0)
+			(at 643.89 495.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19721,7 +20448,7 @@
 			(uuid "0e9c6afb-3f1a-43e8-878f-047b607e8849")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R54")
 					(unit 1)
@@ -19799,7 +20526,7 @@
 			(uuid "8beead68-057b-4201-9ece-154f62224957")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR012")
 					(unit 1)
@@ -19878,7 +20605,7 @@
 			(uuid "66356ea4-fdb9-49c0-a96d-c18247933c76")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP5")
 					(unit 1)
@@ -19960,7 +20687,7 @@
 			(uuid "fa35e285-25e9-4c52-bddd-3662e1d0905f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R29")
 					(unit 1)
@@ -20323,7 +21050,7 @@
 			(uuid "29c83b31-b47b-4ea1-b2f6-04b6bdcc3b64")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "U1")
 					(unit 1)
@@ -20407,7 +21134,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR06")
 					(unit 1)
@@ -20417,7 +21144,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 628.65 481.33 0)
+		(at 643.89 486.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20428,7 +21155,7 @@
 		(fields_autoplaced yes)
 		(uuid "15d2509b-e2dc-4988-9bbe-9432347a11aa")
 		(property "Reference" "R48"
-			(at 631.19 480.0599 0)
+			(at 646.43 485.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20439,7 +21166,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 631.19 482.5999 0)
+			(at 646.43 487.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20450,7 +21177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.872 481.33 90)
+			(at 642.112 486.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20461,7 +21188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 628.65 481.33 0)
+			(at 643.89 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20472,7 +21199,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 628.65 481.33 0)
+			(at 643.89 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20489,7 +21216,7 @@
 			(uuid "df4c7dec-bef5-4253-add7-2556ddb98e2c")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R48")
 					(unit 1)
@@ -20577,7 +21304,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C16")
 					(unit 1)
@@ -20655,7 +21382,7 @@
 			(uuid "c0cfc353-d8f9-4018-95ea-24acc00b7294")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR015")
 					(unit 1)
@@ -20742,7 +21469,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C17")
 					(unit 1)
@@ -20824,9 +21551,88 @@
 			(uuid "feab2899-cd22-40b7-9fc3-94d80398de4a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 673.1 481.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac1422c-4a5b-40c3-b30d-e675c7e1827b")
+		(property "Reference" "#PWR027"
+			(at 676.91 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 669.29 481.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 673.1 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 673.1 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 673.1 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e593a426-fe29-42a0-9d53-8ec36dc3ca21")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20906,7 +21712,7 @@
 			(uuid "1971c4e3-d59f-4e7f-9d2b-4513a1777932")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R21")
 					(unit 1)
@@ -20988,7 +21794,7 @@
 			(uuid "7d8a3607-1796-4185-90c4-d9186196f843")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R42")
 					(unit 1)
@@ -21072,7 +21878,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR02")
 					(unit 1)
@@ -21152,7 +21958,7 @@
 			(uuid "fc4816cf-32af-4e3e-ad05-f36392383902")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D3")
 					(unit 1)
@@ -21240,7 +22046,7 @@
 			(uuid "0e37f173-7bf8-4d58-929c-29980bbf76f9")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "J5")
 					(unit 1)
@@ -21319,7 +22125,7 @@
 			(uuid "8cccb095-223f-4a3d-9059-509089de1b4e")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP18")
 					(unit 1)
@@ -21407,7 +22213,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R4")
 					(unit 1)
@@ -21485,7 +22291,7 @@
 			(uuid "b854c484-84da-4a32-913b-5be28ed9becd")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP22")
 					(unit 1)
@@ -21563,7 +22369,7 @@
 			(uuid "b4b81f18-05d1-4b97-b888-95a06370db55")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR03")
 					(unit 1)
@@ -21651,9 +22457,91 @@
 			(uuid "21cadeec-4356-4948-bb76-35a36f2b35c4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21f8e6be-69fc-4cfb-a4c6-1e7c9def6df9")
+		(property "Reference" "C42"
+			(at 36.83 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 36.83 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.9852 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 33.02 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e31d17-5555-490d-b1a1-6514a8367196")
+		)
+		(pin "2"
+			(uuid "e6e8aeff-1989-4779-ae3b-3b028d554b6b")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -21731,7 +22619,7 @@
 			(uuid "3e50c134-6b8b-474c-9bb0-c42c1c1685a0")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC1")
 					(unit 1)
@@ -21813,7 +22701,7 @@
 			(uuid "150a5fe6-f7b4-491b-972b-2aeb158c34ac")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R13")
 					(unit 1)
@@ -21892,7 +22780,7 @@
 			(uuid "5f3ffdc8-5cd8-47f0-8634-a070e1e2b2f6")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C16")
 					(unit 1)
@@ -21976,7 +22864,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR011")
 					(unit 1)
@@ -22064,7 +22952,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C14")
 					(unit 1)
@@ -22145,7 +23033,7 @@
 			(uuid "6238f21a-c0d2-439f-aed0-2af300694886")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R22")
 					(unit 1)
@@ -22225,9 +23113,88 @@
 			(uuid "2900b662-c938-4dc2-89f9-93c8c21ffaef")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 687.07 487.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d4bcc30-0747-4f66-bb46-67d59da7d9a4")
+		(property "Reference" "C44"
+			(at 686.816 493.522 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 687.07 491.236 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 683.26 488.6452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 687.07 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 687.07 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1bcd034-4319-484f-9e67-695583323622")
+		)
+		(pin "2"
+			(uuid "d6cf4644-b6f0-4cff-9fa1-08393f82f5ee")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -22307,7 +23274,7 @@
 			(uuid "62509bce-d115-44df-89ef-e19d1b8ff0a8")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D15")
 					(unit 1)
@@ -22386,7 +23353,7 @@
 			(uuid "cb7bb9c5-386a-479d-8e7b-6cd8cc401ddd")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP6")
 					(unit 1)
@@ -22468,7 +23435,7 @@
 			(uuid "702b886c-515d-47b5-8836-67631fa2c254")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TH3")
 					(unit 1)
@@ -22556,9 +23523,88 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 687.07 481.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3273d452-2e76-43cd-b9ce-1bfa33426d8a")
+		(property "Reference" "R56"
+			(at 687.07 478.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 687.07 476.504 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 687.07 483.108 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 687.07 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 687.07 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67700960-57b6-4112-a54c-319a722fc571")
+		)
+		(pin "1"
+			(uuid "90d7776a-a7ab-4483-95e1-c223a300bae5")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -22671,7 +23717,7 @@
 			(uuid "32531567-6c20-452c-b563-284852ddcb7e")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q4")
 					(unit 1)
@@ -22753,7 +23799,7 @@
 			(uuid "79f6683c-ef2c-4335-a145-68d7e389dda2")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D16")
 					(unit 1)
@@ -22831,7 +23877,7 @@
 			(uuid "a65bd17f-39b4-446e-a2aa-a1ba9a3d26e2")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR017")
 					(unit 1)
@@ -22909,9 +23955,88 @@
 			(uuid "6a70423f-8def-4172-ac9a-79a44d9d51cf")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 172.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af7a978-ba0b-4de2-8087-a6cc41247111")
+		(property "Reference" "TP17"
+			(at 203.2 171.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.2 173.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c513eb-7a2a-4153-83e1-f68bf572f7f8")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -22991,7 +24116,7 @@
 			(uuid "803f5e45-097a-40a3-a00a-52b0608abf77")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D8")
 					(unit 1)
@@ -23070,7 +24195,7 @@
 			(uuid "3c5a0137-49e6-4b2f-bdcc-6ada86b2b122")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC5pro")
 					(unit 1)
@@ -23149,7 +24274,7 @@
 			(uuid "de858809-d8f3-4be6-9ffa-05c4498f7855")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C32")
 					(unit 1)
@@ -23231,7 +24356,7 @@
 			(uuid "accf4de1-e611-455c-88ba-166c6d7ce205")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R40")
 					(unit 1)
@@ -23310,7 +24435,7 @@
 			(uuid "9ae1928a-9e22-45ec-aa84-88d8e999ba5a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R4")
 					(unit 1)
@@ -23388,7 +24513,7 @@
 			(uuid "f0ce0c0c-831e-4e1b-8f8c-4efeadb35970")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR014")
 					(unit 1)
@@ -23470,7 +24595,7 @@
 			(uuid "c3d8d2cb-dc7c-424e-9aad-d5580c73ea69")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C9")
 					(unit 1)
@@ -23552,7 +24677,7 @@
 			(uuid "9538f645-8b79-4aff-91e3-af20765a3e73")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R19")
 					(unit 1)
@@ -23632,7 +24757,7 @@
 			(uuid "ef4aba0c-f49c-4650-9582-8428d87ac048")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C20")
 					(unit 1)
@@ -23711,7 +24836,7 @@
 			(uuid "5b3612eb-68d3-4d62-9aa5-433f72aaca5f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR019")
 					(unit 1)
@@ -23791,7 +24916,7 @@
 			(uuid "b6a70aff-7eee-4567-9b98-52b95a5b512b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R3")
 					(unit 1)
@@ -23871,7 +24996,7 @@
 			(uuid "2aa7aaa4-d964-49e0-b058-fa29d03d3fa5")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C6")
 					(unit 1)
@@ -23951,7 +25076,7 @@
 			(uuid "8386951b-c0c7-402c-b400-f85916ec3759")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C15")
 					(unit 1)
@@ -24039,7 +25164,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R3")
 					(unit 1)
@@ -24121,7 +25246,7 @@
 			(uuid "1da52c71-4994-4385-8a7f-16fc38598d86")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C14")
 					(unit 1)
@@ -24200,7 +25325,7 @@
 			(uuid "c4468a03-d816-45e9-a028-7a4e43246748")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP20")
 					(unit 1)
@@ -24210,7 +25335,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 650.24 477.52 0)
+		(at 656.59 482.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24221,7 +25346,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db06a5f-aabb-461f-97f2-4d9ac6bf34f9")
 		(property "Reference" "C36"
-			(at 654.05 476.2499 0)
+			(at 660.4 481.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24232,7 +25357,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 654.05 478.7899 0)
+			(at 660.4 483.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24243,7 +25368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 651.2052 481.33 0)
+			(at 657.5552 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24254,7 +25379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 650.24 477.52 0)
+			(at 656.59 482.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24265,7 +25390,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 650.24 477.52 0)
+			(at 656.59 482.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24282,7 +25407,7 @@
 			(uuid "19a0afdc-e5a0-449c-9258-2e5736dc373e")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C36")
 					(unit 1)
@@ -24362,7 +25487,7 @@
 			(uuid "c6cef347-2dc3-4c03-af1c-1f94ea46cee8")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RproCTL")
 					(unit 1)
@@ -24450,7 +25575,7 @@
 			(uuid "28d6bdf2-d30d-4d9c-9c4f-8e4818684ddb")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "SW1")
 					(unit 1)
@@ -24538,7 +25663,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C20")
 					(unit 1)
@@ -24656,7 +25781,7 @@
 			(uuid "9f9d71fe-3bde-442e-9206-c0f2c14a1dad")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q6")
 					(unit 1)
@@ -24738,7 +25863,7 @@
 			(uuid "b7861539-1e24-4174-bd0d-0879b932fc9a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R33")
 					(unit 1)
@@ -24820,7 +25945,7 @@
 			(uuid "6f5d8ace-8a99-4b90-8d5f-d4da3ae7a624")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R17")
 					(unit 1)
@@ -24908,7 +26033,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C8")
 					(unit 1)
@@ -24918,7 +26043,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 595.63 492.76 180)
+		(at 610.87 497.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24928,7 +26053,7 @@
 		(dnp no)
 		(uuid "57ff0ac5-de8a-4037-a71a-fd7774cbbf93")
 		(property "Reference" "C39"
-			(at 588.01 491.744 0)
+			(at 603.25 496.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24939,7 +26064,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 585.724 494.03 0)
+			(at 600.964 499.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24950,7 +26075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 594.6648 488.95 0)
+			(at 609.9048 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24961,7 +26086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 492.76 0)
+			(at 610.87 497.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24972,7 +26097,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 595.63 492.76 0)
+			(at 610.87 497.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24989,7 +26114,7 @@
 			(uuid "da30fcc0-b9b7-47d0-95ca-72ad51e93d9d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C39")
 					(unit 1)
@@ -25067,7 +26192,7 @@
 			(uuid "2056de8e-c479-4bce-a5fa-42348346b581")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR09")
 					(unit 1)
@@ -25147,7 +26272,7 @@
 			(uuid "9bf98148-cd5b-4723-8b75-1d0a7f4f8679")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R1")
 					(unit 1)
@@ -25230,7 +26355,7 @@
 			(uuid "3fb9b110-7075-4157-88df-2d94f80c1a62")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C00")
 					(unit 1)
@@ -25308,7 +26433,7 @@
 			(uuid "c7f3afc8-ed68-4f8b-9091-4f5a15ed13af")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR07")
 					(unit 1)
@@ -25390,9 +26515,88 @@
 			(uuid "9f9e1b35-9a74-48fc-9f42-1a3f4e46f501")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 701.04 477.52 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c8aff84-f475-469a-b844-d42595e7e080")
+		(property "Reference" "TP19"
+			(at 707.39 477.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 707.39 474.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 701.04 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 701.04 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 701.04 477.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "061a0059-d942-4fa4-aae2-a1cb3cc0b3c9")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -25472,7 +26676,7 @@
 			(uuid "1af932d2-3a04-4a97-b851-c89e2d9961af")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R27")
 					(unit 1)
@@ -25551,7 +26755,7 @@
 			(uuid "1a81c457-8b3f-43d5-9ff4-638e918acdad")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP14")
 					(unit 1)
@@ -25633,7 +26837,7 @@
 			(uuid "7890aec9-8c46-4012-adb5-c1b3458fa664")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R44")
 					(unit 1)
@@ -25715,7 +26919,7 @@
 			(uuid "b1a74955-d5e7-4230-a6c9-c50cf8af6e22")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C1-0")
 					(unit 1)
@@ -25833,7 +27037,7 @@
 			(uuid "f48b19f9-b146-420b-a8b3-cbcb399920f0")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q14")
 					(unit 1)
@@ -25915,7 +27119,7 @@
 			(uuid "7b31a202-39d8-41b4-86fb-30bc50d90c3a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "E3")
 					(unit 1)
@@ -25997,7 +27201,7 @@
 			(uuid "c9695a12-7479-46a4-9e77-1afdea28b37f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D1")
 					(unit 1)
@@ -26081,7 +27285,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR012")
 					(unit 1)
@@ -26163,7 +27367,7 @@
 			(uuid "3d4acb60-5274-49d2-aa8a-ef36d90b7b44")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C30")
 					(unit 1)
@@ -26241,7 +27445,7 @@
 			(uuid "e5d454e5-e481-44db-b9ac-92d2fa9a5718")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR013")
 					(unit 1)
@@ -26322,7 +27526,7 @@
 			(uuid "fc7eef78-7775-46b6-9304-5a2944c8a26c")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R46")
 					(unit 1)
@@ -26404,7 +27608,7 @@
 			(uuid "3d5fbda8-10f0-4d23-b880-b804aad27639")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R24")
 					(unit 1)
@@ -26482,7 +27686,7 @@
 			(uuid "10ed24ed-692d-4651-95ce-520ade1804e5")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP11")
 					(unit 1)
@@ -26565,7 +27769,7 @@
 			(uuid "cc04fd40-76c7-452f-8e62-30c86c87987b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C3-2")
 					(unit 1)
@@ -26648,7 +27852,7 @@
 			(uuid "f28775b4-e549-4986-a44a-20157e9324cf")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R34")
 					(unit 1)
@@ -26728,9 +27932,88 @@
 			(uuid "c50e7189-3808-4fbf-850e-0fc08a3f2182")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 701.04 464.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a067c59-2091-466b-95c2-d3172dc82a32")
+		(property "Reference" "R55"
+			(at 703.58 464.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 705.866 464.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 699.262 464.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 701.04 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 701.04 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "55b4839e-15a4-4e56-914e-8e19ef2d14b2")
+		)
+		(pin "1"
+			(uuid "b2e8613d-1494-40ed-b6a8-d9b7e39fc26a")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -26844,7 +28127,7 @@
 			(uuid "33dceed9-1187-4600-8806-e9c50a89b14f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q1")
 					(unit 1)
@@ -26932,7 +28215,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C2")
 					(unit 1)
@@ -27011,7 +28294,7 @@
 			(uuid "72c720b7-a1f4-485b-bcdb-ac87ba52e1e3")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RShunt")
 					(unit 1)
@@ -27091,7 +28374,7 @@
 			(uuid "f5f58a7e-0e2c-4ffd-ba9c-86182dfdccb9")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "MainBattIn1")
 					(unit 1)
@@ -27170,9 +28453,91 @@
 			(uuid "bdb08cf2-1d20-4171-9bae-33f7ca79c4d2")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_US")
+		(at 198.12 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e20eff4-d805-4fc8-89d1-961430e1091b")
+		(property "Reference" "TH5"
+			(at 200.66 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_US"
+			(at 200.66 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
+			(at 198.12 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc56072e-3742-4a88-b542-ab11dd1f4cb9")
+		)
+		(pin "1"
+			(uuid "dae5804d-778d-40ec-8034-026344e34ffc")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "TH5")
 					(unit 1)
 				)
 			)
@@ -27253,7 +28618,7 @@
 			(uuid "4f5eeb39-28ef-436f-93fa-edf6cc802258")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C4-3")
 					(unit 1)
@@ -27331,7 +28696,7 @@
 			(uuid "ca398599-5091-4632-8f28-7aa8bf777912")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR06")
 					(unit 1)
@@ -27409,7 +28774,7 @@
 			(uuid "0d3a5af1-28c1-448d-9d45-7e6e30f3b3ec")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP3")
 					(unit 1)
@@ -27487,7 +28852,7 @@
 			(uuid "82f02385-c4b2-4707-a4da-01902c948ab6")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR011")
 					(unit 1)
@@ -27575,7 +28940,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R5")
 					(unit 1)
@@ -27653,7 +29018,7 @@
 			(uuid "ce1c4ba6-726b-46c2-8ff3-33eba73c06da")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP9")
 					(unit 1)
@@ -27733,7 +29098,7 @@
 			(uuid "9567c3d7-d8c6-4632-bc4c-1cf655b07c83")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C21")
 					(unit 1)
@@ -27813,7 +29178,7 @@
 			(uuid "0ff835ed-85a4-4dad-b655-ca60e91f78e2")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R26")
 					(unit 1)
@@ -27895,7 +29260,7 @@
 			(uuid "e4b22a50-78a3-499f-98f2-f8747767ea16")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R18")
 					(unit 1)
@@ -27984,7 +29349,7 @@
 			(uuid "de2d1f6a-1011-419b-96d2-792f6f9a125a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Cellin1")
 					(unit 1)
@@ -28063,7 +29428,7 @@
 			(uuid "59923d7a-0995-440b-a446-7795dd22f57d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC5pro1")
 					(unit 1)
@@ -28178,7 +29543,7 @@
 			(uuid "35a15aa7-7dfc-4019-9036-985eb8ccc88a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q9")
 					(unit 1)
@@ -28305,7 +29670,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "J")
 					(unit 1)
@@ -28383,7 +29748,7 @@
 			(uuid "5a585e05-380b-42a2-8e76-d5d3ac194cd6")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR024")
 					(unit 1)
@@ -28465,7 +29830,7 @@
 			(uuid "5e50014c-2370-4a72-8914-afc408008cf1")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C7")
 					(unit 1)
@@ -28544,7 +29909,7 @@
 			(uuid "a9b767ae-68da-4e49-a762-4d60963a839d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP8")
 					(unit 1)
@@ -28627,7 +29992,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR09")
 					(unit 1)
@@ -28707,7 +30072,7 @@
 			(uuid "e1552675-8b44-428e-a034-ec81821e18de")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C19")
 					(unit 1)
@@ -28795,7 +30160,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C13")
 					(unit 1)
@@ -28883,7 +30248,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C18")
 					(unit 1)
@@ -28963,7 +30328,7 @@
 			(uuid "7fdd7506-0fbf-47c6-beda-634e2ca2a7f4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC2")
 					(unit 1)
@@ -29045,7 +30410,7 @@
 			(uuid "0267932c-1f44-4278-ac42-cf4a7b2410ce")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D11")
 					(unit 1)
@@ -29133,7 +30498,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C5")
 					(unit 1)
@@ -29215,7 +30580,7 @@
 			(uuid "ddd356f4-0fe6-483b-bfb6-618997df59a7")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C31")
 					(unit 1)
@@ -29298,7 +30663,7 @@
 			(uuid "c665b454-de3f-40e2-8c57-0210be98b138")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "3TFuse1")
 					(unit 1)
@@ -29378,7 +30743,7 @@
 			(uuid "3de03819-68bb-4065-aacf-d72ff5e962c1")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP12")
 					(unit 1)
@@ -29457,7 +30822,7 @@
 			(uuid "484924b3-e201-4e86-abc6-833509a53f7d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C28")
 					(unit 1)
@@ -29541,7 +30906,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR01")
 					(unit 1)
@@ -29623,7 +30988,7 @@
 			(uuid "e8661493-fe5e-462b-8b34-ce5bdd4fcd52")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D10")
 					(unit 1)
@@ -29633,7 +30998,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:BQ296115DSGR")
-		(at 610.87 488.95 0)
+		(at 626.11 494.03 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -29644,7 +31009,7 @@
 		(dnp no)
 		(uuid "87b2d82c-2b5b-4a52-84ca-f27fa2c0551d")
 		(property "Reference" "BQ296115DSGR2"
-			(at 612.1401 499.11 0)
+			(at 627.3801 504.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29655,7 +31020,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 609.6001 499.11 90)
+			(at 624.8401 504.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29666,7 +31031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 610.87 488.95 0)
+			(at 626.11 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29677,7 +31042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 610.87 488.95 0)
+			(at 626.11 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29688,7 +31053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 610.87 488.95 0)
+			(at 626.11 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29726,7 +31091,7 @@
 			(uuid "7bf4efd6-c0e7-4c46-ba01-ebe5000b1739")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "BQ296115DSGR2")
 					(unit 1)
@@ -29805,9 +31170,87 @@
 			(uuid "12802d0c-dfb1-48ee-8dd2-7343e0f3b18f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 198.12 189.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87c8fe14-d3a4-4724-bba1-cdea0f9e0e54")
+		(property "Reference" "#PWR031"
+			(at 198.12 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 203.708 190.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 198.12 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "934b36a8-b693-4a7c-9755-2e3fb60196b7")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -29887,7 +31330,7 @@
 			(uuid "d447fa26-c51a-4c7b-b753-918abff45efd")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R38")
 					(unit 1)
@@ -29969,7 +31412,7 @@
 			(uuid "48749c74-de95-4b72-b91a-6f30fd2e93fd")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C17")
 					(unit 1)
@@ -30051,7 +31494,7 @@
 			(uuid "60d3397a-032b-4513-bdfc-4f739a9286a9")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R30")
 					(unit 1)
@@ -30133,7 +31576,7 @@
 			(uuid "a403e478-bf58-48df-be12-b9efd476d43f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D4")
 					(unit 1)
@@ -30213,7 +31656,7 @@
 			(uuid "4ba21909-3822-469c-b407-0a81341bb97b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R32")
 					(unit 1)
@@ -30295,7 +31738,7 @@
 			(uuid "7d9b0f73-604f-49bb-8616-c2c747340c6b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TH4")
 					(unit 1)
@@ -30375,7 +31818,7 @@
 			(uuid "7f3c83b3-2578-45b3-8e80-ed21937b592f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D7")
 					(unit 1)
@@ -30457,7 +31900,7 @@
 			(uuid "2ad4ca8f-b1fa-474c-8766-797ad025df15")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "CPACK+")
 					(unit 1)
@@ -30545,7 +31988,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C3")
 					(unit 1)
@@ -30633,7 +32076,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C9")
 					(unit 1)
@@ -30643,7 +32086,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 595.63 466.09 180)
+		(at 610.87 471.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30653,7 +32096,7 @@
 		(dnp no)
 		(uuid "96a02206-7cb0-4056-a5aa-3a6b30ebaab6")
 		(property "Reference" "C40"
-			(at 588.01 465.074 0)
+			(at 603.25 470.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30664,7 +32107,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 585.724 467.36 0)
+			(at 600.964 472.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30675,7 +32118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 594.6648 462.28 0)
+			(at 609.9048 467.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30686,7 +32129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 466.09 0)
+			(at 610.87 471.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30697,7 +32140,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 595.63 466.09 0)
+			(at 610.87 471.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30714,9 +32157,88 @@
 			(uuid "68d295dd-80b5-4cdc-8bf8-00ace8ed9260")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 80.01 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97930c09-1e84-4cf4-8449-0670d99512cf")
+		(property "Reference" "#PWR026"
+			(at 76.2 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 83.82 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 80.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b85d6bd-5da4-453e-835d-4f4789ca120c")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -30794,7 +32316,7 @@
 			(uuid "9b4479c3-da46-4b39-9fb2-a88b71c5cfe4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC0")
 					(unit 1)
@@ -30874,7 +32396,7 @@
 			(uuid "01df9af5-e4b6-45f5-9190-8dd0f04df37d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C33")
 					(unit 1)
@@ -30956,7 +32478,7 @@
 			(uuid "bf6c924e-0641-4494-a0d9-96059c46479d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C26")
 					(unit 1)
@@ -31034,7 +32556,7 @@
 			(uuid "945829b5-3704-40d9-ac25-c07ccf336fe5")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR02")
 					(unit 1)
@@ -31112,7 +32634,7 @@
 			(uuid "b12282e6-c58c-492f-86c4-230515729c11")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR016")
 					(unit 1)
@@ -31190,7 +32712,7 @@
 			(uuid "82335a09-0fa9-4286-8e57-5dad9b22e921")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR04")
 					(unit 1)
@@ -31272,91 +32794,9 @@
 			(uuid "ec1e024a-3d79-43d2-9da2-9f7ec7b3b4d8")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 641.35 477.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c124783-a405-4e52-9835-f890e4eb7518")
-		(property "Reference" "D19"
-			(at 643.89 476.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 643.89 478.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 641.35 477.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 641.35 477.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 641.35 477.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bffa739-a968-455b-b834-86e81359ab1a")
-		)
-		(pin "2"
-			(uuid "a2e98d8d-8ba9-4089-8eae-8e757337f1f9")
-		)
-		(instances
-			(project "Aqua BMS Monitor and MCU"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -31432,7 +32872,7 @@
 			(uuid "ae4aadd0-e261-406a-b0b1-04d03e63ce27")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR05")
 					(unit 1)
@@ -31512,7 +32952,7 @@
 			(uuid "d4dbf0e2-6b05-4186-8985-c6503d8c60d3")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D17")
 					(unit 1)
@@ -31596,7 +33036,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR05")
 					(unit 1)
@@ -31675,7 +33115,7 @@
 			(uuid "7f9b97d2-57cc-4b76-9bc1-65198bc70c43")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP10")
 					(unit 1)
@@ -31755,7 +33195,7 @@
 			(uuid "feec7cb2-2cbb-4c1f-8613-3d0666e5fde1")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R31")
 					(unit 1)
@@ -31836,7 +33276,7 @@
 			(uuid "7cabfd11-90ca-49fa-8a8e-18ce5e394135")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R8")
 					(unit 1)
@@ -31919,7 +33359,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR03")
 					(unit 1)
@@ -32001,7 +33441,7 @@
 			(uuid "c8547bda-1cd5-4ce2-9ff3-155b06ca7d34")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R7")
 					(unit 1)
@@ -32080,7 +33520,7 @@
 			(uuid "8f789fad-6dbe-45cc-80a9-67bbf3c26ca2")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C12")
 					(unit 1)
@@ -32159,7 +33599,7 @@
 			(uuid "f6782152-5419-40e4-9e17-afafdfde1af3")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP1")
 					(unit 1)
@@ -32236,7 +33676,7 @@
 			(uuid "4a8760fa-8e0b-48ad-8e83-3584bc8e6bda")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR022")
 					(unit 1)
@@ -32315,7 +33755,7 @@
 			(uuid "cc16aaf6-0433-4fe8-b4f5-01665b1971cd")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP13")
 					(unit 1)
@@ -32403,7 +33843,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C1")
 					(unit 1)
@@ -32485,7 +33925,7 @@
 			(uuid "8f4ebeef-e2f6-4419-b3be-d2c1cb1fec87")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R16")
 					(unit 1)
@@ -32564,7 +34004,7 @@
 			(uuid "2e9663ae-4b19-441a-a262-2d7d7812b63d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C27")
 					(unit 1)
@@ -32643,9 +34083,87 @@
 			(uuid "cd33e00b-bd86-47fe-aaf1-184f00d1d87d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 64.77 193.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b061d576-1922-4c39-9ba4-9f0219758477")
+		(property "Reference" "#PWR030"
+			(at 64.77 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 64.77 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 64.77 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e680fff9-0bdb-4597-99aa-57c0afa771de")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -32918,7 +34436,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "U2")
 					(unit 1)
@@ -33000,7 +34518,7 @@
 			(uuid "f84477a6-f458-4da1-9c70-036e8a20c912")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D9")
 					(unit 1)
@@ -33115,94 +34633,9 @@
 			(uuid "65f02f81-37f0-4e3b-863b-391999f20fdb")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 669.29 361.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b38ae871-5acc-4463-8ed0-dffeb0f5011d")
-		(property "Reference" "#PWR010"
-			(at 669.29 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 667.766 366.014 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 669.29 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 669.29 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 669.29 361.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6e4550b-5d8c-462e-a82c-6b40b070b9d0")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor and MCU"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -33280,7 +34713,7 @@
 			(uuid "8538bec6-ab52-4897-9a73-da175b37a425")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R11")
 					(unit 1)
@@ -33362,7 +34795,7 @@
 			(uuid "728d7e3c-a089-425d-934f-20aee4219801")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R35")
 					(unit 1)
@@ -33372,7 +34805,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 581.66 488.95 90)
+		(at 596.9 494.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33382,7 +34815,7 @@
 		(dnp no)
 		(uuid "b52fa8ce-a53f-4c9c-8814-25056f40733f")
 		(property "Reference" "R52"
-			(at 581.66 484.632 90)
+			(at 596.9 489.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33392,7 +34825,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 581.66 486.664 90)
+			(at 596.9 491.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33402,7 +34835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 581.66 490.728 90)
+			(at 596.9 495.808 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33413,7 +34846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 581.66 488.95 0)
+			(at 596.9 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33424,7 +34857,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 581.66 488.95 0)
+			(at 596.9 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33441,7 +34874,7 @@
 			(uuid "d4522758-03eb-4b41-ae1b-49a2ce4fc0a8")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R52")
 					(unit 1)
@@ -33529,9 +34962,87 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 669.29 361.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b406b9-46ce-4dd9-89dc-d5c3e87dfb83")
+		(property "Reference" "#PWR028"
+			(at 669.29 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 669.29 367.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 669.29 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 669.29 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 669.29 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9850d0fd-d4c7-4211-80b4-d1af73a93b16")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -33608,7 +35119,7 @@
 			(uuid "c27518e1-3927-49db-bdf4-fa3c3808d371")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC2pro")
 					(unit 1)
@@ -33690,7 +35201,7 @@
 			(uuid "c9ea6c83-f21f-4dff-98b6-eccfbb623d08")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R14")
 					(unit 1)
@@ -33768,7 +35279,7 @@
 			(uuid "fec6527e-783c-4e53-9dd9-2d8446e2e92f")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP7")
 					(unit 1)
@@ -33778,7 +35289,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 600.71 510.54 0)
+		(at 615.95 511.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33789,7 +35300,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9db41b8-6e1b-4af7-b8b9-887a1ea7da41")
 		(property "Reference" "R49"
-			(at 603.25 509.2699 0)
+			(at 618.49 510.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33800,7 +35311,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 603.25 511.8099 0)
+			(at 618.49 513.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33811,7 +35322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 598.932 510.54 90)
+			(at 614.172 511.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33822,7 +35333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 600.71 510.54 0)
+			(at 615.95 511.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33833,7 +35344,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 600.71 510.54 0)
+			(at 615.95 511.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33850,7 +35361,7 @@
 			(uuid "73bf97c0-5c54-499c-8696-47adcf3ff218")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R49")
 					(unit 1)
@@ -33930,7 +35441,7 @@
 			(uuid "9e3cca62-7c07-4c71-ae19-d98cbc7d4d3a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC4")
 					(unit 1)
@@ -34012,7 +35523,7 @@
 			(uuid "b7156ed1-a18f-46b7-a02a-62088b721e25")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "GD3")
 					(unit 1)
@@ -34091,7 +35602,7 @@
 			(uuid "8c9ff5c2-8a37-45a6-8f40-9d810d0b6a25")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R47")
 					(unit 1)
@@ -34169,7 +35680,7 @@
 			(uuid "29e57441-4f82-4106-be59-cde601531a0c")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP21")
 					(unit 1)
@@ -34257,7 +35768,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C7")
 					(unit 1)
@@ -34267,7 +35778,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 595.63 485.14 180)
+		(at 610.87 490.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34277,7 +35788,7 @@
 		(dnp no)
 		(uuid "bc7c31e5-11bb-4746-9d01-07a51499c09e")
 		(property "Reference" "C38"
-			(at 588.01 484.124 0)
+			(at 603.25 489.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34288,7 +35799,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 585.724 486.41 0)
+			(at 600.964 491.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34299,7 +35810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 594.6648 481.33 0)
+			(at 609.9048 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34310,7 +35821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 485.14 0)
+			(at 610.87 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34321,7 +35832,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 595.63 485.14 0)
+			(at 610.87 490.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34338,7 +35849,7 @@
 			(uuid "d8fd076a-3b4c-4b86-9c21-c86680c88461")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C38")
 					(unit 1)
@@ -34420,7 +35931,7 @@
 			(uuid "c1fd50d8-b5b3-4676-a387-42ff6f6806a4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R2")
 					(unit 1)
@@ -34508,7 +36019,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R6")
 					(unit 1)
@@ -34624,7 +36135,7 @@
 			(uuid "aee36085-fcb4-4824-af16-62c2f452c026")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q5")
 					(unit 1)
@@ -34710,7 +36221,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "SW1")
 					(unit 1)
@@ -34792,7 +36303,7 @@
 			(uuid "fa8ded54-df0d-4c5b-b379-9ee097175d8d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C3")
 					(unit 1)
@@ -34874,9 +36385,87 @@
 			(uuid "addc6761-1400-46e9-97c6-cbf499c1884b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 33.02 193.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ff8581-acb0-4411-bdab-1ca2b07a1c61")
+		(property "Reference" "#PWR029"
+			(at 33.02 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 33.02 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 33.02 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8c9e9cc-5c85-4737-ad05-ee87a4c23949")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -34990,7 +36579,7 @@
 			(uuid "47ce9c58-3d01-4457-ab9a-94ad8f2981e6")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q7")
 					(unit 1)
@@ -35068,7 +36657,7 @@
 			(uuid "8c5affb8-4aab-4480-b2e0-966d19e652de")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR018")
 					(unit 1)
@@ -35150,7 +36739,7 @@
 			(uuid "2c38f616-6520-487d-845b-b1345c286801")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R43")
 					(unit 1)
@@ -35229,7 +36818,7 @@
 			(uuid "8ddd8403-e456-41ef-a0c0-d2da858cf9ca")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC3pro")
 					(unit 1)
@@ -35311,7 +36900,7 @@
 			(uuid "1bc6433c-47e1-4d9c-9695-acc57d5df788")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R41")
 					(unit 1)
@@ -35393,7 +36982,7 @@
 			(uuid "38426928-fee5-455c-81fa-68aafa406897")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C13")
 					(unit 1)
@@ -35476,7 +37065,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR04")
 					(unit 1)
@@ -35554,7 +37143,7 @@
 			(uuid "01af6e6d-2c85-45fc-8a60-9dfcbe8fcab4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR020")
 					(unit 1)
@@ -35642,7 +37231,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C21")
 					(unit 1)
@@ -35759,7 +37348,7 @@
 			(uuid "8849d570-f401-46c2-9b50-675182b11a5b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q13")
 					(unit 1)
@@ -35862,7 +37451,7 @@
 			(uuid "35514166-6f30-4f86-b27f-dea71a5ec7bc")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "BQ296115DSGR1")
 					(unit 1)
@@ -35945,7 +37534,7 @@
 			(uuid "33a2366d-468c-47da-a808-469323c3ec19")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R9")
 					(unit 1)
@@ -36021,7 +37610,7 @@
 			(uuid "52375211-37ca-4ee9-9903-3f1d53010933")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP4")
 					(unit 1)
@@ -36139,9 +37728,89 @@
 			(uuid "1e75a761-6c1a-4230-b568-e2fb5aaba3b6")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 687.07 472.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d125c693-f209-4179-aa4a-d94165906200")
+		(property "Reference" "D18"
+			(at 687.07 466.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 V"
+			(at 687.07 468.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 687.07 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 687.07 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 687.07 472.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afea8f7b-6345-41f9-9be8-31fd7e3e320d")
+		)
+		(pin "2"
+			(uuid "ca9f6ca6-9d60-4f09-9508-16e52a9af155")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -36216,9 +37885,126 @@
 			(uuid "ac5ae845-dc27-4b4a-85e6-5482ef68fd1b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 701.04 500.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d26031e6-23fb-484e-bd8d-f2924b49b610")
+		(property "Reference" "Q12"
+			(at 699.77 509.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 699.7701 506.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 703.58 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 688.34 500.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 701.04 500.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 683.895 500.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 681.99 500.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 685.8 500.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c9f873d-4650-4e45-b58a-a051f0384eb7")
+		)
+		(pin "3"
+			(uuid "5cbe7495-a351-4483-863d-c5946e076023")
+		)
+		(pin "1"
+			(uuid "66ac514d-47bd-4cbd-b5df-143ae21e084b")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -36300,7 +38086,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR08")
 					(unit 1)
@@ -36382,7 +38168,7 @@
 			(uuid "9080f8ec-f9a4-46fa-999b-531a915023fc")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R12")
 					(unit 1)
@@ -36464,7 +38250,7 @@
 			(uuid "8f32afee-0572-4f70-819d-2efea26a9178")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R37")
 					(unit 1)
@@ -36547,7 +38333,7 @@
 			(uuid "71e61413-fc0b-4c76-994e-bc4943ef2bce")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C2-1")
 					(unit 1)
@@ -36626,7 +38412,7 @@
 			(uuid "b01242d7-8d68-462e-b8a2-3c1dbcd44007")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RC4pro")
 					(unit 1)
@@ -36706,7 +38492,7 @@
 			(uuid "07ed4a27-d0fc-4e2a-9261-646e29537383")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R20")
 					(unit 1)
@@ -36788,7 +38574,7 @@
 			(uuid "f62a1e51-6210-4ad0-9bf4-9f543e203924")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D14")
 					(unit 1)
@@ -36868,7 +38654,7 @@
 			(uuid "31a30c6c-0223-4631-bb96-0518e28f138a")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C10")
 					(unit 1)
@@ -36947,7 +38733,7 @@
 			(uuid "f74f87e4-bd69-43f0-b1a7-92d1bcf186f5")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R10")
 					(unit 1)
@@ -37030,7 +38816,7 @@
 			(uuid "8ab09c11-d3b7-4c04-9084-764176d17d23")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R39")
 					(unit 1)
@@ -37118,7 +38904,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C4")
 					(unit 1)
@@ -37200,7 +38986,7 @@
 			(uuid "ababd88a-8285-47b8-babb-db80ce85f582")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R36")
 					(unit 1)
@@ -37280,7 +39066,7 @@
 			(uuid "9b5a5e91-8e79-4396-afe5-0baaea032815")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C8")
 					(unit 1)
@@ -37362,7 +39148,7 @@
 			(uuid "d11dc8fd-eecd-4e11-8ffe-b417549d8350")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D5")
 					(unit 1)
@@ -37444,7 +39230,7 @@
 			(uuid "d920c918-55e0-40b6-b7e8-698242a99396")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C25")
 					(unit 1)
@@ -37526,7 +39312,7 @@
 			(uuid "461de800-461e-4497-95c5-9068aa5d1ea2")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D2")
 					(unit 1)
@@ -37606,7 +39392,7 @@
 			(uuid "746697bf-adfb-4d99-a0f3-4e24d55d1bce")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "MainBattIn")
 					(unit 1)
@@ -37694,7 +39480,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "SW2")
 					(unit 1)
@@ -37810,9 +39596,91 @@
 			(uuid "d3f201e4-30e1-4b4d-a254-92ad6bde50e5")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e55a09b4-ba2e-43bc-80e5-89e4886dcfbb")
+		(property "Reference" "C43"
+			(at 222.25 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470 pF"
+			(at 222.25 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.4052 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9063f03-21d4-49cb-af16-9ff6240ed7ea")
+		)
+		(pin "1"
+			(uuid "ad914470-a446-491d-b382-6352fa556fe6")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -37828,10 +39696,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea34f34c-26fb-40b0-b808-3df4e41ee4a3")
 		(property "Reference" "C5"
-			(at 49.53 181.61 90)
+			(at 49.53 180.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37841,7 +39708,7 @@
 			)
 		)
 		(property "Value" "0.1nF"
-			(at 49.53 179.07 90)
+			(at 49.53 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37890,7 +39757,7 @@
 			(uuid "9425710f-1a85-4233-a8c5-4ac4020b79f5")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C5")
 					(unit 1)
@@ -37900,7 +39767,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 581.66 496.57 90)
+		(at 596.9 501.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37910,7 +39777,7 @@
 		(dnp no)
 		(uuid "eae6269d-7e38-4d85-b894-814b466d99a8")
 		(property "Reference" "R53"
-			(at 581.66 492.252 90)
+			(at 596.9 497.332 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37920,7 +39787,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 581.66 494.284 90)
+			(at 596.9 499.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37930,7 +39797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 581.66 498.348 90)
+			(at 596.9 503.428 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37941,7 +39808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 581.66 496.57 0)
+			(at 596.9 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37952,7 +39819,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 581.66 496.57 0)
+			(at 596.9 501.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37969,7 +39836,7 @@
 			(uuid "fa5a1018-60c0-43f2-8e84-2cf13f97dc36")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R53")
 					(unit 1)
@@ -38057,7 +39924,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C19")
 					(unit 1)
@@ -38139,7 +40006,7 @@
 			(uuid "1252daf5-e649-4a77-bffe-ae83535fd44d")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C1")
 					(unit 1)
@@ -38149,7 +40016,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 581.66 473.71 270)
+		(at 596.9 478.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38159,7 +40026,7 @@
 		(dnp no)
 		(uuid "eec91e34-4736-4a5b-9625-bd266cc40013")
 		(property "Reference" "R50"
-			(at 581.66 469.392 90)
+			(at 596.9 474.472 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38169,7 +40036,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 581.66 471.424 90)
+			(at 596.9 476.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38179,7 +40046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 581.66 471.932 90)
+			(at 596.9 477.012 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38190,7 +40057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 581.66 473.71 0)
+			(at 596.9 478.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38201,7 +40068,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 581.66 473.71 0)
+			(at 596.9 478.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38218,7 +40085,7 @@
 			(uuid "657a1a10-4a39-4087-96c2-af8eaae6354b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R50")
 					(unit 1)
@@ -38297,7 +40164,7 @@
 			(uuid "f1fed33a-dc3e-43c7-9c24-bd06b7d0bfe4")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP2")
 					(unit 1)
@@ -38379,7 +40246,7 @@
 			(uuid "81efd24d-e195-4b62-991f-741d2cf54100")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D6")
 					(unit 1)
@@ -38467,7 +40334,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C11")
 					(unit 1)
@@ -38477,7 +40344,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 628.65 472.44 0)
+		(at 643.89 477.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38487,7 +40354,7 @@
 		(dnp no)
 		(uuid "f39024a8-c342-4261-9c79-a70662cb8ece")
 		(property "Reference" "C35"
-			(at 632.46 471.1699 0)
+			(at 647.7 476.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38498,7 +40365,7 @@
 			)
 		)
 		(property "Value" "0.47 uF"
-			(at 632.46 473.456 0)
+			(at 647.7 478.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38509,7 +40376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 629.6152 476.25 0)
+			(at 644.8552 481.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38520,7 +40387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 628.65 472.44 0)
+			(at 643.89 477.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38531,7 +40398,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 628.65 472.44 0)
+			(at 643.89 477.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38548,7 +40415,7 @@
 			(uuid "a64814e8-2c70-47cb-8548-a90331b5c929")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C35")
 					(unit 1)
@@ -38627,7 +40494,7 @@
 			(uuid "0b28d194-b290-4b1d-a81f-cb6f76ab253b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C34")
 					(unit 1)
@@ -38715,7 +40582,7 @@
 					(unit 1)
 				)
 			)
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C12")
 					(unit 1)
@@ -38725,7 +40592,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 576.58 458.47 0)
+		(at 591.82 458.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38736,7 +40603,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f3c0cc-d4de-448a-a3c6-608853751346")
 		(property "Reference" "#PWR021"
-			(at 576.58 462.28 0)
+			(at 591.82 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38747,7 +40614,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 576.58 453.39 0)
+			(at 591.82 453.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38757,7 +40624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 576.58 458.47 0)
+			(at 591.82 458.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38768,7 +40635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 576.58 458.47 0)
+			(at 591.82 458.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38779,7 +40646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 576.58 458.47 0)
+			(at 591.82 458.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38793,7 +40660,7 @@
 			(uuid "dfda25d1-e42f-4088-9d39-589edd784af7")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR021")
 					(unit 1)
@@ -38875,7 +40742,7 @@
 			(uuid "14b6b013-a9fb-4cca-a4bf-00fce0687e04")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "D12")
 					(unit 1)
@@ -38884,40 +40751,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 595.63 477.52 0)
+		(lib_id "Graphic:SYM_Arrow_Normal")
+		(at 725.17 502.92 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f92acda6-3f92-4d7a-9357-19f22e65044c")
-		(property "Reference" "C37"
-			(at 587.756 475.996 0)
+		(fields_autoplaced yes)
+		(uuid "f92a9680-7966-4438-8a07-44fb6961e584")
+		(property "Reference" "#SYM1"
+			(at 725.17 501.396 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
-			(at 585.216 478.536 0)
+		(property "Value" "SYM_Arrow_Normal"
+			(at 725.424 504.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 596.5952 481.33 0)
+			(at 725.17 502.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38928,7 +40796,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 477.52 0)
+			(at 725.17 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 200mil"
+			(at 725.17 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 610.87 482.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f92acda6-3f92-4d7a-9357-19f22e65044c")
+		(property "Reference" "C37"
+			(at 602.996 481.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 600.456 483.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 611.8352 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 610.87 482.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38939,7 +40882,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 595.63 477.52 0)
+			(at 610.87 482.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38956,7 +40899,7 @@
 			(uuid "929293d5-e5ba-4bac-841b-a7fdad630936")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C37")
 					(unit 1)
@@ -39036,9 +40979,89 @@
 			(uuid "b1c6ecaa-a4ef-4605-b13a-790519c4fa19")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 716.28 502.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc118fbd-2317-467f-be0d-567549512dff")
+		(property "Reference" "F1"
+			(at 716.28 496.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 716.28 499.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 716.28 504.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 716.28 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 716.28 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f165ed4-162c-4fda-ab3a-15b9a2c08a25")
+		)
+		(pin "2"
+			(uuid "e043690b-2ce9-4cb9-bff4-7afab3280e25")
+		)
+		(instances
+			(project "Aqua BMS Monitor (2)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -39118,7 +41141,7 @@
 			(uuid "a82e7493-aa95-4b83-9304-5e90ed3f3b9b")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "GD4")
 					(unit 1)
@@ -39128,7 +41151,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 581.66 481.33 90)
+		(at 596.9 486.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39138,7 +41161,7 @@
 		(dnp no)
 		(uuid "fdc23129-bc50-4e38-aa03-aa0c023ccce8")
 		(property "Reference" "R51"
-			(at 581.66 476.504 90)
+			(at 596.9 481.584 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39148,7 +41171,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 581.66 478.79 90)
+			(at 596.9 483.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39158,7 +41181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 581.66 483.108 90)
+			(at 596.9 488.188 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39169,7 +41192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 581.66 481.33 0)
+			(at 596.9 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39180,7 +41203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 581.66 481.33 0)
+			(at 596.9 486.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39197,7 +41220,7 @@
 			(uuid "0a718a54-59b3-4767-8e99-4738d54f8900")
 		)
 		(instances
-			(project "Aqua BMS Monitor and MCU"
+			(project "Aqua BMS Monitor (2)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "R51")
 					(unit 1)
@@ -39279,32 +41302,32 @@
 			"ab293c80-a695-46e3-81b3-30c7a9416645" "aec31bb4-8983-4936-8f15-e19e4ecef3af"
 			"af7dec75-e771-4b25-a52c-414c903ed41e" "b15ae32d-011a-42ca-86f9-6872d2402a3c"
 			"b1c6f683-12df-4c34-81d7-db67585c8ce3" "b1c7dfb7-bc11-4b74-9e3a-e8889eeba14a"
-			"b35c9d6c-18da-40ac-b73f-d044260570f0" "b38ae871-5acc-4463-8ed0-dffeb0f5011d"
-			"b4000fd9-5e1a-4778-a17c-84c0cadf5ca5" "b54b8b7a-24e9-4df1-998d-f83c2be3c33f"
-			"b54cd501-d222-4c38-b0e9-75e3d0a0362a" "bc6d6138-6785-4073-90d2-034cfc4573ca"
-			"bd3cb22e-898e-467f-878d-758a0b1afb01" "bda6ad41-1c8e-4edd-9e32-3c2f98e5117b"
-			"bef493d6-64fe-44b3-a6d6-c578dcd9f097" "c14b00b8-bf31-49e9-a315-969c629675a0"
-			"c2c1f2ca-7a2c-4779-b8dd-d576cf719a19" "c3aef2a8-87ca-4267-a423-f9802f10cdc3"
-			"c3c7d5a0-1438-4c52-9595-56daca408484" "c4123c9c-2601-4b9d-9199-289fcca03016"
-			"c66408b7-fd4e-4dec-8db1-27a4156988da" "c6b0b393-b024-41ed-985f-c9b1c21d427b"
-			"c77fcfde-3cb1-4da7-9fca-f437b51e8a53" "c8d2a6ba-29c2-4b31-85cb-6cd05c72b404"
-			"c938e7a5-ece7-496f-9b8b-077d6e63d63b" "c942fc21-2017-4478-bad0-840719927ad4"
-			"cebc97e1-0f02-4f22-bc33-6cdd95799ef9" "cff219c6-614a-4361-93a6-d77f05d25c35"
-			"d0fa48e0-57b0-4292-aa94-4a98ad006eb4" "d1285bee-eeae-4e60-90b9-fb22af1b14b0"
-			"d1d9af4b-f196-4182-8550-8202eaec2964" "d1effa13-94c5-4c56-8015-ddec2231989c"
-			"d2c9b1a1-f744-4043-bc4b-db4b81d51ba3" "d6eec051-705d-4bd2-96b1-ce83615b2982"
-			"d8b9476f-a2e0-4494-8740-078df4beac5d" "d91e560a-650a-413f-a128-7ad8b62a9289"
-			"dab37a37-2564-44fe-971a-fae7510f9e20" "db721547-0b99-4d61-9d97-98e08230f125"
-			"dc26ea34-c70d-47d1-ab4a-2498374628fd" "de126738-9e93-4fcf-b7e0-8ef62492dc90"
-			"df64275f-6af9-480f-bc14-e0e05edee760" "df6a4840-23eb-4c4c-89aa-cf8966720da2"
-			"e15876f6-68cc-41b7-b1ef-f40044727765" "e1bd0990-3342-4620-bab6-8aaf6642f75a"
-			"e2286847-fec4-4d6e-aedc-8563d65faf3b" "e3236984-3d88-4963-853c-be28507da94f"
-			"e3a3c2cf-ea2d-44d2-82fe-e445d5bf9c13" "e7f88fe1-bbf9-456d-8bdc-0cb8d42200bb"
-			"eb038a64-c1ec-4cf7-bd4e-f4e23c92de5a" "ec9c4c72-91b8-4d6c-982d-d14dbeff7f1c"
-			"ed04661e-3c5c-4358-ad28-5748e74705f1" "ee80fe7f-be02-4dff-ab1a-47633a0a0156"
-			"f1872ed3-ee25-4372-bfe3-e9258babc618" "f26f679d-84c3-44c3-9d4c-c4a91afb0db7"
-			"f327b9f6-92ef-413c-9fd3-d464cc136c66" "f7966a5e-f7da-4f66-b5e1-76e987310c73"
-			"fadd3217-47ad-45b7-b7ea-a1e9778aa703" "fee52e60-8fdf-48c9-8adb-f77bfd8c079b"
+			"b35c9d6c-18da-40ac-b73f-d044260570f0" "b4000fd9-5e1a-4778-a17c-84c0cadf5ca5"
+			"b54b8b7a-24e9-4df1-998d-f83c2be3c33f" "b54cd501-d222-4c38-b0e9-75e3d0a0362a"
+			"bc6d6138-6785-4073-90d2-034cfc4573ca" "bd3cb22e-898e-467f-878d-758a0b1afb01"
+			"bda6ad41-1c8e-4edd-9e32-3c2f98e5117b" "bef493d6-64fe-44b3-a6d6-c578dcd9f097"
+			"c14b00b8-bf31-49e9-a315-969c629675a0" "c2c1f2ca-7a2c-4779-b8dd-d576cf719a19"
+			"c3aef2a8-87ca-4267-a423-f9802f10cdc3" "c3c7d5a0-1438-4c52-9595-56daca408484"
+			"c4123c9c-2601-4b9d-9199-289fcca03016" "c66408b7-fd4e-4dec-8db1-27a4156988da"
+			"c6b0b393-b024-41ed-985f-c9b1c21d427b" "c77fcfde-3cb1-4da7-9fca-f437b51e8a53"
+			"c8d2a6ba-29c2-4b31-85cb-6cd05c72b404" "c938e7a5-ece7-496f-9b8b-077d6e63d63b"
+			"c942fc21-2017-4478-bad0-840719927ad4" "cebc97e1-0f02-4f22-bc33-6cdd95799ef9"
+			"cff219c6-614a-4361-93a6-d77f05d25c35" "d0fa48e0-57b0-4292-aa94-4a98ad006eb4"
+			"d1285bee-eeae-4e60-90b9-fb22af1b14b0" "d1d9af4b-f196-4182-8550-8202eaec2964"
+			"d1effa13-94c5-4c56-8015-ddec2231989c" "d2c9b1a1-f744-4043-bc4b-db4b81d51ba3"
+			"d6eec051-705d-4bd2-96b1-ce83615b2982" "d8b9476f-a2e0-4494-8740-078df4beac5d"
+			"d91e560a-650a-413f-a128-7ad8b62a9289" "dab37a37-2564-44fe-971a-fae7510f9e20"
+			"db721547-0b99-4d61-9d97-98e08230f125" "dc26ea34-c70d-47d1-ab4a-2498374628fd"
+			"de126738-9e93-4fcf-b7e0-8ef62492dc90" "df64275f-6af9-480f-bc14-e0e05edee760"
+			"df6a4840-23eb-4c4c-89aa-cf8966720da2" "e15876f6-68cc-41b7-b1ef-f40044727765"
+			"e1bd0990-3342-4620-bab6-8aaf6642f75a" "e2286847-fec4-4d6e-aedc-8563d65faf3b"
+			"e3236984-3d88-4963-853c-be28507da94f" "e3a3c2cf-ea2d-44d2-82fe-e445d5bf9c13"
+			"e7f88fe1-bbf9-456d-8bdc-0cb8d42200bb" "eb038a64-c1ec-4cf7-bd4e-f4e23c92de5a"
+			"ec9c4c72-91b8-4d6c-982d-d14dbeff7f1c" "ed04661e-3c5c-4358-ad28-5748e74705f1"
+			"ee80fe7f-be02-4dff-ab1a-47633a0a0156" "f1872ed3-ee25-4372-bfe3-e9258babc618"
+			"f26f679d-84c3-44c3-9d4c-c4a91afb0db7" "f327b9f6-92ef-413c-9fd3-d464cc136c66"
+			"f7966a5e-f7da-4f66-b5e1-76e987310c73" "fadd3217-47ad-45b7-b7ea-a1e9778aa703"
+			"fee52e60-8fdf-48c9-8adb-f77bfd8c079b"
 		)
 	)
 	(sheet_instances

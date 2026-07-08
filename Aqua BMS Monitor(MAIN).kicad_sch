@@ -3211,172 +3211,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -6635,6 +6469,257 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:RCLAMP0582B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RCLAMP0582B"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "tvs unidirectional"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?416*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RCLAMP0582B_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.81) (xy 2.54 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RCLAMP0582B_1_1"
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -1.27) (xy 2.54 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 2.032 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "QRET_Buck_PSU-symbols:LM66100DCKR"
 			(pin_names
 				(offset 0.254)
@@ -9418,6 +9503,16 @@
 		)
 		(uuid "0db12623-d867-454b-86db-26c1a3044e4f")
 	)
+	(text "Double-check that TVS capacitance won't affect rise-times"
+		(exclude_from_sim no)
+		(at 567.182 244.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1036df3d-1f35-42f1-8acb-9b16bfb843e4")
+	)
 	(text "Delete"
 		(exclude_from_sim no)
 		(at 83.82 264.16 0)
@@ -9520,6 +9615,17 @@
 			)
 		)
 		(uuid "34594abe-c876-4b6e-a10e-456ab6ae91a0")
+	)
+	(text "When the CE pin voltage is higher than the VIN by 80 mV,\nthe device is disabled and the MOSFET is off. When the CE pin\nvoltage is lower than VIN by 250 mV, the MOSFET is on.\nComes with reverse polarity protection (RPP)."
+		(exclude_from_sim no)
+		(at 457.708 294.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "364756ee-e1a0-4d65-a31c-dd0709b095ae")
 	)
 	(text "44 should also be NC -> not present on this"
 		(exclude_from_sim no)
@@ -9791,7 +9897,7 @@
 	)
 	(text "Alisa's corner"
 		(exclude_from_sim no)
-		(at 438.15 103.378 0)
+		(at 430.022 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9831,6 +9937,16 @@
 		)
 		(uuid "91f3c767-f1c9-4eb2-b5b4-ad03fca44c56")
 	)
+	(text "Additional filtering required??"
+		(exclude_from_sim no)
+		(at 616.966 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92994484-19ce-4e24-8ab8-c0fd2e997557")
+	)
 	(text "Discharge circuit"
 		(exclude_from_sim no)
 		(at 193.548 294.64 0)
@@ -9850,6 +9966,16 @@
 			)
 		)
 		(uuid "9b4a6982-d489-4118-84b9-cadb52d0a996")
+	)
+	(text "Why"
+		(exclude_from_sim no)
+		(at 657.606 350.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c93b652-a2c1-4a01-b657-b0ff8511c02f")
 	)
 	(text "ALERT, CFETOFF, DFETOFF, TS1, TS2, TS3, HDQ, DCHG, and DDSG are also for thermistor temp measurement"
 		(exclude_from_sim no)
@@ -10004,6 +10130,16 @@
 		)
 		(uuid "e86e55ba-4853-4dc1-9cd1-e23b5976323a")
 	)
+	(text "Recommended Wideband SMT \nferrites (742792693)"
+		(exclude_from_sim no)
+		(at 572.262 220.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb7b1c5b-410e-4c1c-9058-52e38ea13493")
+	)
 	(text "10k resistor typically connected\nbetween PACK+ and LD"
 		(exclude_from_sim no)
 		(at 90.932 276.352 0)
@@ -10095,9 +10231,9 @@
 		)
 		(uuid "fbe03525-8a17-4553-a10b-9137fc9c4f3d")
 	)
-	(text "It is recommended to power VDD and VDDA from the same source. \nA maximum difference of 300 mV between VDD and VDDA can be tolerated\nduring power-up and power-down operation.\nVREF+ is internally connected to VDDA and VREF- is internally connected\nto VSSA."
+	(text "It is recommended to power VDD and VDDA from the same source. \nVREF+ is internally connected to VDDA and VREF- is internally connected\nto VSSA."
 		(exclude_from_sim no)
-		(at 600.456 160.274 0)
+		(at 600.456 161.798 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10281,12 +10417,6 @@
 		(uuid "1fa61d86-892a-44d9-88b0-80b573dc69c3")
 	)
 	(junction
-		(at 572.77 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21393332-2eb6-4c90-a128-b3f35c0d84b4")
-	)
-	(junction
 		(at 91.44 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10399,12 +10529,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a745af1-f7b4-4652-bbea-115348adf8b7")
-	)
-	(junction
-		(at 654.05 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3aeb699a-4462-4a7c-b5ae-f13b7548fe5c")
 	)
 	(junction
 		(at 38.1 36.83)
@@ -10587,6 +10711,12 @@
 		(uuid "609781be-ec1f-40c7-bf2d-f773a5ecb05f")
 	)
 	(junction
+		(at 586.74 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624d7e80-3f06-4a55-8ec4-3b6002a1931b")
+	)
+	(junction
 		(at 500.38 445.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10621,6 +10751,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b8ad33d-e1ac-48e9-adbe-8f6baa959fc1")
+	)
+	(junction
+		(at 643.89 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cc7a282-b8a1-40fa-9df3-40396905a586")
 	)
 	(junction
 		(at 234.95 326.39)
@@ -11019,12 +11155,6 @@
 		(uuid "b262ee75-c1bb-4d1d-8981-2e44c04f72da")
 	)
 	(junction
-		(at 584.2 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2d91afc-4072-4c44-840a-885e027cb5f6")
-	)
-	(junction
 		(at 77.47 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11059,12 +11189,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c18e6bed-4ac6-4b29-97c5-393b362c68a9")
-	)
-	(junction
-		(at 643.89 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c205e959-4c87-4176-be76-f1404d8ee9bb")
 	)
 	(junction
 		(at 502.92 160.02)
@@ -11149,6 +11273,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbf4d75e-3b0f-41d8-80f3-025afcae6903")
+	)
+	(junction
+		(at 586.74 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce42bc6d-4ee0-4724-b7cc-577ca5e1edd9")
 	)
 	(junction
 		(at 218.44 111.76)
@@ -11407,6 +11537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd884769-666e-453c-9c09-b11da6c191cb")
+	)
+	(junction
+		(at 643.89 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feac0147-0366-4cb3-a850-d5fbc45d762d")
 	)
 	(junction
 		(at 529.59 111.76)
@@ -11840,16 +11976,6 @@
 	)
 	(wire
 		(pts
-			(xy 643.89 137.16) (xy 655.32 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0891c954-02c0-49b9-8b29-8093c9315be5")
-	)
-	(wire
-		(pts
 			(xy 607.06 350.52) (xy 614.68 350.52)
 		)
 		(stroke
@@ -11927,6 +12053,16 @@
 			(type default)
 		)
 		(uuid "0afa138e-d31b-479e-9524-5d8550eac56e")
+	)
+	(wire
+		(pts
+			(xy 643.89 147.32) (xy 655.32 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aff6917-affe-4a4b-a356-7181f9c30419")
 	)
 	(wire
 		(pts
@@ -12277,16 +12413,6 @@
 			(type default)
 		)
 		(uuid "1c2b93e6-e35f-4833-af35-0284a2089fbd")
-	)
-	(wire
-		(pts
-			(xy 572.77 238.76) (xy 572.77 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7953e1-177a-4e02-9479-5ae76fb9fb1f")
 	)
 	(wire
 		(pts
@@ -12810,6 +12936,16 @@
 	)
 	(wire
 		(pts
+			(xy 643.89 139.7) (xy 655.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea53dc0-c6a3-41b3-9cf2-2ef744d6d53d")
+	)
+	(wire
+		(pts
 			(xy 665.48 262.89) (xy 671.83 262.89)
 		)
 		(stroke
@@ -13320,6 +13456,16 @@
 	)
 	(wire
 		(pts
+			(xy 638.81 139.7) (xy 643.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433fc371-5de3-4fa3-89b8-ad0e70478e33")
+	)
+	(wire
+		(pts
 			(xy 118.11 111.76) (xy 140.97 111.76)
 		)
 		(stroke
@@ -13377,6 +13523,16 @@
 			(type default)
 		)
 		(uuid "4548ff76-a50e-4044-8377-5b406c181a13")
+	)
+	(wire
+		(pts
+			(xy 586.74 229.87) (xy 590.55 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4594b52c-85a4-4709-92bf-09382e0751e1")
 	)
 	(wire
 		(pts
@@ -13497,6 +13653,16 @@
 			(type default)
 		)
 		(uuid "4ac44d78-dba2-4b7b-84f9-6fa59c29a208")
+	)
+	(wire
+		(pts
+			(xy 567.69 240.03) (xy 567.69 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b21c1aa-286e-4f74-ab79-960da0f6746b")
 	)
 	(wire
 		(pts
@@ -13660,16 +13826,6 @@
 	)
 	(wire
 		(pts
-			(xy 643.89 144.78) (xy 655.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "505607b7-74eb-4800-83c6-a67d88110a4b")
-	)
-	(wire
-		(pts
 			(xy 502.92 260.35) (xy 502.92 262.89)
 		)
 		(stroke
@@ -13700,7 +13856,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.2 229.87) (xy 567.69 229.87)
+			(xy 567.69 229.87) (xy 586.74 229.87)
 		)
 		(stroke
 			(width 0)
@@ -13767,6 +13923,16 @@
 			(type default)
 		)
 		(uuid "53461afa-ab34-44b8-99fd-8c14b3fe4f0f")
+	)
+	(wire
+		(pts
+			(xy 643.89 147.32) (xy 643.89 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535e3b92-5bf5-494c-9380-d7ed7ac6d8d3")
 	)
 	(wire
 		(pts
@@ -15230,6 +15396,16 @@
 	)
 	(wire
 		(pts
+			(xy 586.74 229.87) (xy 586.74 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a66a886-c7fa-4ec7-8819-fa4c1aae6871")
+	)
+	(wire
+		(pts
 			(xy 129.54 332.74) (xy 135.89 332.74)
 		)
 		(stroke
@@ -15397,6 +15573,16 @@
 			(type default)
 		)
 		(uuid "a3a9f89a-d72a-4d07-8ef6-cd1618a68141")
+	)
+	(wire
+		(pts
+			(xy 586.74 237.49) (xy 586.74 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51e1ed9-8d0a-4166-a191-28796968a52e")
 	)
 	(wire
 		(pts
@@ -15687,16 +15873,6 @@
 			(type default)
 		)
 		(uuid "af95e342-ae16-4d0c-b32d-14e9deb01a66")
-	)
-	(wire
-		(pts
-			(xy 572.77 236.22) (xy 567.69 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc278e9-b635-49fe-a03d-2966c1965232")
 	)
 	(wire
 		(pts
@@ -16220,16 +16396,6 @@
 	)
 	(wire
 		(pts
-			(xy 643.89 144.78) (xy 643.89 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66408b7-fd4e-4dec-8db1-27a4156988da")
-	)
-	(wire
-		(pts
 			(xy 321.31 152.4) (xy 321.31 154.94)
 		)
 		(stroke
@@ -16450,16 +16616,6 @@
 	)
 	(wire
 		(pts
-			(xy 590.55 229.87) (xy 584.2 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb34367-fcac-4255-9db4-b8f0e91d9dba")
-	)
-	(wire
-		(pts
 			(xy 640.08 342.9) (xy 654.05 342.9)
 		)
 		(stroke
@@ -16610,16 +16766,6 @@
 	)
 	(wire
 		(pts
-			(xy 584.2 229.87) (xy 584.2 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d58412b8-4d80-4f31-9691-c13d38f5c191")
-	)
-	(wire
-		(pts
 			(xy 500.38 438.15) (xy 500.38 445.77)
 		)
 		(stroke
@@ -16720,7 +16866,7 @@
 	)
 	(wire
 		(pts
-			(xy 590.55 236.22) (xy 572.77 236.22)
+			(xy 567.69 240.03) (xy 586.74 240.03)
 		)
 		(stroke
 			(width 0)
@@ -17200,13 +17346,13 @@
 	)
 	(wire
 		(pts
-			(xy 654.05 109.22) (xy 654.05 111.76)
+			(xy 586.74 240.03) (xy 590.55 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee80fe7f-be02-4dff-ab1a-47633a0a0156")
+		(uuid "ede000d9-be88-401b-b800-213d81eaf4d6")
 	)
 	(wire
 		(pts
@@ -17918,30 +18064,6 @@
 			)
 		)
 	)
-	(global_label "REG1"
-		(shape input)
-		(at 654.05 109.22 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09982996-27a5-4e56-92be-a677db470e80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 654.05 101.3363 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "FUSE"
 		(shape input)
 		(at 500.38 474.98 270)
@@ -18160,7 +18282,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 590.55 236.22 0)
+		(at 590.55 240.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18170,7 +18292,7 @@
 		)
 		(uuid "18b9f5fb-33c4-4270-817e-296affd25307")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 597.1033 236.22 0)
+			(at 597.1033 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18467,6 +18589,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 643.89 139.7 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41bc7de3-f404-4fae-a367-657f33e40446")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 643.89 133.0862 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -19430,30 +19576,6 @@
 			)
 		)
 	)
-	(global_label "VDDA"
-		(shape input)
-		(at 643.89 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "832b0f23-ae79-41c7-910f-4fba9dbf8e28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 636.1876 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "VDD"
 		(shape input)
 		(at 548.64 214.63 90)
@@ -19691,6 +19813,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "VDDA"
+		(shape input)
+		(at 638.81 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "902c2c0b-0dfa-4415-9787-e08f4c5ccaa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 631.1076 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -20536,7 +20682,7 @@
 	)
 	(global_label "VSSA"
 		(shape input)
-		(at 643.89 144.78 180)
+		(at 643.89 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20546,7 +20692,7 @@
 		)
 		(uuid "cebc97e1-0f02-4f22-bc33-6cdd95799ef9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 636.3086 144.78 0)
+			(at 636.3086 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25491,88 +25637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 584.2 242.57 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ae95b38-1d6b-4bcb-89e4-dcf80464c3de")
-		(property "Reference" "D20"
-			(at 586.74 241.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 586.74 243.8399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 584.2 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 584.2 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 584.2 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "872bfa85-f4ec-48e4-80ea-894db7c63cdd")
-		)
-		(pin "1"
-			(uuid "e418de33-cbe2-49cc-bb27-dec2d6a392c0")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 631.19 115.57 0)
 		(unit 1)
@@ -27131,88 +27195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 572.77 242.57 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bdcb82f-5705-40ff-8902-ad026be3d253")
-		(property "Reference" "D19"
-			(at 575.31 241.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 575.31 243.8399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 572.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 572.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 572.77 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb91301e-7685-40a9-b65f-89218d6dd8b7")
-		)
-		(pin "2"
-			(uuid "d9c8dddb-b0cd-46a7-b2ae-0069dbb58d30")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 76.2 90)
 		(unit 1)
@@ -28740,7 +28722,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4ce7430-d4c6-4423-84dd-f8b6a5e61e1a")
+			(uuid "d4ce7430-d4c6-4423-84dd-f8b6a5e61e1b")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -29046,7 +29028,7 @@
 		(dnp no)
 		(uuid "54aa96ad-44e1-4c39-a042-0c4c36eed575")
 		(property "Reference" "FB1"
-			(at 565.912 222.25 90)
+			(at 564.388 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29055,7 +29037,7 @@
 				)
 			)
 		)
-		(property "Value" "400 pF"
+		(property "Value" ""
 			(at 565.658 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29507,7 +29489,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4ce7430-d4c6-4423-84dd-f8b6a5e61e1a")
+			(uuid "d4ce7430-d4c6-4423-84dd-f8b6a5e61e1c")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -30653,7 +30635,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 572.77 246.38 180)
+		(at 576.58 234.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30661,10 +30643,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65747ac0-e206-48b0-8abc-312103cb0f01")
 		(property "Reference" "#PWR039"
-			(at 572.77 242.57 0)
+			(at 576.58 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30675,7 +30656,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 572.77 251.46 0)
+			(at 573.532 236.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30685,7 +30666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 572.77 246.38 0)
+			(at 576.58 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30696,7 +30677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 572.77 246.38 0)
+			(at 576.58 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30707,7 +30688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 572.77 246.38 0)
+			(at 576.58 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33439,7 +33420,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 643.89 140.97 0)
+		(at 643.89 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33447,10 +33428,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "815604cb-261b-433d-b509-cfec5a205e78")
 		(property "Reference" "C63"
-			(at 647.7 139.6999 0)
+			(at 646.43 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33461,7 +33441,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 647.7 142.2399 0)
+			(at 646.176 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33472,7 +33452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 644.8552 144.78 0)
+			(at 644.8552 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33483,7 +33463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 643.89 140.97 0)
+			(at 643.89 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33494,7 +33474,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 643.89 140.97 0)
+			(at 643.89 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33848,6 +33828,89 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:RCLAMP0582B")
+		(at 581.66 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831dbd2b-feb4-492a-a7e2-186add47d986")
+		(property "Reference" "D3"
+			(at 581.7235 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RCLAMP0582B"
+			(at 581.7235 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 581.66 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
+			(at 582.93 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
+			(at 581.66 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d640f04-4769-4167-9097-c88bf5d4fdf7")
+		)
+		(pin "1"
+			(uuid "03e849b3-3fa4-4e52-af3d-cc11c07f7fd0")
+		)
+		(pin "3"
+			(uuid "bdab8864-f6f7-4723-b51f-b988bc8d105b")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -34527,7 +34590,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf44300a-140e-454f-a60a-12a00354219f")
+			(uuid "bf44300a-140e-454f-a60a-12a0035421a0")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -34768,10 +34831,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b30d750-1b4f-42bc-bf4d-602a653ad634")
+			(uuid "1b30d750-1b4f-42bc-bf4d-602a653ad635")
 		)
 		(pin "2"
-			(uuid "c21dfed1-1147-43ff-9ec9-b5668a8a5476")
+			(uuid "c21dfed1-1147-43ff-9ec9-b5668a8a5477")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -43159,84 +43222,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 584.2 246.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea5ac586-1b42-4fa1-b2a8-fbc57018da56")
-		(property "Reference" "#PWR040"
-			(at 584.2 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 584.2 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 584.2 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 584.2 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 584.2 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5718a746-6f41-45cb-b9b3-b0bff82f4833")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 604.52 433.07 270)
 		(unit 1)
@@ -43317,7 +43302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 655.32 140.97 0)
+		(at 655.32 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43328,17 +43313,6 @@
 		(fields_autoplaced yes)
 		(uuid "eb038a64-c1ec-4cf7-bd4e-f4e23c92de5a")
 		(property "Reference" "C65"
-			(at 659.13 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 uF"
 			(at 659.13 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43349,8 +43323,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1 uF"
+			(at 659.13 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 656.2852 144.78 0)
+			(at 656.2852 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43361,7 +43346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 655.32 140.97 0)
+			(at 655.32 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43372,7 +43357,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 655.32 140.97 0)
+			(at 655.32 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43470,7 +43455,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4ce7430-d4c6-4423-84dd-f8b6a5e61e1a")
+			(uuid "d4ce7430-d4c6-4423-84dd-f8b6a5e61e1d")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -43549,7 +43534,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf44300a-140e-454f-a60a-12a00354219f")
+			(uuid "bf44300a-140e-454f-a60a-12a0035421a1")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -44304,7 +44289,7 @@
 		(dnp no)
 		(uuid "f8179f92-f56e-4bc7-a781-bec61cc16e24")
 		(property "Reference" "FB2"
-			(at 563.626 243.332 90)
+			(at 563.118 241.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44313,7 +44298,7 @@
 				)
 			)
 		)
-		(property "Value" "400 pF"
+		(property "Value" ""
 			(at 563.626 240.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45172,8 +45157,7 @@
 			"02a5a3b7-663c-4323-a8f2-261cb9be3c73" "03bd834c-cb16-4ecf-b4fb-2fbabf1909b8"
 			"05909ef6-de8d-4029-a3ea-46c65565fd3b" "06cd7341-0384-4660-b6ec-3af2dec6eebc"
 			"06e6b939-f03a-4f66-98fe-071bfe60657f" "07febd22-a28a-4b0c-8abb-363b0caa02ba"
-			"0891c954-02c0-49b9-8b29-8093c9315be5" "08c9a66d-ecab-4d85-9d51-6eca0b7c7fc0"
-			"0913e354-6ef4-43e6-912a-2b5b95c69600" "09982996-27a5-4e56-92be-a677db470e80"
+			"08c9a66d-ecab-4d85-9d51-6eca0b7c7fc0" "0913e354-6ef4-43e6-912a-2b5b95c69600"
 			"0a4a0b57-5b72-41e1-adc2-278be3bdea72" "0cdecdbb-8d38-440a-abf9-8eb8df7371b2"
 			"0d26ee60-bf9f-4865-831e-708e76c3075a" "0db12623-d867-454b-86db-26c1a3044e4f"
 			"0f561698-15f0-4919-844c-91e66ba1274a" "1140a3f7-ab51-4886-a052-2176ffa56309"
@@ -45191,13 +45175,12 @@
 			"2dc702c7-a166-4ef7-aea0-6fb89de6bc85" "304b6917-079c-452a-b4f0-cadcff782de2"
 			"30caf324-9801-40f9-a531-746be126a39a" "34bb8c43-280a-496d-b23f-e0ec17c8ff55"
 			"379655d2-4380-4383-aa4e-5a1d15653e11" "38063cf0-a4a1-47bd-9f2d-1d71b3f56e58"
-			"3aeb699a-4462-4a7c-b5ae-f13b7548fe5c" "3da773da-1ef7-4ec4-b0e4-c03cd98dfaf4"
-			"3db5d6ec-8fdb-473d-a525-b1b4837c6d74" "3f508f3f-fc75-40af-9f3d-ecc89c317a8a"
-			"3f6c1620-0743-4ac7-99d0-821137ae5ae9" "3fdbca1f-5ed7-4838-9ba2-1445f63cf164"
-			"4289e1ee-7006-4698-915d-0138e91b21d5" "42ee791c-4d30-4d1e-99e4-90f0248cd5e9"
-			"44482da3-476f-4105-aad0-e6c3f7caf101" "45efc160-e2d6-4e7f-a5f9-b35d39b5d1d0"
-			"4b88f21d-159a-4d38-bbf8-3af17eadbd58" "4de29dd4-b5a4-431c-a61b-4bc19f053ab1"
-			"505607b7-74eb-4800-83c6-a67d88110a4b" "50dea3c1-edc1-460f-8e3b-34abf736e668"
+			"3da773da-1ef7-4ec4-b0e4-c03cd98dfaf4" "3db5d6ec-8fdb-473d-a525-b1b4837c6d74"
+			"3f508f3f-fc75-40af-9f3d-ecc89c317a8a" "3f6c1620-0743-4ac7-99d0-821137ae5ae9"
+			"3fdbca1f-5ed7-4838-9ba2-1445f63cf164" "4289e1ee-7006-4698-915d-0138e91b21d5"
+			"42ee791c-4d30-4d1e-99e4-90f0248cd5e9" "44482da3-476f-4105-aad0-e6c3f7caf101"
+			"45efc160-e2d6-4e7f-a5f9-b35d39b5d1d0" "4b88f21d-159a-4d38-bbf8-3af17eadbd58"
+			"4de29dd4-b5a4-431c-a61b-4bc19f053ab1" "50dea3c1-edc1-460f-8e3b-34abf736e668"
 			"50ed17a4-9448-415b-9a84-2803e7f588c9" "521b9ddf-ab36-4e72-af39-1a0ae829b74c"
 			"52fde02d-2d63-4d4d-8919-4da8b64b581c" "53ff384e-d3ed-43fd-9d2c-54bee25c4a24"
 			"549eacc1-99da-4a98-8ec8-b6b3b2c44bb4" "56856e27-ca44-466d-9a1a-a74e10c3773c"
@@ -45218,57 +45201,56 @@
 			"7e7c3358-539a-4e4b-89f3-c4b900bb6d4e" "7f67d823-785e-4028-aed6-9a7e4f5e65c5"
 			"8028198c-8eaa-4d8c-bb55-8d640139a405" "815604cb-261b-433d-b509-cfec5a205e78"
 			"81e883c8-b1f8-49b7-8bf9-eb0da1876fb3" "82759b65-be8e-4a2c-a1cd-1ac5e1e9b136"
-			"82e58947-226a-4d7e-80ee-3d501925d94d" "832b0f23-ae79-41c7-910f-4fba9dbf8e28"
-			"841bdf66-e7d0-411e-9ede-c8215c0fec73" "844d49fa-fe36-4f3c-b51a-1504abb68610"
-			"84afe771-24ac-4fd8-aa2d-e07431a24b34" "84fd9f91-e93a-4709-bba2-14c04a92cba8"
-			"854dcd67-59b2-46c6-9f82-3e5082446cfb" "86675de2-ac4b-4095-aa1b-690ee87daeb3"
-			"86c74a0d-16b6-4575-af0f-8a9c94bfc06f" "86eac5a1-2db2-4bfd-8754-be5c8b0178a5"
-			"87eb5ecd-bd0b-44f9-ba37-de588700cce2" "8a179da7-d69d-47c2-b27c-672257957aa3"
-			"8a29fdd9-b07b-4e5a-b9b6-e2ce1544fc07" "8b1d1d68-8086-42df-95ae-4b0c111528c8"
-			"8b4a7ca3-e82c-4851-8282-bb05c6a2f5b7" "8fafe953-3521-4240-a6c8-b0ddd43c2005"
-			"92d13641-70e8-4fd1-b775-e3c58556a7d3" "9364bdd6-0b10-437b-867c-aea718f4427d"
-			"93bd727c-724e-485b-9141-c9f151e3ff46" "94cb3001-5f73-4a18-878d-9df137973dfc"
-			"952fc961-1574-4898-b2f9-11e0e3eb1709" "96486bd6-6dd0-48b5-8556-939f2b6b0904"
-			"99ef696f-9f78-4d01-bfa1-fc0b1debdb5e" "9a5aca10-9e57-4d52-a510-11d888efb836"
-			"9b6af30e-3dd5-4d30-8f50-efe0c456dbcf" "9c807dd2-d8df-4ff9-876c-b85a655320ff"
-			"9d2db189-ee4a-4bd9-bdb0-ee9a0337d8b5" "9e4f3146-5979-479c-a2b8-ddd4117b2a86"
-			"9e4f4440-18da-4c89-8c04-ee43b42ff78c" "9e5967fc-2f15-45e0-b0f4-71bc393580cd"
-			"9f35dda9-ca03-435e-9e5a-bcf6b6bdb00b" "a6208de8-70df-4486-8666-6e5f4d3f62f0"
-			"a6bec134-d37e-46af-bf05-3d3490ea42a6" "a70f96a6-64b0-4594-a49f-fc5c2fc5e789"
-			"a77742a5-25b5-42c5-b895-7a62e138e8a0" "a7963f79-e215-4db5-99fa-50f57765c664"
-			"ab293c80-a695-46e3-81b3-30c7a9416645" "ac8ae3a8-097c-4205-b028-a7933db69f3b"
-			"ae4de1da-daca-42fa-9ed4-a01cba2e36cc" "aec31bb4-8983-4936-8f15-e19e4ecef3af"
-			"af7dec75-e771-4b25-a52c-414c903ed41e" "b11fb27b-10de-4eee-a442-68f23b33e971"
-			"b15ae32d-011a-42ca-86f9-6872d2402a3c" "b1c6f683-12df-4c34-81d7-db67585c8ce3"
-			"b1c7dfb7-bc11-4b74-9e3a-e8889eeba14a" "b32b58b7-3cbe-465b-9efd-5b00e40aaf79"
-			"b35c9d6c-18da-40ac-b73f-d044260570f0" "b526df1b-a5b8-4317-8a97-30ba84e9eff5"
-			"b54b8b7a-24e9-4df1-998d-f83c2be3c33f" "b66090c9-1afc-44a4-b16d-8ddc08e48980"
-			"bc6d6138-6785-4073-90d2-034cfc4573ca" "bd3cb22e-898e-467f-878d-758a0b1afb01"
-			"bef493d6-64fe-44b3-a6d6-c578dcd9f097" "c14b00b8-bf31-49e9-a315-969c629675a0"
-			"c2c1f2ca-7a2c-4779-b8dd-d576cf719a19" "c3aef2a8-87ca-4267-a423-f9802f10cdc3"
-			"c3c7d5a0-1438-4c52-9595-56daca408484" "c4123c9c-2601-4b9d-9199-289fcca03016"
-			"c51bb179-14b5-490b-bdb9-55663bb7848d" "c6b0b393-b024-41ed-985f-c9b1c21d427b"
-			"c77fcfde-3cb1-4da7-9fca-f437b51e8a53" "c82e8465-0c99-4beb-92f0-9081737f86d9"
-			"c8d2a6ba-29c2-4b31-85cb-6cd05c72b404" "c938e7a5-ece7-496f-9b8b-077d6e63d63b"
-			"c942fc21-2017-4478-bad0-840719927ad4" "c9b7c0ae-5d3a-446a-b209-9fa743eaf9e5"
-			"cebc97e1-0f02-4f22-bc33-6cdd95799ef9" "d1d9af4b-f196-4182-8550-8202eaec2964"
-			"d1effa13-94c5-4c56-8015-ddec2231989c" "d263208a-a39c-4545-958e-d49d3188b2ea"
-			"d2c9b1a1-f744-4043-bc4b-db4b81d51ba3" "d35f5340-7478-4819-9269-324688efe5b9"
-			"d516c8da-7a09-4a32-a2c4-382fd935227a" "d6eec051-705d-4bd2-96b1-ce83615b2982"
-			"d8b9476f-a2e0-4494-8740-078df4beac5d" "dab37a37-2564-44fe-971a-fae7510f9e20"
-			"db721547-0b99-4d61-9d97-98e08230f125" "dc26ea34-c70d-47d1-ab4a-2498374628fd"
-			"df64275f-6af9-480f-bc14-e0e05edee760" "df6a4840-23eb-4c4c-89aa-cf8966720da2"
-			"dfd77ff6-ebb4-468e-812f-5e11747f8a8d" "e055ff6a-30c2-4f9e-b03a-d7d59930276d"
-			"e074d8cc-2f86-4991-8230-bad6303363c5" "e15876f6-68cc-41b7-b1ef-f40044727765"
-			"e1bd0990-3342-4620-bab6-8aaf6642f75a" "e2286847-fec4-4d6e-aedc-8563d65faf3b"
-			"e3236984-3d88-4963-853c-be28507da94f" "e7c2e9d4-3089-4c1e-bf6f-497b19cf2880"
-			"e7f88fe1-bbf9-456d-8bdc-0cb8d42200bb" "eb038a64-c1ec-4cf7-bd4e-f4e23c92de5a"
-			"ec9c4c72-91b8-4d6c-982d-d14dbeff7f1c" "ed04661e-3c5c-4358-ad28-5748e74705f1"
-			"ee80fe7f-be02-4dff-ab1a-47633a0a0156" "f1872ed3-ee25-4372-bfe3-e9258babc618"
+			"82e58947-226a-4d7e-80ee-3d501925d94d" "841bdf66-e7d0-411e-9ede-c8215c0fec73"
+			"844d49fa-fe36-4f3c-b51a-1504abb68610" "84afe771-24ac-4fd8-aa2d-e07431a24b34"
+			"84fd9f91-e93a-4709-bba2-14c04a92cba8" "854dcd67-59b2-46c6-9f82-3e5082446cfb"
+			"86675de2-ac4b-4095-aa1b-690ee87daeb3" "86c74a0d-16b6-4575-af0f-8a9c94bfc06f"
+			"86eac5a1-2db2-4bfd-8754-be5c8b0178a5" "87eb5ecd-bd0b-44f9-ba37-de588700cce2"
+			"8a179da7-d69d-47c2-b27c-672257957aa3" "8a29fdd9-b07b-4e5a-b9b6-e2ce1544fc07"
+			"8b1d1d68-8086-42df-95ae-4b0c111528c8" "8b4a7ca3-e82c-4851-8282-bb05c6a2f5b7"
+			"8fafe953-3521-4240-a6c8-b0ddd43c2005" "92d13641-70e8-4fd1-b775-e3c58556a7d3"
+			"9364bdd6-0b10-437b-867c-aea718f4427d" "93bd727c-724e-485b-9141-c9f151e3ff46"
+			"94cb3001-5f73-4a18-878d-9df137973dfc" "952fc961-1574-4898-b2f9-11e0e3eb1709"
+			"96486bd6-6dd0-48b5-8556-939f2b6b0904" "99ef696f-9f78-4d01-bfa1-fc0b1debdb5e"
+			"9a5aca10-9e57-4d52-a510-11d888efb836" "9b6af30e-3dd5-4d30-8f50-efe0c456dbcf"
+			"9c807dd2-d8df-4ff9-876c-b85a655320ff" "9d2db189-ee4a-4bd9-bdb0-ee9a0337d8b5"
+			"9e4f3146-5979-479c-a2b8-ddd4117b2a86" "9e4f4440-18da-4c89-8c04-ee43b42ff78c"
+			"9e5967fc-2f15-45e0-b0f4-71bc393580cd" "9f35dda9-ca03-435e-9e5a-bcf6b6bdb00b"
+			"a6208de8-70df-4486-8666-6e5f4d3f62f0" "a6bec134-d37e-46af-bf05-3d3490ea42a6"
+			"a70f96a6-64b0-4594-a49f-fc5c2fc5e789" "a77742a5-25b5-42c5-b895-7a62e138e8a0"
+			"a7963f79-e215-4db5-99fa-50f57765c664" "ab293c80-a695-46e3-81b3-30c7a9416645"
+			"ac8ae3a8-097c-4205-b028-a7933db69f3b" "ae4de1da-daca-42fa-9ed4-a01cba2e36cc"
+			"aec31bb4-8983-4936-8f15-e19e4ecef3af" "af7dec75-e771-4b25-a52c-414c903ed41e"
+			"b11fb27b-10de-4eee-a442-68f23b33e971" "b15ae32d-011a-42ca-86f9-6872d2402a3c"
+			"b1c6f683-12df-4c34-81d7-db67585c8ce3" "b1c7dfb7-bc11-4b74-9e3a-e8889eeba14a"
+			"b32b58b7-3cbe-465b-9efd-5b00e40aaf79" "b35c9d6c-18da-40ac-b73f-d044260570f0"
+			"b526df1b-a5b8-4317-8a97-30ba84e9eff5" "b54b8b7a-24e9-4df1-998d-f83c2be3c33f"
+			"b66090c9-1afc-44a4-b16d-8ddc08e48980" "bc6d6138-6785-4073-90d2-034cfc4573ca"
+			"bd3cb22e-898e-467f-878d-758a0b1afb01" "bef493d6-64fe-44b3-a6d6-c578dcd9f097"
+			"c14b00b8-bf31-49e9-a315-969c629675a0" "c2c1f2ca-7a2c-4779-b8dd-d576cf719a19"
+			"c3aef2a8-87ca-4267-a423-f9802f10cdc3" "c3c7d5a0-1438-4c52-9595-56daca408484"
+			"c4123c9c-2601-4b9d-9199-289fcca03016" "c51bb179-14b5-490b-bdb9-55663bb7848d"
+			"c6b0b393-b024-41ed-985f-c9b1c21d427b" "c77fcfde-3cb1-4da7-9fca-f437b51e8a53"
+			"c82e8465-0c99-4beb-92f0-9081737f86d9" "c8d2a6ba-29c2-4b31-85cb-6cd05c72b404"
+			"c938e7a5-ece7-496f-9b8b-077d6e63d63b" "c942fc21-2017-4478-bad0-840719927ad4"
+			"c9b7c0ae-5d3a-446a-b209-9fa743eaf9e5" "cebc97e1-0f02-4f22-bc33-6cdd95799ef9"
+			"d1d9af4b-f196-4182-8550-8202eaec2964" "d1effa13-94c5-4c56-8015-ddec2231989c"
+			"d263208a-a39c-4545-958e-d49d3188b2ea" "d2c9b1a1-f744-4043-bc4b-db4b81d51ba3"
+			"d35f5340-7478-4819-9269-324688efe5b9" "d516c8da-7a09-4a32-a2c4-382fd935227a"
+			"d6eec051-705d-4bd2-96b1-ce83615b2982" "d8b9476f-a2e0-4494-8740-078df4beac5d"
+			"dab37a37-2564-44fe-971a-fae7510f9e20" "db721547-0b99-4d61-9d97-98e08230f125"
+			"dc26ea34-c70d-47d1-ab4a-2498374628fd" "df64275f-6af9-480f-bc14-e0e05edee760"
+			"df6a4840-23eb-4c4c-89aa-cf8966720da2" "dfd77ff6-ebb4-468e-812f-5e11747f8a8d"
+			"e055ff6a-30c2-4f9e-b03a-d7d59930276d" "e074d8cc-2f86-4991-8230-bad6303363c5"
+			"e15876f6-68cc-41b7-b1ef-f40044727765" "e1bd0990-3342-4620-bab6-8aaf6642f75a"
+			"e2286847-fec4-4d6e-aedc-8563d65faf3b" "e3236984-3d88-4963-853c-be28507da94f"
+			"e7c2e9d4-3089-4c1e-bf6f-497b19cf2880" "e7f88fe1-bbf9-456d-8bdc-0cb8d42200bb"
+			"eb038a64-c1ec-4cf7-bd4e-f4e23c92de5a" "ec9c4c72-91b8-4d6c-982d-d14dbeff7f1c"
+			"ed04661e-3c5c-4358-ad28-5748e74705f1" "f1872ed3-ee25-4372-bfe3-e9258babc618"
 			"f26f679d-84c3-44c3-9d4c-c4a91afb0db7" "f327b9f6-92ef-413c-9fd3-d464cc136c66"
 			"f7966a5e-f7da-4f66-b5e1-76e987310c73" "f9bd9a81-1009-4139-a85a-b357d2350b7d"
 			"fadd3217-47ad-45b7-b7ea-a1e9778aa703" "fe9cc7fe-3651-48f4-86fb-7a0a43d85195"
-			"fee52e60-8fdf-48c9-8adb-f77bfd8c079b"
+			"feac0147-0366-4cb3-a850-d5fbc45d762d" "fee52e60-8fdf-48c9-8adb-f77bfd8c079b"
 		)
 	)
 	(sheet_instances

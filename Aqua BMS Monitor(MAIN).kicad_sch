@@ -7756,7 +7756,7 @@
 	)
 	(rectangle
 		(start 228.6 213.36)
-		(end 290.83 289.56)
+		(end 330.2 289.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -12022,6 +12022,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 242.57) (xy 304.8 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d3e528-277d-4b48-9053-4cac0adb9f3e")
+	)
+	(wire
+		(pts
 			(xy 548.64 214.63) (xy 548.64 220.98)
 		)
 		(stroke
@@ -14472,6 +14482,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 226.06) (xy 304.8 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e214fa41-fd62-4c73-90a0-f23621fc0da6")
+	)
+	(wire
+		(pts
 			(xy 72.39 83.82) (xy 64.77 83.82)
 		)
 		(stroke
@@ -16092,6 +16112,30 @@
 			)
 		)
 	)
+	(global_label "CPACK+"
+		(shape input)
+		(at 304.8 226.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60de48d9-0ca5-4db0-a0dc-745e5260e6c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 215.3338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CHG"
 		(shape input)
 		(at 228.6 430.53 270)
@@ -16812,7 +16856,7 @@
 			)
 		)
 	)
-	(global_label "PACK+"
+	(global_label "DPACK+"
 		(shape input)
 		(at 269.24 227.33 90)
 		(fields_autoplaced yes)
@@ -16824,7 +16868,7 @@
 		)
 		(uuid "929faa23-0d60-423d-a226-2ae547c575b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 217.8738 90)
+			(at 269.24 216.6038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19551,6 +19595,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 304.8 238.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10aebbb8-816e-4860-a388-0f5db80abdff")
+		(property "Reference" "D11"
+			(at 308.61 239.0774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XZCM2CRK53WA-8VF"
+			(at 308.61 241.6174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 304.8 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 304.8 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9281c65e-b2eb-496f-a13b-3a89fe670db2")
+		)
+		(pin "2"
+			(uuid "2679b188-f1d5-48d2-8051-7bc8797bff31")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 63.5 226.06 0)
 		(mirror y)
@@ -20489,6 +20626,84 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 304.8 246.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17fa619a-37f7-4ec4-b2d7-6f559711de7b")
+		(property "Reference" "#PWR028"
+			(at 304.8 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 304.8 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 304.8 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bf5b4da-14fd-47a4-9679-533d75f33872")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -29932,6 +30147,88 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76952PFBR:R")
+		(at 304.8 231.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89370173-f113-4bee-95e1-d2faf9559190")
+		(property "Reference" "R66"
+			(at 307.34 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k"
+			(at 307.34 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.578 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1ca04e8-5a5f-4ef5-ba8b-b2b73951afea")
+		)
+		(pin "2"
+			(uuid "c8a12b47-bc88-4ceb-a5a2-bd1f43608adf")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "R66")
 					(unit 1)
 				)
 			)

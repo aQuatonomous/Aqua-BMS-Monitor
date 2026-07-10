@@ -9977,7 +9977,7 @@
 		)
 		(uuid "a9a0cfd6-9f95-40c4-8b36-74b9759ff328")
 	)
-	(text "Pre Dsg/CHG and general attachment"
+	(text "Pre Dsg/CHG and general attachment PD and PC"
 		(exclude_from_sim no)
 		(at 97.536 281.94 0)
 		(effects
@@ -17232,7 +17232,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 328.93) (xy 129.54 331.47)
+			(xy 129.54 328.93) (xy 129.54 332.74)
 		)
 		(stroke
 			(width 0)
@@ -18276,7 +18276,7 @@
 				)
 				(uuid "a4b33fb4-ec1b-42a6-8254-667f8e1f156e")
 			)
-			(table_cell ""
+			(table_cell "PreDischarge\n"
 				(exclude_from_sim no)
 				(at 742.95 55.88 0)
 				(size 50.8 2.54)
@@ -18293,7 +18293,7 @@
 				)
 				(uuid "8f59c186-3044-4117-bf93-a66b788c9b80")
 			)
-			(table_cell ""
+			(table_cell "Pd"
 				(exclude_from_sim no)
 				(at 793.75 55.88 0)
 				(size 10.16 2.54)
@@ -18310,7 +18310,7 @@
 				)
 				(uuid "b42c1603-0e9f-44a0-b7b0-b36eb939b60e")
 			)
-			(table_cell ""
+			(table_cell "PreCharge"
 				(exclude_from_sim no)
 				(at 742.95 58.42 0)
 				(size 50.8 2.54)
@@ -18327,7 +18327,7 @@
 				)
 				(uuid "3be72606-16d3-4fbf-99ba-c27a3b5f88d1")
 			)
-			(table_cell ""
+			(table_cell "Pc"
 				(exclude_from_sim no)
 				(at 793.75 58.42 0)
 				(size 10.16 2.54)
@@ -18344,7 +18344,7 @@
 				)
 				(uuid "19249baf-da49-4ba0-8664-eb2deb1396a4")
 			)
-			(table_cell ""
+			(table_cell "Charge circuit"
 				(exclude_from_sim no)
 				(at 742.95 60.96 0)
 				(size 50.8 2.54)
@@ -18361,7 +18361,7 @@
 				)
 				(uuid "25d95e15-35b9-47fd-bb4c-0a42015a8ddd")
 			)
-			(table_cell ""
+			(table_cell "Ch"
 				(exclude_from_sim no)
 				(at 793.75 60.96 0)
 				(size 10.16 2.54)
@@ -18378,7 +18378,7 @@
 				)
 				(uuid "92f5ff64-0849-4e4a-97c6-158a76880a69")
 			)
-			(table_cell ""
+			(table_cell "Discharge Circuit"
 				(exclude_from_sim no)
 				(at 742.95 63.5 0)
 				(size 50.8 2.54)
@@ -18395,7 +18395,7 @@
 				)
 				(uuid "014742de-69f2-4169-8f25-85bf0227b018")
 			)
-			(table_cell ""
+			(table_cell "D"
 				(exclude_from_sim no)
 				(at 793.75 63.5 0)
 				(size 10.16 2.54)
@@ -18412,7 +18412,7 @@
 				)
 				(uuid "2308d995-aa28-40f4-aa05-af64a0b31e23")
 			)
-			(table_cell ""
+			(table_cell "Reg Circit"
 				(exclude_from_sim no)
 				(at 742.95 66.04 0)
 				(size 50.8 2.54)
@@ -18429,7 +18429,7 @@
 				)
 				(uuid "dce11a42-8b6c-49e9-b711-51ea305dff3f")
 			)
-			(table_cell ""
+			(table_cell "Re"
 				(exclude_from_sim no)
 				(at 793.75 66.04 0)
 				(size 10.16 2.54)
@@ -18446,7 +18446,7 @@
 				)
 				(uuid "db5632cf-2dc4-4586-9433-64e5c3980d36")
 			)
-			(table_cell ""
+			(table_cell "Microcontroller"
 				(exclude_from_sim no)
 				(at 742.95 68.58 0)
 				(size 50.8 2.54)
@@ -18463,7 +18463,7 @@
 				)
 				(uuid "a522550c-2089-4ddd-a187-0adeafebbe41")
 			)
-			(table_cell ""
+			(table_cell "Mc"
 				(exclude_from_sim no)
 				(at 793.75 68.58 0)
 				(size 10.16 2.54)
@@ -20066,7 +20066,7 @@
 	)
 	(global_label "PCHG"
 		(shape input)
-		(at 129.54 331.47 270)
+		(at 129.54 332.74 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20076,7 +20076,7 @@
 		)
 		(uuid "6aa156e1-bc35-4e38-b753-4af92f208427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 339.5957 90)
+			(at 129.54 340.8657 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22212,7 +22212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00577737-3baa-44ec-96a7-68254a654ec8")
-		(property "Reference" "R29"
+		(property "Reference" "PdR1"
 			(at 133.35 344.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22274,7 +22274,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R29")
+					(reference "PdR1")
 					(unit 1)
 				)
 			)
@@ -23770,7 +23770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7e9647-904c-4627-b038-997ef273e426")
-		(property "Reference" "Q9"
+		(property "Reference" "PcFet"
 			(at 127 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23868,7 +23868,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "Q9")
+					(reference "PcFet")
 					(unit 1)
 				)
 			)
@@ -24356,6 +24356,7 @@
 	(symbol
 		(lib_id "BQ76952PFBR:R")
 		(at 111.76 337.82 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24363,10 +24364,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "132f4150-f574-4cef-9b8a-373c9baf6bae")
-		(property "Reference" "R27"
-			(at 109.22 339.0901 0)
+		(property "Reference" "PdR3"
+			(at 109.22 336.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24377,7 +24377,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 109.22 336.5501 0)
+			(at 109.22 339.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24429,7 +24429,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R27")
+					(reference "PdR3")
 					(unit 1)
 				)
 			)
@@ -26984,7 +26984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bd76a4e-87ac-4cd0-979d-b574133205bb")
-		(property "Reference" "C31"
+		(property "Reference" "PdC2"
 			(at 128.27 365.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27046,7 +27046,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "C31")
+					(reference "PdC2")
 					(unit 1)
 				)
 			)
@@ -28937,7 +28937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4405a9ac-3466-4343-a938-922ca7573d47")
-		(property "Reference" "C30"
+		(property "Reference" "PCc2"
 			(at 127 284.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28999,7 +28999,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "C30")
+					(reference "PCc2")
 					(unit 1)
 				)
 			)
@@ -30685,7 +30685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c548b87-8c14-4343-a2d6-7609ee41eeec")
-		(property "Reference" "R30"
+		(property "Reference" "PcR2"
 			(at 138.43 313.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30696,7 +30696,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R 10M"
+		(property "Value" "10M"
 			(at 138.43 316.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30749,7 +30749,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R30")
+					(reference "PcR2")
 					(unit 1)
 				)
 			)
@@ -30846,7 +30846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8d5d3e-b96a-4fef-b679-5bdb427a0fb5")
-		(property "Reference" "R28"
+		(property "Reference" "PcR3"
 			(at 132.08 323.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30910,7 +30910,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R28")
+					(reference "PcR3")
 					(unit 1)
 				)
 			)
@@ -31560,7 +31560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64814341-6ed3-4fb3-a609-3330faaddc65")
-		(property "Reference" "R24"
+		(property "Reference" "FR"
 			(at 60.96 334.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31624,7 +31624,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R24")
+					(reference "FR")
 					(unit 1)
 				)
 			)
@@ -33459,7 +33459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "768d6577-6f1c-4275-b1b0-d1435b5a8887")
-		(property "Reference" "C29"
+		(property "Reference" "PdC1"
 			(at 118.11 365.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33521,7 +33521,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "C29")
+					(reference "PdC1")
 					(unit 1)
 				)
 			)
@@ -33539,7 +33539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76a7cf15-d9a3-4547-8349-0fec95d126a3")
-		(property "Reference" "R26"
+		(property "Reference" "PcR1"
 			(at 105.41 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33601,7 +33601,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R26")
+					(reference "PcR1")
 					(unit 1)
 				)
 			)
@@ -34189,7 +34189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fb5a942-8f94-4dcd-9ca6-aeb4a66eb566")
-		(property "Reference" "C28"
+		(property "Reference" "PcC1"
 			(at 116.84 284.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34251,7 +34251,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "C28")
+					(reference "PcC1")
 					(unit 1)
 				)
 			)
@@ -36371,7 +36371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae58e90-7e18-4114-900f-189d2b198a08")
-		(property "Reference" "R25"
+		(property "Reference" "PdR2"
 			(at 102.87 345.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36435,7 +36435,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R25")
+					(reference "PdR2")
 					(unit 1)
 				)
 			)
@@ -37444,7 +37444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99384e24-8853-41ee-ba8d-cef2fe429f4e")
-		(property "Reference" "C26"
+		(property "Reference" "FC"
 			(at 45.72 335.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37506,7 +37506,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "C26")
+					(reference "FC")
 					(unit 1)
 				)
 			)
@@ -39665,7 +39665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2d07b17-b003-46e9-8004-6a884ed1f452")
-		(property "Reference" "Q8"
+		(property "Reference" "PdFet"
 			(at 111.76 356.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39763,7 +39763,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "Q8")
+					(reference "PdFet")
 					(unit 1)
 				)
 			)
@@ -41088,7 +41088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be6888e1-47ea-48d8-81a2-d13a19b88abe")
-		(property "Reference" "FuseFet"
+		(property "Reference" "FFet"
 			(at 39.37 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41186,7 +41186,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "FuseFet")
+					(reference "FFet")
 					(unit 1)
 				)
 			)
@@ -41692,7 +41692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f8ee50-3892-4df2-9a47-162fb4804826")
-		(property "Reference" "R33"
+		(property "Reference" "PackR"
 			(at 152.4 314.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41756,7 +41756,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "R33")
+					(reference "PackR")
 					(unit 1)
 				)
 			)

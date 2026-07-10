@@ -9630,6 +9630,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 255 0 1)
 			)
 		)
 		(uuid "3fde84de-b344-4480-a0bc-fa0493ba20a1")
@@ -10024,6 +10025,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 255 0 1)
 			)
 		)
 		(uuid "cc955349-6020-4ae8-bc34-8a63bb180813")
@@ -14280,7 +14282,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 303.53) (xy 74.93 309.88)
+			(xy 74.93 307.34) (xy 74.93 309.88)
 		)
 		(stroke
 			(width 0)
@@ -18155,7 +18157,7 @@
 				)
 				(uuid "dcc1fb9e-6348-40f7-b65e-c6490ca6558b")
 			)
-			(table_cell "F"
+			(table_cell ""
 				(exclude_from_sim no)
 				(at 793.75 45.72 0)
 				(size 10.16 2.54)
@@ -18240,7 +18242,7 @@
 				)
 				(uuid "4585866a-a152-420f-9602-826d3c5d2beb")
 			)
-			(table_cell ""
+			(table_cell "Fuse Circuit\n"
 				(exclude_from_sim no)
 				(at 742.95 53.34 0)
 				(size 50.8 2.54)
@@ -18257,7 +18259,7 @@
 				)
 				(uuid "a3802581-9600-4b10-b97a-289c11a00965")
 			)
-			(table_cell ""
+			(table_cell "F"
 				(exclude_from_sim no)
 				(at 793.75 53.34 0)
 				(size 10.16 2.54)
@@ -41086,7 +41088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be6888e1-47ea-48d8-81a2-d13a19b88abe")
-		(property "Reference" "Q7"
+		(property "Reference" "FuseFet"
 			(at 39.37 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41184,7 +41186,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "Q7")
+					(reference "FuseFet")
 					(unit 1)
 				)
 			)
@@ -44059,7 +44061,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 74.93 303.53 0)
+		(at 74.93 307.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44069,7 +44071,7 @@
 		(dnp no)
 		(uuid "e09612ef-a6e2-460f-94a0-93a8c0643cda")
 		(property "Reference" "TP26"
-			(at 77.47 298.9579 0)
+			(at 77.47 302.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44079,8 +44081,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BatPostFuse"
-			(at 77.47 301.4979 0)
+		(property "Value" "CDTP"
+			(at 77.47 305.3079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44091,7 +44093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 303.53 0)
+			(at 80.01 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44102,7 +44104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 303.53 0)
+			(at 80.01 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44113,7 +44115,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 74.93 303.53 0)
+			(at 74.93 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

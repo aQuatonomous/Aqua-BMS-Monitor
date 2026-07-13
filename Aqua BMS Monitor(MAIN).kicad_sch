@@ -10167,6 +10167,12 @@
 		(uuid "067ceb1b-7645-4f16-aade-c67c452c2dd6")
 	)
 	(junction
+		(at 57.15 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0755763d-a1a0-4c41-b0d2-ef2b530d037f")
+	)
+	(junction
 		(at 40.64 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12048,6 +12054,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 308.61) (xy 57.15 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cb5db5-7de1-4f01-9d1b-329a167ef5ab")
+	)
+	(wire
+		(pts
 			(xy 52.07 92.71) (xy 52.07 95.25)
 		)
 		(stroke
@@ -12838,6 +12854,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 299.72) (xy 58.42 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341befa1-f10e-42e9-ad88-7dd75c3ad128")
+	)
+	(wire
+		(pts
 			(xy 622.3 176.53) (xy 622.3 189.23)
 		)
 		(stroke
@@ -12865,6 +12891,16 @@
 			(type default)
 		)
 		(uuid "34c92403-b038-4dd6-aae3-bb22e2068ca9")
+	)
+	(wire
+		(pts
+			(xy 57.15 309.88) (xy 74.93 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cc7d61-7d09-4ade-b0bb-960397d5fff2")
 	)
 	(wire
 		(pts
@@ -15118,7 +15154,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 309.88) (xy 74.93 309.88)
+			(xy 52.07 309.88) (xy 57.15 309.88)
 		)
 		(stroke
 			(width 0)
@@ -16705,6 +16741,16 @@
 			(type default)
 		)
 		(uuid "e1d8769e-d412-4b79-ae35-0d7ba3a7a77a")
+	)
+	(wire
+		(pts
+			(xy 57.15 300.99) (xy 57.15 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e9d57c-2a7b-4cf0-86bb-ba958724f456")
 	)
 	(wire
 		(pts
@@ -18731,6 +18777,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "PWR+"
+		(shape input)
+		(at 58.42 299.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35011a17-136e-4888-8de1-b898d2f5fd65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.969 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -25232,6 +25302,88 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "SC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 57.15 304.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2220ec57-f6b3-4d65-b718-a919709eda8a")
+		(property "Reference" "D4"
+			(at 59.69 303.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100V"
+			(at 59.69 306.3874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 57.15 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dfb753d-1268-43f9-adc6-8941aed5d61f")
+		)
+		(pin "1"
+			(uuid "9f05e276-513e-45d7-a241-ab8c89e1997b")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D4")
 					(unit 1)
 				)
 			)

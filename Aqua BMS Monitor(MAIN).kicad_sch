@@ -5,6 +5,365 @@
 	(uuid "d7eeacc8-0d33-4ea5-a0aa-fd0653295080")
 	(paper "A1")
 	(lib_symbols
+		(symbol "5V_TVS_BI:PTVSUC3D5VB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVSUC3D5VB"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Prisemi(芯导)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PTVSUC3D5VB"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C918847"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTVSUC3D5VB_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 4.32) (xy -3.81 4.32) (xy -3.81 4.32) (xy -3.81 0.76) (xy -3.81 0.76) (xy -3.81 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 -0.25) (xy -3.56 -0.51) (xy -3.81 -0.76) (xy -3.81 -4.32) (xy -3.81 -4.32) (xy -4.32 -4.83)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.32) (xy -3.81 2.54) (xy -1.27 0.76) (xy -1.27 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.76) (xy -3.81 -2.54) (xy -1.27 -4.32) (xy -1.27 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.76) (xy 3.81 2.54) (xy 1.27 4.32) (xy 1.27 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.32) (xy 3.81 -2.54) (xy 1.27 -0.76) (xy 1.27 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 0.25) (xy 3.56 0.51) (xy 3.81 0.76) (xy 3.81 4.32) (xy 3.81 4.32) (xy 4.32 4.83)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -4.32) (xy 3.81 -4.32) (xy 3.81 -4.32) (xy 3.81 -0.76) (xy 3.81 -0.76) (xy 3.81 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BQ76952PFBR:BQ76952PFBR"
 			(pin_names
 				(offset 1.016)
@@ -4286,6 +4645,275 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LM66100DCKR_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U6"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM66100DCKR"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LM66100DCKR"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "LM66100DCKR"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LM66100DCKR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DCK6_TEX DCK6_TEX-M DCK6_TEX-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM66100DCKR_1_0_1"
+				(polyline
+					(pts
+						(xy -12.7 6.35) (xy -12.7 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -6.35) (xy 12.7 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 6.35) (xy -12.7 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -6.35) (xy 12.7 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 7.62)
+					(name "*CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 20.32 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 0 180)
+					(length 7.62)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM66100DCKR_1_1_1"
+				(rectangle
+					(start -12.7 6.35)
+					(end 12.7 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F2:STM32F205RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6028,257 +6656,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Power_Protection:RCLAMP0582B"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RCLAMP0582B"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "tvs unidirectional"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?416*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RCLAMP0582B_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.81) (xy 2.54 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 2.54 1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RCLAMP0582B_1_1"
-				(circle
-					(center -1.27 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -1.27) (xy 2.54 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 -3.81) (xy 2.032 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8709,7 +9086,7 @@
 		(uuid "736f6df1-998d-4841-a19c-fcc7fed359fc")
 	)
 	(rectangle
-		(start 419.1 294.64)
+		(start 419.1 290.83)
 		(end 519.43 388.62)
 		(stroke
 			(width 0)
@@ -8828,7 +9205,7 @@
 	)
 	(text "Double-check that TVS capacitance won't affect rise-times"
 		(exclude_from_sim no)
-		(at 567.182 244.856 0)
+		(at 564.134 255.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9360,6 +9737,16 @@
 		)
 		(uuid "eb7b1c5b-410e-4c1c-9058-52e38ea13493")
 	)
+	(text "No longer needed?"
+		(exclude_from_sim no)
+		(at 215.9 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed8436f4-85cd-498c-9489-a838250a2f6f")
+	)
 	(text "External 12V supply in"
 		(exclude_from_sim no)
 		(at 103.886 27.686 0)
@@ -9607,6 +9994,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17b676dd-0612-449d-b5f2-9febc7dfd174")
+	)
+	(junction
+		(at 572.77 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18f335fb-6632-40c4-a3b7-90b4f3d84cff")
 	)
 	(junction
 		(at 58.42 328.93)
@@ -9909,12 +10302,6 @@
 		(uuid "5eba6fb2-355c-44af-a68e-e85c9c9042de")
 	)
 	(junction
-		(at 586.74 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "624d7e80-3f06-4a55-8ec4-3b6002a1931b")
-	)
-	(junction
 		(at 198.12 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10179,6 +10566,12 @@
 		(uuid "97b0bb5b-0d5f-43b6-ac24-184c7fe8b734")
 	)
 	(junction
+		(at 584.2 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b1e3e93-acdf-49d2-8d71-4b277878bb8c")
+	)
+	(junction
 		(at 502.92 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10375,12 +10768,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbf4d75e-3b0f-41d8-80f3-025afcae6903")
-	)
-	(junction
-		(at 586.74 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce42bc6d-4ee0-4724-b7cc-577ca5e1edd9")
 	)
 	(junction
 		(at 218.44 111.76)
@@ -12376,7 +12763,7 @@
 	)
 	(wire
 		(pts
-			(xy 586.74 229.87) (xy 590.55 229.87)
+			(xy 567.69 229.87) (xy 572.77 229.87)
 		)
 		(stroke
 			(width 0)
@@ -12513,16 +12900,6 @@
 			(type default)
 		)
 		(uuid "4b1c53e7-9188-410d-bb48-54ad5e87d417")
-	)
-	(wire
-		(pts
-			(xy 567.69 240.03) (xy 567.69 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b21c1aa-286e-4f74-ab79-960da0f6746b")
 	)
 	(wire
 		(pts
@@ -12696,16 +13073,6 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 229.87) (xy 586.74 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514d3112-fc71-43bc-ab95-6627bc5613e8")
-	)
-	(wire
-		(pts
 			(xy 135.89 96.52) (xy 140.97 96.52)
 		)
 		(stroke
@@ -12846,7 +13213,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 232.41) (xy 560.07 236.22)
+			(xy 560.07 232.41) (xy 560.07 237.49)
 		)
 		(stroke
 			(width 0)
@@ -14266,16 +14633,6 @@
 	)
 	(wire
 		(pts
-			(xy 586.74 229.87) (xy 586.74 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a66a886-c7fa-4ec7-8819-fa4c1aae6871")
-	)
-	(wire
-		(pts
 			(xy 129.54 320.04) (xy 135.89 320.04)
 		)
 		(stroke
@@ -14403,16 +14760,6 @@
 			(type default)
 		)
 		(uuid "a3a9f89a-d72a-4d07-8ef6-cd1618a68141")
-	)
-	(wire
-		(pts
-			(xy 586.74 237.49) (xy 586.74 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51e1ed9-8d0a-4166-a191-28796968a52e")
 	)
 	(wire
 		(pts
@@ -14783,6 +15130,16 @@
 			(type default)
 		)
 		(uuid "ba9a14ce-5ea6-4146-82b1-ae2c204a0bc4")
+	)
+	(wire
+		(pts
+			(xy 584.2 229.87) (xy 590.55 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad68be7-39ea-4fc1-8d30-62c537f0563d")
 	)
 	(wire
 		(pts
@@ -15526,16 +15883,6 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 240.03) (xy 586.74 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae32649-5f6f-4775-bc0b-240f30ae6c3f")
-	)
-	(wire
-		(pts
 			(xy 30.48 36.83) (xy 38.1 36.83)
 		)
 		(stroke
@@ -15796,6 +16143,16 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 229.87) (xy 584.2 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ec75fe-9338-415d-a694-1d8b8a33ed27")
+	)
+	(wire
+		(pts
 			(xy 153.67 247.65) (xy 163.83 247.65)
 		)
 		(stroke
@@ -15956,7 +16313,7 @@
 	)
 	(wire
 		(pts
-			(xy 586.74 240.03) (xy 590.55 240.03)
+			(xy 567.69 237.49) (xy 590.55 237.49)
 		)
 		(stroke
 			(width 0)
@@ -17474,7 +17831,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 590.55 240.03 0)
+		(at 590.55 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17484,7 +17841,7 @@
 		)
 		(uuid "18b9f5fb-33c4-4270-817e-296affd25307")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 597.1033 240.03 0)
+			(at 597.1033 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20569,7 +20926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 643.5852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -21248,7 +21605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 648.6652 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -21408,7 +21765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 65.7352 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -21645,7 +22002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 251.1552 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -21864,7 +22221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7e9647-904c-4627-b038-997ef273e426")
-		(property "Reference" "PcFet"
+		(property "Reference" "PcFet1"
 			(at 127 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21962,7 +22319,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "PcFet")
+					(reference "PcFet1")
 					(unit 1)
 				)
 			)
@@ -22080,7 +22437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 615.6452 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -22282,6 +22639,120 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
+		(at 572.77 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12d1f83c-469b-456b-ae23-df32a0caa180")
+		(property "Reference" "D12"
+			(at 569.722 225.806 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTVSUC3D5VB"
+			(at 569.722 228.346 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+			(at 580.39 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
+			(at 582.93 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 572.77 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Prisemi(芯导)"
+			(at 585.47 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTVSUC3D5VB"
+			(at 588.01 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C918847"
+			(at 590.55 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a69860-ba9c-414d-99f2-27c45d14bc24")
+		)
+		(pin "2"
+			(uuid "a67d2bee-c941-48ed-94c1-b2babf30fb3c")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -22929,7 +23400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 655.0152 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -23016,7 +23487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 473.4052 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -23104,7 +23575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 322.2752 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23878,7 +24349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 33.9852 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -24042,7 +24513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 24.4348 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -24374,7 +24845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 138.43 262.5852 0)
 			(hide yes)
 			(show_name no)
@@ -24456,7 +24927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 632.1552 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25032,7 +25503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 550.8752 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25163,6 +25634,120 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "ChD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
+		(at 584.2 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3433a469-3421-4071-adc8-863e58e65e20")
+		(property "Reference" "D16"
+			(at 583.692 224.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTVSUC3D5VB"
+			(at 583.692 226.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+			(at 591.82 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
+			(at 594.36 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 584.2 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Prisemi(芯导)"
+			(at 596.9 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTVSUC3D5VB"
+			(at 599.44 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C918847"
+			(at 601.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a69860-ba9c-414d-99f2-27c45d14bc25")
+		)
+		(pin "2"
+			(uuid "a67d2bee-c941-48ed-94c1-b2babf30fb3d")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -26105,7 +26690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 251.1552 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -26347,7 +26932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 164.7952 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -26406,7 +26991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4225b302-4879-4da7-b228-529b5279d533")
-		(property "Reference" "Rshunt"
+		(property "Reference" "Rshunt1"
 			(at 224.536 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26468,7 +27053,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "Rshunt")
+					(reference "Rshunt1")
 					(unit 1)
 				)
 			)
@@ -26665,7 +27250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 53.34 184.4548 0)
 			(hide yes)
 			(show_name no)
@@ -26835,7 +27420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 40.3352 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -26895,7 +27480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4df38701-3227-4c9b-8a1b-1e42c6f8a375")
-		(property "Reference" "Xout"
+		(property "Reference" "Xout1"
 			(at 51.054 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26957,7 +27542,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "Xout")
+					(reference "Xout1")
 					(unit 1)
 				)
 			)
@@ -26975,7 +27560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51303bc5-f801-4a87-a2e8-59d63c94c407")
-		(property "Reference" "TsRST"
+		(property "Reference" "TsRST1"
 			(at 166.37 175.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27045,7 +27630,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "TsRST")
+					(reference "TsRST1")
 					(unit 1)
 				)
 			)
@@ -27163,7 +27748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 474.6752 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -27683,7 +28268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 569.9252 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -28008,7 +28593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 170.4848 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -28411,7 +28996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 180.6448 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -28775,7 +29360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK6_TEX"
+		(property "Footprint" "easyeda2kicad:LM66100DCKR"
 			(at 471.17 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -28848,7 +29433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64814341-6ed3-4fb3-a609-3330faaddc65")
-		(property "Reference" "FR"
+		(property "Reference" "FR1"
 			(at 60.96 334.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28912,7 +29497,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "FR")
+					(reference "FR1")
 					(unit 1)
 				)
 			)
@@ -29012,83 +29597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 576.58 234.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65747ac0-e206-48b0-8abc-312103cb0f01")
-		(property "Reference" "#PWR039"
-			(at 576.58 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 573.532 236.728 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 576.58 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 576.58 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 576.58 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58f9ce61-6a04-4044-ba6c-c28afe3187e8")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 440.69 347.98 0)
 		(unit 1)
@@ -29122,7 +29630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 441.6552 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -29287,7 +29795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 183.8452 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29532,7 +30040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 510.2352 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -29597,7 +30105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bbc768e-58d0-41ba-9ee3-21d260f45432")
-		(property "Reference" "FRShunt"
+		(property "Reference" "FRShunt1"
 			(at 49.53 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29659,7 +30167,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "FRShunt")
+					(reference "FRShunt1")
 					(unit 1)
 				)
 			)
@@ -30056,7 +30564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 173.6852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -30138,7 +30646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 441.6552 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -30914,7 +31422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7869854c-9b2e-4d09-97c6-e56f219cdf40")
-		(property "Reference" "Xshun"
+		(property "Reference" "Xshun1"
 			(at 110.236 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30976,7 +31484,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "Xshun")
+					(reference "Xshun1")
 					(unit 1)
 				)
 			)
@@ -31410,7 +31918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 186.3852 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -31893,7 +32401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 620.7252 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -32062,7 +32570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 644.8552 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -32390,7 +32898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 540.7152 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -32445,89 +32953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:RCLAMP0582B")
-		(at 581.66 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "831dbd2b-feb4-492a-a7e2-186add47d986")
-		(property "Reference" "D3"
-			(at 581.7235 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCLAMP0582B"
-			(at 581.7235 228.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 581.66 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b"
-			(at 582.93 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low capacitance unidirectional dual ESD protection diode, SC-75"
-			(at 581.66 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d640f04-4769-4167-9097-c88bf5d4fdf7")
-		)
-		(pin "1"
-			(uuid "03e849b3-3fa4-4e52-af3d-cc11c07f7fd0")
-		)
-		(pin "3"
-			(uuid "bdab8864-f6f7-4723-b51f-b988bc8d105b")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 643.89 185.42 0)
 		(unit 1)
@@ -32561,7 +32986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 644.8552 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -32704,7 +33129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8465eb2b-9f66-46fb-b8d6-c1ae52c5117f")
-		(property "Reference" "DBlokFet"
+		(property "Reference" "DBlokFet1"
 			(at 283.21 307.086 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32802,7 +33227,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "DBlokFet")
+					(reference "DBlokFet1")
 					(unit 1)
 				)
 			)
@@ -33084,7 +33509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 340.0552 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -33407,7 +33832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 441.6552 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -33627,7 +34052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a8b7931-0b4b-4fae-b4d4-cbeeb5d580f9")
-		(property "Reference" "XCshun"
+		(property "Reference" "XCshun1"
 			(at 107.95 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33649,7 +34074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 105.1052 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -33691,7 +34116,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "XCshun")
+					(reference "XCshun1")
 					(unit 1)
 				)
 			)
@@ -34136,7 +34561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 520.3952 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34224,7 +34649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 580.0852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34686,7 +35111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99384e24-8853-41ee-ba8d-cef2fe429f4e")
-		(property "Reference" "FC"
+		(property "Reference" "FC1"
 			(at 45.72 335.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34748,7 +35173,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "FC")
+					(reference "FC1")
 					(unit 1)
 				)
 			)
@@ -35023,7 +35448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 92.4052 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -35393,6 +35818,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LM66100DCKR_1")
 		(lib_id "QRET_Buck_PSU-symbols:LM66100DCKR")
 		(at 471.17 368.3 0)
 		(unit 1)
@@ -35424,7 +35850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK6_TEX"
+		(property "Footprint" "easyeda2kicad:LM66100DCKR"
 			(at 471.17 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -35576,7 +36002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a248dd52-288f-43b3-988a-d6fa4492274c")
-		(property "Reference" "SRinP"
+		(property "Reference" "SRinP1"
 			(at 60.706 196.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35640,7 +36066,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SRinP")
+					(reference "SRinP1")
 					(unit 1)
 				)
 			)
@@ -35657,7 +36083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5448e5f-056b-4a0b-a4cf-cc49c5e02fdf")
-		(property "Reference" "SRinN"
+		(property "Reference" "SRinN1"
 			(at 37.592 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35721,7 +36147,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SRinN")
+					(reference "SRinN1")
 					(unit 1)
 				)
 			)
@@ -35934,7 +36360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 71.4248 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -36404,7 +36830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 498.8052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -36567,7 +36993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 340.0552 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -36979,7 +37405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2d07b17-b003-46e9-8004-6a884ed1f452")
-		(property "Reference" "PdFet"
+		(property "Reference" "PdFet1"
 			(at 111.76 356.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37077,7 +37503,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "PdFet")
+					(reference "PdFet1")
 					(unit 1)
 				)
 			)
@@ -37363,7 +37789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 590.2452 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -37497,6 +37923,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 572.77 245.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b922fc9a-c4ea-4810-b839-9ebbc803035f")
+		(property "Reference" "#PWR027"
+			(at 572.77 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 572.77 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 572.77 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 572.77 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 572.77 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed3d3e6e-aaf4-4e3c-9d29-cff668bb0eb2")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 81.28 90)
 		(mirror x)
@@ -37587,7 +38091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba5b2640-0e9e-480f-9a80-c3212928aa2c")
-		(property "Reference" "XRreg"
+		(property "Reference" "XRreg1"
 			(at 65.786 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37649,7 +38153,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "XRreg")
+					(reference "XRreg1")
 					(unit 1)
 				)
 			)
@@ -37689,7 +38193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 4924.7552 2457.45 0)
 			(hide yes)
 			(show_name no)
@@ -37771,7 +38275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 559.7652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -38162,7 +38666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be6888e1-47ea-48d8-81a2-d13a19b88abe")
-		(property "Reference" "FFet"
+		(property "Reference" "FFet1"
 			(at 39.37 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38260,7 +38764,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "FFet")
+					(reference "FFet1")
 					(unit 1)
 				)
 			)
@@ -38464,7 +38968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 78.4352 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -38545,7 +39049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 76.5048 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -38766,7 +39270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f8ee50-3892-4df2-9a47-162fb4804826")
-		(property "Reference" "PackR"
+		(property "Reference" "PackR1"
 			(at 152.4 314.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38830,7 +39334,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "PackR")
+					(reference "PackR1")
 					(unit 1)
 				)
 			)
@@ -38868,7 +39372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK6_TEX"
+		(property "Footprint" "easyeda2kicad:LM66100DCKR"
 			(at 471.17 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -39124,7 +39628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 55.5752 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -39445,7 +39949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 461.9752 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -39511,7 +40015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9d3c1d1-e015-407a-9e99-17f925419fc3")
-		(property "Reference" "ChFet"
+		(property "Reference" "ChFet1"
 			(at 228.854 399.542 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39609,7 +40113,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "ChFet")
+					(reference "ChFet1")
 					(unit 1)
 				)
 			)
@@ -40314,7 +40818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 176.2252 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -40603,6 +41107,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 584.2 245.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da22c71d-b1b0-45ac-bfaf-f88dfec62d1c")
+		(property "Reference" "#PWR029"
+			(at 584.2 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 584.2 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 584.2 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 584.2 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 584.2 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7991d53-1865-41c2-9500-8e3bef413f8f")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BQ76952PFBR:R")
 		(at 220.98 368.3 0)
 		(mirror x)
@@ -40719,7 +41301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 530.5552 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -40887,7 +41469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 138.43 256.2352 0)
 			(hide yes)
 			(show_name no)
@@ -41848,7 +42430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 53.34 173.0248 0)
 			(hide yes)
 			(show_name no)
@@ -41930,7 +42512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 656.2852 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -42331,7 +42913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 68.2752 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -42491,7 +43073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 600.4052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -42556,7 +43138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3b9a696-c91f-4918-a0f8-5496d6b28d0c")
-		(property "Reference" "XCreg"
+		(property "Reference" "XCreg1"
 			(at 73.66 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42576,7 +43158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 77.47 122.2248 0)
 			(hide yes)
 			(show_name no)
@@ -42618,7 +43200,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "XCreg")
+					(reference "XCreg1")
 					(unit 1)
 				)
 			)
@@ -42658,7 +43240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 610.5652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -42714,7 +43296,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 563.88 236.22 90)
+		(at 563.88 237.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42724,7 +43306,7 @@
 		(dnp no)
 		(uuid "f8179f92-f56e-4bc7-a781-bec61cc16e24")
 		(property "Reference" "FB2"
-			(at 563.118 241.046 90)
+			(at 563.118 242.316 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42734,7 +43316,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 563.626 240.538 90)
+			(at 563.626 241.808 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42744,7 +43326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 563.88 237.998 90)
+			(at 563.88 239.268 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42755,7 +43337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 563.88 236.22 0)
+			(at 563.88 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42766,7 +43348,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 563.88 236.22 0)
+			(at 563.88 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42903,7 +43485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 666.4452 270.51 0)
 			(hide yes)
 			(show_name no)

@@ -25057,7 +25057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:BQ7695202PFBR"
+		(property "Footprint" "BMS footprint lib:QFP50P900X900X120-48N"
 			(at 436.88 193.548 0)
 			(hide yes)
 			(show_name no)

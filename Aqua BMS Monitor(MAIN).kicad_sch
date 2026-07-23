@@ -9510,7 +9510,7 @@
 		)
 		(uuid "847d36fb-49bf-42dc-b96b-f5ceca91946f")
 	)
-	(text "CL = (CLcrystal - Cstray)*2\n   = (18 - 10)*2\n   = 16 pF\n\ngmcrit = 4*ESR*(2*pi*F)^2 *(C0 + CL)^2\n	   = 4*50*(2*pi*16 MHz)^2 * (3 pF + 18 pF)^2\n	   = 0.8914 mA/V\ngain margin = gm/gmcrit = 5 mA/V / 0.8914 mA/V = 5.61\n\nThe gain margin is sufficient to start the oscillation\nand the gainmargin > 5 condition is met. \n"
+	(text "CL = (CLcrystal - Cstray)*2\n   = (18 - 10)*2\n   = 16 pF\n\ngmcrit = 4*ESR*(2*pi*F)^2 *(C0 + CL)^2\n	   = 4*50*(2*pi*16 MHz)^2 * (3 pF + 16 pF)^2\n	   = 0.729 mA/V\ngain margin = gm/gmcrit = 5 mA/V / 0.729 mA/V = 6.86\n\nThe gain margin is sufficient to start the oscillation\nand the gainmargin > 5 condition is met. \n"
 		(exclude_from_sim no)
 		(at 606.298 209.296 0)
 		(effects
@@ -20765,7 +20765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 133.35 352.298 90)
 			(hide yes)
 			(show_name no)
@@ -20926,7 +20926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 643.5852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -21092,7 +21092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 299.72 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -21171,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 207.01 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -21524,7 +21524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:4k_R0805"
 			(at 236.728 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -21605,7 +21605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:10uF_C1210"
 			(at 648.6652 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -21845,7 +21845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:50_R0603"
 			(at 144.78 87.122 90)
 			(hide yes)
 			(show_name no)
@@ -22002,7 +22002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 251.1552 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -22081,7 +22081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:200_R1210"
 			(at 216.662 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -22161,7 +22161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 234.95 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -22241,7 +22241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:PMOS"
 			(at 124.46 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -22356,7 +22356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 379.73 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -22437,7 +22437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:16pF_C0805"
 			(at 615.6452 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -22517,7 +22517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 234.95 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22677,7 +22677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
 			(at 580.39 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22792,7 +22792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 109.982 337.82 90)
 			(hide yes)
 			(show_name no)
@@ -22871,7 +22871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:200_R1210"
 			(at 216.662 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -22951,7 +22951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ76952PFBR:QFP50P900X900X120-48N"
+		(property "Footprint" "easyeda2kicad:BQ7695202PFBR"
 			(at 436.88 193.548 0)
 			(hide yes)
 			(show_name no)
@@ -23400,7 +23400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:4.7uF_C1210"
 			(at 655.0152 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -23487,7 +23487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 473.4052 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -23575,7 +23575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:220nF_C1210"
 			(at 322.2752 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23775,7 +23775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 230.378 422.91 90)
 			(hide yes)
 			(show_name no)
@@ -24031,7 +24031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 46.99 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -24431,7 +24431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 57.15 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -24593,7 +24593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:50_R0603"
 			(at 144.78 102.362 90)
 			(hide yes)
 			(show_name no)
@@ -24845,7 +24845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 138.43 262.5852 0)
 			(hide yes)
 			(show_name no)
@@ -24927,7 +24927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 632.1552 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25014,7 +25014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10M_R1210"
 			(at 155.702 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -25094,7 +25094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 132.08 359.1052 0)
 			(hide yes)
 			(show_name no)
@@ -25176,7 +25176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1.5k_R1210"
 			(at 631.952 287.02 90)
 			(hide yes)
 			(show_name no)
@@ -25258,7 +25258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 226.06 354.33 0)
 			(hide yes)
 			(show_name no)
@@ -25340,7 +25340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:PTC_Thermistor_TMP6131LPGM"
 			(at 106.68 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25421,7 +25421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:4.7k_R1210"
 			(at 551.942 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -25503,7 +25503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 550.8752 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25591,7 +25591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:16V_Zener"
 			(at 218.44 411.48 0)
 			(hide yes)
 			(show_name no)
@@ -25672,7 +25672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOD-323_L1.8-W1.3-LS2.5-BI"
+		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
 			(at 591.82 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -26021,7 +26021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 234.95 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -26373,7 +26373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:16V_Zener"
 			(at 234.95 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -26531,7 +26531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 63.5 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -26690,7 +26690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 251.1552 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -26772,7 +26772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 227.838 346.71 90)
 			(hide yes)
 			(show_name no)
@@ -26932,7 +26932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:22nF_C1210"
 			(at 164.7952 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -27011,7 +27011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:200_R1210"
 			(at 216.662 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -27091,7 +27091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 130.81 291.1348 0)
 			(hide yes)
 			(show_name no)
@@ -27250,7 +27250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:100pF_C0603"
 			(at 53.34 184.4548 0)
 			(hide yes)
 			(show_name no)
@@ -27332,7 +27332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10k_R1206"
 			(at 450.342 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -27500,7 +27500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 58.928 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -27582,7 +27582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 163.83 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -27748,7 +27748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:2.2uF_C1210"
 			(at 474.6752 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -27913,7 +27913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NPN_BJT"
 			(at 233.68 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -28028,7 +28028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:2.2k_Ferrite_Bead_L0603"
 			(at 563.88 231.648 90)
 			(hide yes)
 			(show_name no)
@@ -28268,7 +28268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 569.9252 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -28432,7 +28432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100_R1210"
 			(at 58.42 227.838 90)
 			(hide yes)
 			(show_name no)
@@ -28593,7 +28593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:220nF_C1210"
 			(at 170.4848 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -28675,7 +28675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10M_R1210"
 			(at 137.668 314.96 90)
 			(hide yes)
 			(show_name no)
@@ -28757,7 +28757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 131.318 325.12 90)
 			(hide yes)
 			(show_name no)
@@ -28996,7 +28996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:220nF_C1210"
 			(at 180.6448 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -29078,7 +29078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 321.31 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -29196,7 +29196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 172.72 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -29455,7 +29455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:20k_R1206"
 			(at 60.198 335.28 90)
 			(hide yes)
 			(show_name no)
@@ -29630,7 +29630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 441.6552 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -29712,7 +29712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:51_R1206"
 			(at 284.988 331.47 90)
 			(hide yes)
 			(show_name no)
@@ -29795,7 +29795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:220nF_C1210"
 			(at 183.8452 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29878,7 +29878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:51_R1206"
 			(at 207.772 334.01 90)
 			(hide yes)
 			(show_name no)
@@ -29958,7 +29958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 234.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -30040,7 +30040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 510.2352 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -30125,7 +30125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1m_Shunt_4W"
 			(at 49.53 206.248 90)
 			(hide yes)
 			(show_name no)
@@ -30206,7 +30206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 279.4 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -30481,7 +30481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:PTC_Thermistor_TMP6131LPGM"
 			(at 198.12 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -30564,7 +30564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:220nF_C1210"
 			(at 173.6852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -30646,7 +30646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 441.6552 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -31194,7 +31194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 121.92 359.1052 0)
 			(hide yes)
 			(show_name no)
@@ -31274,7 +31274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 105.41 311.658 90)
 			(hide yes)
 			(show_name no)
@@ -31442,7 +31442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100_R1210"
 			(at 102.362 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -31680,7 +31680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10k_R1206"
 			(at 254.508 346.71 90)
 			(hide yes)
 			(show_name no)
@@ -31918,7 +31918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 186.3852 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -32079,7 +32079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:4k_R0805"
 			(at 301.498 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -32159,7 +32159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 120.65 291.1348 0)
 			(hide yes)
 			(show_name no)
@@ -32239,7 +32239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100k_R1210"
 			(at 527.05 221.488 90)
 			(hide yes)
 			(show_name no)
@@ -32401,7 +32401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 620.7252 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -32489,7 +32489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:4.7k_R1210"
 			(at 541.782 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -32570,7 +32570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 644.8552 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -32736,7 +32736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:4k_R0805"
 			(at 271.018 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -32816,7 +32816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:50_R0603"
 			(at 144.78 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -32898,7 +32898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 540.7152 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -32986,7 +32986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:16pF_C0805"
 			(at 644.8552 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -33149,7 +33149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 285.75 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -33430,7 +33430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 236.728 266.7 90)
 			(hide yes)
 			(show_name no)
@@ -33509,7 +33509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 340.0552 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -33667,7 +33667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:200_R1210"
 			(at 216.662 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -33832,7 +33832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 441.6552 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -33992,7 +33992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10k_R1206"
 			(at 301.498 353.06 90)
 			(hide yes)
 			(show_name no)
@@ -34156,7 +34156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10M_R1210"
 			(at 102.108 346.71 90)
 			(hide yes)
 			(show_name no)
@@ -34238,7 +34238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 52.07 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -34399,7 +34399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:PTC_Thermistor_TMP6131LPGM"
 			(at 128.27 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -34479,7 +34479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 186.69 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -34561,7 +34561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 520.3952 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34649,7 +34649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 580.0852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34972,7 +34972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:50_R0603"
 			(at 144.78 109.982 90)
 			(hide yes)
 			(show_name no)
@@ -35131,7 +35131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 52.3748 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -35448,7 +35448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.47 uF_C1210"
 			(at 92.4052 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -35685,7 +35685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100V_Schottky"
 			(at 242.57 406.4 0)
 			(hide yes)
 			(show_name no)
@@ -36024,7 +36024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100_R1210"
 			(at 51.562 195.58 90)
 			(hide yes)
 			(show_name no)
@@ -36105,7 +36105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100_R1210"
 			(at 43.942 195.58 90)
 			(hide yes)
 			(show_name no)
@@ -36187,7 +36187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:4k_R0805"
 			(at 271.018 267.97 90)
 			(hide yes)
 			(show_name no)
@@ -36830,7 +36830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 498.8052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -36993,7 +36993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 340.0552 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -37425,7 +37425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:PMOS"
 			(at 114.3 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -37543,7 +37543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:3P_Pin_Header"
 			(at 640.08 327.66 0)
 			(hide yes)
 			(show_name no)
@@ -37625,7 +37625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100_R1210"
 			(at 36.068 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -37707,7 +37707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:51_R1206"
 			(at 217.678 336.55 90)
 			(hide yes)
 			(show_name no)
@@ -37789,7 +37789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 590.2452 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -37874,7 +37874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 92.71 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -38032,7 +38032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:50_R0603"
 			(at 144.78 79.502 90)
 			(hide yes)
 			(show_name no)
@@ -38111,7 +38111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5_RES-SMD_L6.4-W3.8"
 			(at 66.04 121.412 90)
 			(hide yes)
 			(show_name no)
@@ -38161,88 +38161,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 4923.79 2453.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbcd2a7c-ec82-4a4c-960e-cca4ff1b505f")
-		(property "Reference" "C17"
-			(at 4927.6 2452.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 4927.6 2454.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 4924.7552 2457.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 4923.79 2453.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 4923.79 2453.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4869e502-2382-4d5e-8f8a-347ab1307dfd")
-		)
-		(pin "2"
-			(uuid "17a4b519-d1e0-43c5-88c7-1be99ea79c94")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 558.8 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -38275,7 +38193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 559.7652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -38363,7 +38281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:300_R0805"
 			(at 174.498 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -38600,7 +38518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:100k_R1210"
 			(at 450.342 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -38686,7 +38604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 40.64 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -38802,7 +38720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 466.09 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -38968,7 +38886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:100pF_C0603"
 			(at 78.4352 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -39132,7 +39050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:51_R1206"
 			(at 275.082 336.55 90)
 			(hide yes)
 			(show_name no)
@@ -39292,7 +39210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10k_R1206"
 			(at 151.638 316.23 90)
 			(hide yes)
 			(show_name no)
@@ -39465,7 +39383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 82.55 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -39547,7 +39465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10M_R1210"
 			(at 211.328 411.48 90)
 			(hide yes)
 			(show_name no)
@@ -39949,7 +39867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:2.2uF_C1210"
 			(at 461.9752 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -40035,7 +39953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 231.14 403.86 0)
 			(hide yes)
 			(show_name no)
@@ -40232,7 +40150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:BQ296115DSGR"
 			(at 58.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -40416,7 +40334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10k_R1206"
 			(at 165.608 185.42 90)
 			(hide yes)
 			(show_name no)
@@ -40735,7 +40653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10M_R1210"
 			(at 301.498 334.01 90)
 			(hide yes)
 			(show_name no)
@@ -40818,7 +40736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:220nF_C1210"
 			(at 176.2252 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -40897,7 +40815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:1k_R1206"
 			(at 72.39 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -40979,7 +40897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:16V_Zener"
 			(at 308.61 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -41219,7 +41137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 219.202 368.3 90)
 			(hide yes)
 			(show_name no)
@@ -41301,7 +41219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 530.5552 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -41389,7 +41307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10M_R1210"
 			(at 227.838 332.74 90)
 			(hide yes)
 			(show_name no)
@@ -41469,7 +41387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 138.43 256.2352 0)
 			(hide yes)
 			(show_name no)
@@ -41548,7 +41466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 636.27 269.748 90)
 			(hide yes)
 			(show_name no)
@@ -41786,7 +41704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL-2"
+		(property "Footprint" "easyeda2kicad:18pF_Oscillator_CRYSTAL-SMD_4P"
 			(at 631.19 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -41907,7 +41825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
 			(at 447.04 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -41993,7 +41911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:NMOS"
 			(at 213.36 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -42111,7 +42029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:470pF_C0805"
 			(at 219.4052 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -42351,7 +42269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:10k_R1206"
 			(at 470.662 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -42512,7 +42430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1uF_C1210"
 			(at 656.2852 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -42913,7 +42831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:1nF_C0805"
 			(at 68.2752 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -43073,7 +42991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 600.4052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -43240,7 +43158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
 			(at 610.5652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -43325,7 +43243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:2.2k_Ferrite_Bead_L0603"
 			(at 563.88 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -43404,7 +43322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:5.1k_R1210"
 			(at 636.27 272.288 90)
 			(hide yes)
 			(show_name no)
@@ -43485,7 +43403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "easyeda2kicad:10uF_C1210"
 			(at 666.4452 270.51 0)
 			(hide yes)
 			(show_name no)

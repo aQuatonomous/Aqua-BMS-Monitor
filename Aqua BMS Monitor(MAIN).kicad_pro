@@ -648,7 +648,7 @@
         "uuid": "d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
       }
     ],
-    "used_designators": "LDR1",
+    "used_designators": "S1,LDR1",
     "variants": []
   },
   "sheets": [

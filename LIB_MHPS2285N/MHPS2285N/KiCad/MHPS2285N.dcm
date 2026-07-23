@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MHPS2285N
+D Pushbutton Switches DPDT 0.1A 30V On-Mom
+K
+F https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf
+$ENDCMP
+#
+#End Doc Library

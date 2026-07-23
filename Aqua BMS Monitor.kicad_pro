@@ -261,7 +261,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Aqua BMS Monitor.kicad_pro",
+    "filename": "Aqua BMS Monitor(MAIN).kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -422,7 +422,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Aqua BMS Monitor.kicad_sch",
+        "filename": "Aqua BMS Monitor(MAIN).kicad_sch",
         "name": "Aqua BMS Monitor",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }

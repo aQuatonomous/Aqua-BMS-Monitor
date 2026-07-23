@@ -1,5 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "New_Library") (type "KiCad") (uri "${KIPRJMOD}/New_Library.kicad_sym") (options "") (descr ""))
-	(lib (name "Ideal dioder") (type "") (uri "${KIPRJMOD}/ul_LTC4359IS8-PBF") (options "") (descr ""))
+	(lib (name "BMS_SymbolLib") (type "KiCad") (uri "${KIPRJMOD}/ProjectLib/symbols/BMS_SymbolLib.kicad_sym") (options "") (descr ""))
 )

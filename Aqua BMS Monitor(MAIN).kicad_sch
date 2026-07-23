@@ -34723,7 +34723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd4b1f9-a740-4885-96a3-9fca748bbc9e")
-		(property "Reference" "LDR"
+		(property "Reference" "LDR1"
 			(at 255.27 345.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34787,7 +34787,7 @@
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "LDR")
+					(reference "LDR1")
 					(unit 1)
 				)
 			)

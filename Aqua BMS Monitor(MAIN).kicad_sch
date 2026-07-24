@@ -1837,187 +1837,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
@@ -9126,6 +8945,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad symbols:XT60"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XT60"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_XT60"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "AMASS(艾迈斯)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "XT60-M."
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C98733"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Power Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XT60_0_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VSS"
 			(power global)
 			(pin_numbers
@@ -9352,7 +9336,7 @@
 	)
 	(rectangle
 		(start 63.5 25.4)
-		(end 116.84 49.53)
+		(end 121.92 49.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -10119,7 +10103,7 @@
 	)
 	(text "External 12V supply in"
 		(exclude_from_sim no)
-		(at 103.886 27.686 0)
+		(at 108.966 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10503,12 +10487,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc2010a-4215-45d1-b34a-0e843252ddb5")
-	)
-	(junction
-		(at 81.1281 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "325995a6-1601-4557-b531-19eca29b3938")
 	)
 	(junction
 		(at 149.86 240.03)
@@ -10979,6 +10957,12 @@
 		(uuid "86eac5a1-2db2-4bfd-8754-be5c8b0178a5")
 	)
 	(junction
+		(at 85.09 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87596dac-3aeb-4c01-92e3-a9172dbd1a4b")
+	)
+	(junction
 		(at 502.92 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11001,6 +10985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b1d1d68-8086-42df-95ae-4b0c111528c8")
+	)
+	(junction
+		(at 81.1281 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b21d905-f951-4e2f-9ee2-79601f6e57e8")
 	)
 	(junction
 		(at 481.33 153.67)
@@ -11561,12 +11551,6 @@
 		(uuid "fbacd771-3738-46bc-8e6e-997623a6af67")
 	)
 	(junction
-		(at 85.09 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbb76b25-2794-4bbf-848f-0a70f3a1c14f")
-	)
-	(junction
 		(at 486.41 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11867,6 +11851,16 @@
 			(type default)
 		)
 		(uuid "038f42de-0830-4e34-acc1-c87e0d79a3ae")
+	)
+	(wire
+		(pts
+			(xy 26.67 36.83) (xy 38.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ba8d26-659b-4cea-8c8c-b7e351ab10f4")
 	)
 	(wire
 		(pts
@@ -13210,16 +13204,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 34.29) (xy 81.1281 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c7bfba-66c3-4c08-9819-aa59a821ac47")
-	)
-	(wire
-		(pts
 			(xy 321.31 157.48) (xy 321.31 160.02)
 		)
 		(stroke
@@ -13360,7 +13344,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 35.56) (xy 118.11 38.1)
+			(xy 129.54 35.56) (xy 129.54 38.1)
 		)
 		(stroke
 			(width 0)
@@ -13897,6 +13881,16 @@
 			(type default)
 		)
 		(uuid "535e3b92-5bf5-494c-9380-d7ed7ac6d8d3")
+	)
+	(wire
+		(pts
+			(xy 77.47 34.29) (xy 81.1281 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53707e69-52b9-4124-b9a0-c2806cfb61a5")
 	)
 	(wire
 		(pts
@@ -15400,16 +15394,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 36.83 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f34271c-3163-4aae-9eb7-a7f6e897effa")
-	)
-	(wire
-		(pts
 			(xy 486.41 228.6) (xy 486.41 232.41)
 		)
 		(stroke
@@ -15457,16 +15441,6 @@
 			(type default)
 		)
 		(uuid "9082a1f3-5406-4ff2-8c9c-bb3b45c31ad9")
-	)
-	(wire
-		(pts
-			(xy 81.1281 34.29) (xy 87.63 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "921a1c44-a470-4f9c-ae92-b7bc0bddc9bf")
 	)
 	(wire
 		(pts
@@ -15727,16 +15701,6 @@
 			(type default)
 		)
 		(uuid "9fb642aa-ad67-4d23-962e-778ab9c248a2")
-	)
-	(wire
-		(pts
-			(xy 77.47 36.83) (xy 85.09 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd49b8c-da24-4b9b-b70e-556f8056b075")
 	)
 	(wire
 		(pts
@@ -16390,6 +16354,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.1281 34.29) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f5c58b-29f7-4713-9e49-338228fe941c")
+	)
+	(wire
+		(pts
 			(xy 388.62 172.72) (xy 367.03 172.72)
 		)
 		(stroke
@@ -16780,6 +16754,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 36.83) (xy 85.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc55303f-2b4d-4e0d-8b82-4a76cb5038c8")
+	)
+	(wire
+		(pts
 			(xy 676.91 266.7) (xy 678.18 266.7)
 		)
 		(stroke
@@ -17137,16 +17121,6 @@
 			(type default)
 		)
 		(uuid "dade61b9-9f25-463e-8f62-c5feba81e3f0")
-	)
-	(wire
-		(pts
-			(xy 30.48 36.83) (xy 38.1 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf49554-9bc2-4bf3-bcb0-72fcab11d747")
 	)
 	(wire
 		(pts
@@ -17577,6 +17551,16 @@
 			(type default)
 		)
 		(uuid "ea0245f3-f71e-44a8-8381-7733087b9287")
+	)
+	(wire
+		(pts
+			(xy 26.67 34.29) (xy 36.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0ee044-cba0-4455-b15b-d6e49ed84a7b")
 	)
 	(wire
 		(pts
@@ -18855,7 +18839,7 @@
 		)
 	)
 	(global_label "DPACK+"
-		(shape input)
+		(shape output)
 		(at 368.3 326.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19454,6 +19438,30 @@
 			)
 		)
 	)
+	(global_label "PACK-"
+		(shape input)
+		(at 193.04 434.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fe20993-4165-42f6-9c49-4e26e4c42d59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.4962 434.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PWR+"
 		(shape input)
 		(at 58.42 299.72 0)
@@ -19551,7 +19559,7 @@
 		)
 	)
 	(global_label "CPACK+"
-		(shape input)
+		(shape output)
 		(at 275.59 406.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20031,7 +20039,7 @@
 		)
 	)
 	(global_label "PACK-"
-		(shape input)
+		(shape output)
 		(at 275.59 408.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -21566,6 +21574,30 @@
 			)
 		)
 	)
+	(global_label "DPACK+"
+		(shape input)
+		(at 386.08 359.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4f69ca6-2b78-4c3c-b665-14c4126d57c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 396.8062 359.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 539.75 199.39 0)
@@ -21998,6 +22030,54 @@
 			)
 		)
 	)
+	(global_label "PACK-"
+		(shape input)
+		(at 386.08 361.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddfa6e3d-9a58-4767-ae7e-a90bd4642381")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.5362 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CPACK+"
+		(shape input)
+		(at 193.04 431.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "deb55bb9-597d-46d2-9f26-c8cf69b94350")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.7662 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PCHG"
 		(shape input)
 		(at 369.57 125.73 0)
@@ -22239,7 +22319,7 @@
 		)
 	)
 	(global_label "PACK-"
-		(shape input)
+		(shape output)
 		(at 368.3 328.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -25722,6 +25802,119 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "BMSC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad symbols:XT60")
+		(at 73.66 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19421b33-e4a6-4dfa-bb48-29a148841f9f")
+		(property "Reference" "U10"
+			(at 72.39 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 72.39 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XT60_M"
+			(at 73.66 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
+			(at 73.66 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 73.66 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60-M."
+			(at 73.66 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98733"
+			(at 73.66 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98a63fc7-9f28-4917-90e9-c5bf55f32107")
+		)
+		(pin "2"
+			(uuid "b8bdc772-42e9-4b33-a288-00583359b80f")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -30006,6 +30199,119 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad symbols:XT60")
+		(at 189.23 433.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fcafc60-6736-4979-96a5-0e9965cc64ac")
+		(property "Reference" "U11"
+			(at 187.96 424.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 187.96 426.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XT60_M"
+			(at 189.23 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
+			(at 189.23 421.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 433.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 189.23 419.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60-M."
+			(at 189.23 416.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98733"
+			(at 189.23 414.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3be16566-a8ee-4f89-bb7d-38ca35c1aa8c")
+		)
+		(pin "1"
+			(uuid "20191379-1e74-4129-8865-4571da1cc430")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPST_x2")
 		(at 163.83 176.53 270)
 		(unit 1)
@@ -30458,7 +30764,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 118.11 35.56 0)
+		(at 129.54 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30469,7 +30775,7 @@
 		(dnp no)
 		(uuid "55196893-2445-466c-a34a-e737cfa99ac4")
 		(property "Reference" "TP7"
-			(at 120.65 33.5281 0)
+			(at 132.08 33.5281 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30480,7 +30786,7 @@
 			)
 		)
 		(property "Value" "VSSTP"
-			(at 120.65 30.9881 0)
+			(at 132.08 30.9881 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30491,7 +30797,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 113.03 35.56 0)
+			(at 124.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30502,7 +30808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 35.56 0)
+			(at 124.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30513,7 +30819,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 35.56 0)
+			(at 129.54 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31436,6 +31742,119 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad symbols:XT60")
+		(at 382.27 360.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d431e5e-2965-4e1e-8643-bedbda446bb0")
+		(property "Reference" "U12"
+			(at 381 351.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 381 354.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XT60_M"
+			(at 382.27 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
+			(at 382.27 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 382.27 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60-M."
+			(at 382.27 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98733"
+			(at 382.27 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd5ec68d-87aa-4332-bc7c-012265b9c8ae")
+		)
+		(pin "1"
+			(uuid "17dbb4ad-6ac2-4246-946f-e0afad5f071d")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -34596,7 +35015,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 118.11 38.1 0)
+		(at 129.54 38.1 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -34607,7 +35026,7 @@
 		(dnp no)
 		(uuid "7ce930c8-24d7-4d4e-93ff-f2616f51edf8")
 		(property "Reference" "#PWR040"
-			(at 118.11 34.29 0)
+			(at 129.54 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34618,7 +35037,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 118.11 43.18 0)
+			(at 129.54 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34628,7 +35047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34639,7 +35058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34650,7 +35069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 118.11 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38865,6 +39284,118 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad symbols:XT60")
+		(at 22.86 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cc4b35e-738e-43be-927c-04a42ae079dc")
+		(property "Reference" "U3"
+			(at 21.59 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 21.59 30.226 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:XT60_M"
+			(at 22.86 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
+			(at 22.86 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "AMASS(艾迈斯)"
+			(at 22.86 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XT60-M."
+			(at 22.86 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C98733"
+			(at 22.86 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6fccae6-1d59-4805-aa73-09059173b63f")
+		)
+		(pin "2"
+			(uuid "28232f64-d63b-4a8c-bcb6-00a6b824fc8d")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -45597,86 +46128,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 25.4 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1c0a2c4-118b-46cc-98da-9dfb40272e20")
-		(property "Reference" "MainBattIn1"
-			(at 26.035 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Main lines"
-			(at 26.035 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 25.4 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48cae55d-7a59-414d-b78c-bfdd7510ad93")
-		)
-		(pin "2"
-			(uuid "746697bf-adfb-4d99-a0f3-4e24d55d1bce")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MainBattIn1")
 					(unit 1)
 				)
 			)

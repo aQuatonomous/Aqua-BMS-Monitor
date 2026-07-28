@@ -7634,6 +7634,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Xt-60PW-M:XT60PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 5.7234 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at -5.08 -10.1723 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Socket, DC supply, male, PIN: 2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "KARTHIK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "XT60PW-M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "AMASS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "XT60PW-M_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad symbols:B5B-XH-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8868,171 +9166,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad symbols:XT60"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "XT60"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_XT60"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "AMASS(艾迈斯)"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "XT60-M."
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C98733"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Power Connectors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XT60_0_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VSS"
 			(power global)
 			(pin_numbers
@@ -9187,7 +9320,7 @@
 	)
 	(rectangle
 		(start 288.29 392.43)
-		(end 397.51 467.36)
+		(end 435.61 518.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -9474,7 +9607,7 @@
 	)
 	(text "High current ideal diode"
 		(exclude_from_sim no)
-		(at 303.784 397.51 0)
+		(at 303.784 427.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9709,7 +9842,7 @@
 	)
 	(text "Battery in"
 		(exclude_from_sim no)
-		(at 54.61 27.178 0)
+		(at 54.356 46.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9810,16 +9943,6 @@
 		)
 		(uuid "88822ba1-7bd9-456e-bf57-f8d59e7b1f77")
 	)
-	(text "Needs NET tie to ground, I think this is not right..."
-		(exclude_from_sim no)
-		(at 37.338 47.752 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "91f3c767-f1c9-4eb2-b5b4-ad03fca44c56")
-	)
 	(text "Additional filtering required??"
 		(exclude_from_sim no)
 		(at 637.286 147.828 0)
@@ -9832,7 +9955,7 @@
 	)
 	(text "Do we want to put two fets in parallel or use one to ensure we don't deal with discrepency?\n"
 		(exclude_from_sim no)
-		(at 342.392 462.788 0)
+		(at 342.392 493.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10039,7 +10162,7 @@
 	)
 	(text "External 12V supply in"
 		(exclude_from_sim no)
-		(at 108.966 27.686 0)
+		(at 109.982 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10131,12 +10254,6 @@
 		(uuid "fe9cc7fe-3651-48f4-86fb-7a0a43d85195")
 	)
 	(junction
-		(at 358.14 402.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0156f6a6-82cb-4660-b1fb-6332b62afac7")
-	)
-	(junction
 		(at 321.31 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10221,7 +10338,7 @@
 		(uuid "0c11147c-450f-45ed-8af4-ccf8ce391d5a")
 	)
 	(junction
-		(at 314.96 425.45)
+		(at 314.96 455.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c96bfc5-7c49-415b-8217-9a4a5e3536f0")
@@ -10233,7 +10350,7 @@
 		(uuid "0cdecdbb-8d38-440a-abf9-8eb8df7371b2")
 	)
 	(junction
-		(at 303.53 402.59)
+		(at 303.53 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d774aff-c03b-4baa-8b4e-2bdf205a00e5")
@@ -10275,7 +10392,7 @@
 		(uuid "11fe42d2-0c7c-4637-9d72-4c72a66b5c27")
 	)
 	(junction
-		(at 361.95 402.59)
+		(at 361.95 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1375186c-ec75-4307-8702-1108f5411639")
@@ -10291,6 +10408,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13e82227-3454-4a7d-9ef7-2e1fd10c9ae1")
+	)
+	(junction
+		(at 353.06 426.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13ee7750-f384-47b5-b6fd-d174a0163617")
 	)
 	(junction
 		(at 675.64 354.33)
@@ -10401,12 +10524,6 @@
 		(uuid "2894c2f6-5db4-440c-8964-9e9c809cd337")
 	)
 	(junction
-		(at 335.28 400.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2924bfc0-d9c0-4931-90bd-f4ec9fd27e94")
-	)
-	(junction
 		(at 557.53 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10479,7 +10596,7 @@
 		(uuid "395bc1ed-20e6-4d66-9dd7-739c6f24c594")
 	)
 	(junction
-		(at 340.36 414.02)
+		(at 340.36 444.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "398f2f08-5a27-4510-9baf-4a3f4991a73b")
@@ -10587,7 +10704,7 @@
 		(uuid "4a964b22-969a-4f53-8721-4dd2404b33d5")
 	)
 	(junction
-		(at 361.95 438.15)
+		(at 361.95 468.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4af1b606-907b-4bf0-b4c6-674809f395ab")
@@ -10599,7 +10716,7 @@
 		(uuid "4afe29d3-fa58-4389-961c-adfce6e55f6b")
 	)
 	(junction
-		(at 38.1 36.83)
+		(at 44.45 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3d2d7b-ed49-4eb1-b4ec-ad9326b2ee37")
@@ -10695,10 +10812,16 @@
 		(uuid "5eba6fb2-355c-44af-a68e-e85c9c9042de")
 	)
 	(junction
-		(at 308.61 410.21)
+		(at 308.61 440.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60909f5d-c4c2-40bb-b9b3-78679f059a5d")
+	)
+	(junction
+		(at 335.28 426.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60ed60f2-5e82-4869-8bb0-463fdf2c8d39")
 	)
 	(junction
 		(at 222.25 323.85)
@@ -10827,7 +10950,7 @@
 		(uuid "7c74eefa-bd1a-4cba-b0f0-ab65b6c0dbfc")
 	)
 	(junction
-		(at 312.42 402.59)
+		(at 312.42 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d95178e-5648-4527-808a-bd283fa5e811")
@@ -10911,7 +11034,7 @@
 		(uuid "86eac5a1-2db2-4bfd-8754-be5c8b0178a5")
 	)
 	(junction
-		(at 85.09 36.83)
+		(at 90.17 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87596dac-3aeb-4c01-92e3-a9172dbd1a4b")
@@ -10923,10 +11046,22 @@
 		(uuid "87b2dc36-af4c-4f2f-b051-eac484a3ef90")
 	)
 	(junction
+		(at 335.28 424.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a16cb35-2afc-40d6-8174-b4864c939506")
+	)
+	(junction
 		(at 539.75 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a29fdd9-b07b-4e5a-b9b6-e2ce1544fc07")
+	)
+	(junction
+		(at 358.14 426.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac614e4-ca62-485a-9c77-dc005fc21f0c")
 	)
 	(junction
 		(at 34.29 97.79)
@@ -10941,7 +11076,7 @@
 		(uuid "8b1d1d68-8086-42df-95ae-4b0c111528c8")
 	)
 	(junction
-		(at 81.1281 34.29)
+		(at 86.2081 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b21d905-f951-4e2f-9ee2-79601f6e57e8")
@@ -11049,7 +11184,7 @@
 		(uuid "a43a3a54-4145-450e-8777-7591b7e59394")
 	)
 	(junction
-		(at 314.96 402.59)
+		(at 314.96 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43abbb7-7a62-4294-92a4-78a8b91f3dd7")
@@ -11181,13 +11316,13 @@
 		(uuid "be30f873-6010-4a02-a4e6-b73d9bbe0395")
 	)
 	(junction
-		(at 340.36 438.15)
+		(at 340.36 468.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c069dcdf-84e7-4e95-ac8f-ccefff6b9331")
 	)
 	(junction
-		(at 330.2 402.59)
+		(at 330.2 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c09ce457-04f8-4ff9-a22d-917c205cf298")
@@ -11313,6 +11448,12 @@
 		(uuid "d6ae9235-8edd-4bfa-9279-adde98babb4f")
 	)
 	(junction
+		(at 349.25 444.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d85c499a-c3b9-41ec-8fe9-b1f9f15261ac")
+	)
+	(junction
 		(at 321.31 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11361,6 +11502,12 @@
 		(uuid "ddd90fa3-e1f5-4771-8648-6cae6e037118")
 	)
 	(junction
+		(at 335.28 421.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de29d7b5-f865-40fb-8586-bd556612c00c")
+	)
+	(junction
 		(at 579.12 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11403,7 +11550,7 @@
 		(uuid "e60f6f8d-b1ab-4d4d-9569-55ca6f524cff")
 	)
 	(junction
-		(at 335.28 402.59)
+		(at 335.28 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b8e66a-7ab4-4206-ab7e-3afff74a105a")
@@ -11413,6 +11560,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8259465-a5e3-4975-a454-36e0e787d11f")
+	)
+	(junction
+		(at 347.98 411.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb124d72-558c-46c5-a049-52c5fc1b4461")
 	)
 	(junction
 		(at 223.52 406.4)
@@ -11437,6 +11590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed04661e-3c5c-4358-ad28-5748e74705f1")
+	)
+	(junction
+		(at 358.14 433.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eee299a8-fca0-47b6-af5b-d31dc7947966")
 	)
 	(junction
 		(at 91.44 226.06)
@@ -11505,7 +11664,7 @@
 		(uuid "f84f39b4-2d2e-46b7-a609-a2a9243ccb4d")
 	)
 	(junction
-		(at 337.82 438.15)
+		(at 337.82 468.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8bd9274-8007-41ba-8b61-7da17431d140")
@@ -11565,7 +11724,7 @@
 		(uuid "fbf45ffa-8c7b-49bd-89e9-ba3367bb77c5")
 	)
 	(junction
-		(at 36.83 34.29)
+		(at 43.18 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc1da1a1-839c-4cc0-accf-c5862640c702")
@@ -11655,8 +11814,16 @@
 		(uuid "34bb8c43-280a-496d-b23f-e0ec17c8ff55")
 	)
 	(no_connect
+		(at 33.02 41.91)
+		(uuid "496dd4c1-1465-4b39-84fd-925ffd7eb907")
+	)
+	(no_connect
 		(at 532.13 181.61)
 		(uuid "6198ee5e-d0cb-4302-ba2c-5ddd5f4410c2")
+	)
+	(no_connect
+		(at 82.55 41.91)
+		(uuid "6317cfe5-efb4-427c-8de2-af0d80a8b6fd")
 	)
 	(no_connect
 		(at 491.49 207.01)
@@ -11665,6 +11832,10 @@
 	(no_connect
 		(at 367.03 109.22)
 		(uuid "698b7b31-183a-4ef4-b01e-56b6351a7d8d")
+	)
+	(no_connect
+		(at 200.66 434.34)
+		(uuid "7bf621ff-f52a-44f3-8507-bb4ae4d229f0")
 	)
 	(no_connect
 		(at 532.13 232.41)
@@ -11695,7 +11866,11 @@
 		(uuid "9e4f3146-5979-479c-a2b8-ddd4117b2a86")
 	)
 	(no_connect
-		(at 330.2 427.99)
+		(at 386.08 367.03)
+		(uuid "9f8eb60c-4033-4fd6-bd8a-6cb80274d624")
+	)
+	(no_connect
+		(at 330.2 458.47)
 		(uuid "9ff64f0d-1d5a-4c20-ac4d-36846bf72586")
 	)
 	(no_connect
@@ -11852,7 +12027,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 38.1 36.83)
+			(xy 33.02 36.83) (xy 44.45 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11902,7 +12077,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 425.45) (xy 314.96 426.72)
+			(xy 314.96 455.93) (xy 314.96 457.2)
 		)
 		(stroke
 			(width 0)
@@ -12112,7 +12287,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 414.02) (xy 340.36 414.02)
+			(xy 308.61 444.5) (xy 340.36 444.5)
 		)
 		(stroke
 			(width 0)
@@ -12122,7 +12297,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 434.34) (xy 314.96 438.15)
+			(xy 314.96 464.82) (xy 314.96 468.63)
 		)
 		(stroke
 			(width 0)
@@ -12432,6 +12607,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 444.5) (xy 353.06 434.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197117fc-a285-4dd2-acc0-8df856b4a9cf")
+	)
+	(wire
+		(pts
 			(xy 130.81 292.1) (xy 139.7 292.1)
 		)
 		(stroke
@@ -12522,7 +12707,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 36.83) (xy 38.1 39.37)
+			(xy 44.45 36.83) (xy 44.45 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12592,7 +12777,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 402.59) (xy 361.95 402.59)
+			(xy 358.14 433.07) (xy 361.95 433.07)
 		)
 		(stroke
 			(width 0)
@@ -12632,6 +12817,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 441.96) (xy 340.36 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cba932-c257-40f3-aecc-08b0acae2bd6")
+	)
+	(wire
+		(pts
 			(xy 172.72 245.11) (xy 172.72 247.65)
 		)
 		(stroke
@@ -12652,7 +12847,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 36.83) (xy 85.09 36.83)
+			(xy 92.71 36.83) (xy 90.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12922,7 +13117,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 397.51) (xy 335.28 400.05)
+			(xy 335.28 421.64) (xy 335.28 424.18)
 		)
 		(stroke
 			(width 0)
@@ -13082,6 +13277,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 411.48) (xy 335.28 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e62d5c-d90b-4b04-b26b-175fa0a54fe1")
+	)
+	(wire
+		(pts
 			(xy 440.69 322.58) (xy 445.77 322.58)
 		)
 		(stroke
@@ -13092,7 +13297,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 438.15) (xy 337.82 435.61)
+			(xy 337.82 468.63) (xy 337.82 466.09)
 		)
 		(stroke
 			(width 0)
@@ -13422,7 +13627,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 435.61) (xy 340.36 438.15)
+			(xy 340.36 466.09) (xy 340.36 468.63)
 		)
 		(stroke
 			(width 0)
@@ -13439,6 +13644,16 @@
 			(type default)
 		)
 		(uuid "4171dea3-a677-4232-80fc-a9a3c2adce90")
+	)
+	(wire
+		(pts
+			(xy 335.28 426.72) (xy 335.28 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ca0ac0-e0fc-4271-af73-10a0f2b55cc7")
 	)
 	(wire
 		(pts
@@ -13459,6 +13674,16 @@
 			(type default)
 		)
 		(uuid "42755003-c2e8-4aa4-acee-12527216b7d0")
+	)
+	(wire
+		(pts
+			(xy 335.28 424.18) (xy 335.28 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42afa7fc-66e1-4058-a255-5d15fafd38e8")
 	)
 	(wire
 		(pts
@@ -13782,7 +14007,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 402.59) (xy 358.14 402.59)
+			(xy 345.44 426.72) (xy 353.06 426.72)
 		)
 		(stroke
 			(width 0)
@@ -13882,7 +14107,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 402.59) (xy 335.28 402.59)
+			(xy 330.2 433.07) (xy 335.28 433.07)
 		)
 		(stroke
 			(width 0)
@@ -13902,7 +14127,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 449.58) (xy 340.36 453.39)
+			(xy 340.36 480.06) (xy 340.36 483.87)
 		)
 		(stroke
 			(width 0)
@@ -13932,7 +14157,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 34.29) (xy 81.1281 34.29)
+			(xy 82.55 34.29) (xy 86.2081 34.29)
 		)
 		(stroke
 			(width 0)
@@ -14092,7 +14317,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 438.15) (xy 340.36 441.96)
+			(xy 340.36 468.63) (xy 340.36 472.44)
 		)
 		(stroke
 			(width 0)
@@ -14222,6 +14447,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 411.48) (xy 347.98 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cab945e-03c6-42b1-8a57-8efa51ee4d61")
+	)
+	(wire
+		(pts
 			(xy 74.93 307.34) (xy 74.93 309.88)
 		)
 		(stroke
@@ -14242,7 +14477,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.29) (xy 40.64 34.29)
+			(xy 43.18 34.29) (xy 46.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -14272,7 +14507,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 425.45) (xy 314.96 425.45)
+			(xy 303.53 455.93) (xy 314.96 455.93)
 		)
 		(stroke
 			(width 0)
@@ -14332,7 +14567,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 402.59) (xy 314.96 415.29)
+			(xy 314.96 433.07) (xy 314.96 445.77)
 		)
 		(stroke
 			(width 0)
@@ -14362,7 +14597,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 402.59) (xy 303.53 402.59)
+			(xy 300.99 433.07) (xy 303.53 433.07)
 		)
 		(stroke
 			(width 0)
@@ -14372,7 +14607,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 410.21) (xy 308.61 414.02)
+			(xy 308.61 440.69) (xy 308.61 444.5)
 		)
 		(stroke
 			(width 0)
@@ -14412,7 +14647,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 36.83) (xy 85.09 40.64)
+			(xy 90.17 36.83) (xy 90.17 40.64)
 		)
 		(stroke
 			(width 0)
@@ -14442,7 +14677,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 402.59) (xy 358.14 425.45)
+			(xy 358.14 433.07) (xy 358.14 455.93)
 		)
 		(stroke
 			(width 0)
@@ -14479,16 +14714,6 @@
 			(type default)
 		)
 		(uuid "63e51837-663b-4122-be1c-94079128797e")
-	)
-	(wire
-		(pts
-			(xy 335.28 400.05) (xy 335.28 402.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646c49f2-f917-44b6-ae8a-98cd5ddff2ae")
 	)
 	(wire
 		(pts
@@ -14772,7 +14997,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 402.59) (xy 314.96 402.59)
+			(xy 312.42 433.07) (xy 314.96 433.07)
 		)
 		(stroke
 			(width 0)
@@ -14912,7 +15137,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 438.15) (xy 340.36 438.15)
+			(xy 337.82 468.63) (xy 340.36 468.63)
 		)
 		(stroke
 			(width 0)
@@ -14962,7 +15187,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 402.59) (xy 312.42 402.59)
+			(xy 303.53 433.07) (xy 312.42 433.07)
 		)
 		(stroke
 			(width 0)
@@ -15039,6 +15264,16 @@
 			(type default)
 		)
 		(uuid "7db95808-b064-4181-b74a-050446660b52")
+	)
+	(wire
+		(pts
+			(xy 347.98 414.02) (xy 347.98 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de807f8-eaff-40d2-8c5d-1dd0aecb4486")
 	)
 	(wire
 		(pts
@@ -15202,7 +15437,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 31.75) (xy 36.83 34.29)
+			(xy 43.18 31.75) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -15252,7 +15487,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 410.21) (xy 312.42 410.21)
+			(xy 308.61 440.69) (xy 312.42 440.69)
 		)
 		(stroke
 			(width 0)
@@ -15329,6 +15564,16 @@
 			(type default)
 		)
 		(uuid "893cfdf3-5252-426e-b210-f160a5e5b54f")
+	)
+	(wire
+		(pts
+			(xy 349.25 444.5) (xy 353.06 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89754433-93ac-4c8f-a69f-c445ec6e6f4a")
 	)
 	(wire
 		(pts
@@ -15412,7 +15657,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 402.59) (xy 330.2 425.45)
+			(xy 330.2 433.07) (xy 330.2 455.93)
 		)
 		(stroke
 			(width 0)
@@ -15422,7 +15667,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 425.45) (xy 358.14 425.45)
+			(xy 345.44 455.93) (xy 358.14 455.93)
 		)
 		(stroke
 			(width 0)
@@ -15692,7 +15937,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 438.15) (xy 363.22 438.15)
+			(xy 361.95 468.63) (xy 363.22 468.63)
 		)
 		(stroke
 			(width 0)
@@ -15872,7 +16117,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 438.15) (xy 337.82 438.15)
+			(xy 314.96 468.63) (xy 337.82 468.63)
 		)
 		(stroke
 			(width 0)
@@ -16002,23 +16247,13 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 402.59) (xy 335.28 415.29)
+			(xy 335.28 433.07) (xy 335.28 445.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa7ae90e-2419-4227-bf97-8017d82b5597")
-	)
-	(wire
-		(pts
-			(xy 340.36 410.21) (xy 340.36 414.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa83b866-502f-4335-9d79-d2ec3f9b102b")
 	)
 	(wire
 		(pts
@@ -16079,6 +16314,16 @@
 			(type default)
 		)
 		(uuid "ad1ed122-f253-47a6-a4fd-0e26feeea677")
+	)
+	(wire
+		(pts
+			(xy 347.98 411.48) (xy 335.28 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6a9220-b642-4feb-9333-59f4fac77bd6")
 	)
 	(wire
 		(pts
@@ -16272,7 +16517,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 414.02) (xy 340.36 415.29)
+			(xy 340.36 444.5) (xy 340.36 445.77)
 		)
 		(stroke
 			(width 0)
@@ -16299,6 +16544,16 @@
 			(type default)
 		)
 		(uuid "b749e20b-abff-4ca5-9ce2-be914d862846")
+	)
+	(wire
+		(pts
+			(xy 353.06 426.72) (xy 358.14 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7aa5faf-d1c5-40ba-adec-a1e05ee70573")
 	)
 	(wire
 		(pts
@@ -16462,7 +16717,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.1281 34.29) (xy 87.63 34.29)
+			(xy 86.2081 34.29) (xy 92.71 34.29)
 		)
 		(stroke
 			(width 0)
@@ -16492,6 +16747,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 426.72) (xy 358.14 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1489c45-590d-43f9-97c3-e031a9ea0fa5")
+	)
+	(wire
+		(pts
 			(xy 506.73 152.4) (xy 506.73 156.21)
 		)
 		(stroke
@@ -16499,6 +16764,16 @@
 			(type default)
 		)
 		(uuid "c14b00b8-bf31-49e9-a315-969c629675a0")
+	)
+	(wire
+		(pts
+			(xy 353.06 426.72) (xy 353.06 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c178fe67-04ed-477b-984a-924b356a0590")
 	)
 	(wire
 		(pts
@@ -16622,7 +16897,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 414.02) (xy 344.17 414.02)
+			(xy 340.36 444.5) (xy 349.25 444.5)
 		)
 		(stroke
 			(width 0)
@@ -16852,7 +17127,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 36.83) (xy 85.09 36.83)
+			(xy 82.55 36.83) (xy 90.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -16912,7 +17187,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 402.59) (xy 374.65 402.59)
+			(xy 361.95 433.07) (xy 374.65 433.07)
 		)
 		(stroke
 			(width 0)
@@ -16932,7 +17207,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 411.48) (xy 361.95 402.59)
+			(xy 361.95 441.96) (xy 361.95 433.07)
 		)
 		(stroke
 			(width 0)
@@ -17132,7 +17407,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 410.21) (xy 308.61 410.21)
+			(xy 303.53 440.69) (xy 308.61 440.69)
 		)
 		(stroke
 			(width 0)
@@ -17202,7 +17477,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 438.15) (xy 361.95 438.15)
+			(xy 340.36 468.63) (xy 361.95 468.63)
 		)
 		(stroke
 			(width 0)
@@ -17362,7 +17637,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 422.91) (xy 314.96 425.45)
+			(xy 314.96 453.39) (xy 314.96 455.93)
 		)
 		(stroke
 			(width 0)
@@ -17379,6 +17654,16 @@
 			(type default)
 		)
 		(uuid "de05333a-3206-4352-8591-c001fcd513c5")
+	)
+	(wire
+		(pts
+			(xy 358.14 414.02) (xy 358.14 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de985259-20b9-477b-b4f5-d61bc751cb7f")
 	)
 	(wire
 		(pts
@@ -17432,7 +17717,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 419.1) (xy 361.95 438.15)
+			(xy 361.95 449.58) (xy 361.95 468.63)
 		)
 		(stroke
 			(width 0)
@@ -17492,7 +17777,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.1281 31.75) (xy 81.1281 34.29)
+			(xy 86.2081 31.75) (xy 86.2081 34.29)
 		)
 		(stroke
 			(width 0)
@@ -17512,7 +17797,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 36.83) (xy 38.1 36.83)
+			(xy 46.99 36.83) (xy 44.45 36.83)
 		)
 		(stroke
 			(width 0)
@@ -17712,7 +17997,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 34.29) (xy 36.83 34.29)
+			(xy 33.02 34.29) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -17792,7 +18077,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 402.59) (xy 330.2 402.59)
+			(xy 314.96 433.07) (xy 330.2 433.07)
 		)
 		(stroke
 			(width 0)
@@ -19340,7 +19625,7 @@
 	)
 	(global_label "IDout"
 		(shape input)
-		(at 374.65 402.59 0)
+		(at 374.65 433.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19350,7 +19635,7 @@
 		)
 		(uuid "132b3510-4bc8-46b4-a0fe-72342733259c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.5337 402.59 0)
+			(at 382.5337 433.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19436,7 +19721,7 @@
 	)
 	(global_label "IDin"
 		(shape input)
-		(at 300.99 402.59 180)
+		(at 300.99 433.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19446,7 +19731,7 @@
 		)
 		(uuid "1ab59626-a69f-4fd6-a2f5-23babfd42e72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.3762 402.59 0)
+			(at 294.3762 433.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19628,7 +19913,7 @@
 	)
 	(global_label "PACK-"
 		(shape input)
-		(at 193.04 434.34 0)
+		(at 200.66 429.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19638,7 +19923,7 @@
 		)
 		(uuid "2fe20993-4165-42f6-9c49-4e26e4c42d59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.4962 434.34 0)
+			(at 210.1162 429.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19652,7 +19937,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 40.64 36.83 0)
+		(at 46.99 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19662,7 +19947,7 @@
 		)
 		(uuid "35bdc41f-1b4b-4adb-8ba8-09e786085402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5238 36.83 0)
+			(at 54.8738 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21716,7 +22001,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 40.64 34.29 0)
+		(at 46.99 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21726,7 +22011,7 @@
 		)
 		(uuid "bddb5085-7407-48b6-91e3-c469320d9d23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5238 34.29 0)
+			(at 54.8738 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21884,7 +22169,7 @@
 	)
 	(global_label "PWR+"
 		(shape input)
-		(at 87.63 34.29 0)
+		(at 92.71 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21894,7 +22179,7 @@
 		)
 		(uuid "cc6b5b0a-92c5-462f-b781-824bffbda3c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.179 34.29 0)
+			(at 101.259 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22268,7 +22553,7 @@
 	)
 	(global_label "CPACK+"
 		(shape input)
-		(at 193.04 431.8 0)
+		(at 200.66 426.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22278,7 +22563,7 @@
 		)
 		(uuid "deb55bb9-597d-46d2-9f26-c8cf69b94350")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.7662 431.8 0)
+			(at 211.3862 426.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22676,7 +22961,7 @@
 	)
 	(global_label "PWR-"
 		(shape input)
-		(at 87.63 36.83 0)
+		(at 92.71 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22686,7 +22971,7 @@
 		)
 		(uuid "fe874b5d-a788-448d-a5e3-fa447296be3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.179 36.83 0)
+			(at 101.259 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22883,7 +23168,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Filled")
-		(at 314.96 430.53 270)
+		(at 314.96 461.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22894,7 +23179,7 @@
 		(fields_autoplaced yes)
 		(uuid "0127fde1-5ff0-4c92-a69a-dd83d3fb6f74")
 		(property "Reference" "DTVS30"
-			(at 317.5 429.2599 90)
+			(at 317.5 459.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22905,7 +23190,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Filled"
-			(at 317.5 431.7999 90)
+			(at 317.5 462.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22916,7 +23201,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:30V_TVS_Diode"
-			(at 314.96 430.53 0)
+			(at 314.96 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22927,7 +23212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 430.53 0)
+			(at 314.96 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22938,7 +23223,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 314.96 430.53 0)
+			(at 314.96 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23293,7 +23578,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 363.22 438.15 270)
+		(at 363.22 468.63 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -23304,7 +23589,7 @@
 		(dnp no)
 		(uuid "03e7ce9d-117c-4bb2-b3e0-20ce1d5a894c")
 		(property "Reference" "TP58"
-			(at 370.332 431.038 90)
+			(at 370.332 461.518 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23315,7 +23600,7 @@
 			)
 		)
 		(property "Value" "IDVSSTP"
-			(at 370.332 433.578 90)
+			(at 370.332 464.058 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23326,7 +23611,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 363.22 433.07 0)
+			(at 363.22 463.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23337,7 +23622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 433.07 0)
+			(at 363.22 463.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23348,7 +23633,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 363.22 438.15 0)
+			(at 363.22 468.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23372,7 +23657,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 85.09 40.64 0)
+		(at 90.17 40.64 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -23383,7 +23668,7 @@
 		(dnp no)
 		(uuid "05c48c5e-7e57-4948-abe8-eed794e1bfc5")
 		(property "Reference" "#PWR07"
-			(at 85.09 36.83 0)
+			(at 90.17 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23394,7 +23679,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 85.09 45.72 0)
+			(at 90.17 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23404,7 +23689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 40.64 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23415,7 +23700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 40.64 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23426,7 +23711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 85.09 40.64 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23642,7 +23927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 65.7352 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -23692,7 +23977,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 312.42 406.4 90)
+		(at 312.42 436.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23703,7 +23988,7 @@
 		(fields_autoplaced yes)
 		(uuid "07f017a9-9788-4cc5-a526-88856c5eaf3c")
 		(property "Reference" "DD3"
-			(at 314.96 405.1299 90)
+			(at 314.96 435.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23714,7 +23999,7 @@
 			)
 		)
 		(property "Value" "16V"
-			(at 314.96 407.6699 90)
+			(at 314.96 438.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23725,7 +24010,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:16V_Zener"
-			(at 312.42 406.4 0)
+			(at 312.42 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23736,7 +24021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 406.4 0)
+			(at 312.42 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23747,7 +24032,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 312.42 406.4 0)
+			(at 312.42 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24011,7 +24296,7 @@
 	)
 	(symbol
 		(lib_id "BQ76952PFBR:R")
-		(at 303.53 406.4 180)
+		(at 303.53 436.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24022,7 +24307,7 @@
 		(fields_autoplaced yes)
 		(uuid "093e4f88-2b74-4bbf-8a41-3e0a2042be19")
 		(property "Reference" "DR4"
-			(at 306.07 405.1299 0)
+			(at 306.07 435.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24033,7 +24318,7 @@
 			)
 		)
 		(property "Value" "10M"
-			(at 306.07 407.6699 0)
+			(at 306.07 438.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24044,7 +24329,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:10M_R1210"
-			(at 305.308 406.4 90)
+			(at 305.308 436.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24055,7 +24340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 406.4 0)
+			(at 303.53 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24066,7 +24351,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 303.53 406.4 0)
+			(at 303.53 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25742,7 +26027,7 @@
 	)
 	(symbol
 		(lib_id "BQ76952PFBR:R")
-		(at 340.36 445.77 180)
+		(at 340.36 476.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25753,7 +26038,7 @@
 		(fields_autoplaced yes)
 		(uuid "17f60f2a-8865-4bdb-9c29-5e8adeee8b18")
 		(property "Reference" "DR5"
-			(at 342.9 444.4999 0)
+			(at 342.9 474.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25764,7 +26049,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 342.9 447.0399 0)
+			(at 342.9 477.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25775,7 +26060,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:5.1k_R1210"
-			(at 342.138 445.77 90)
+			(at 342.138 476.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25786,7 +26071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 445.77 0)
+			(at 340.36 476.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25797,7 +26082,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 340.36 445.77 0)
+			(at 340.36 476.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25856,7 +26141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:220nF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.2752 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -25899,119 +26184,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "BMSC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad symbols:XT60")
-		(at 73.66 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19421b33-e4a6-4dfa-bb48-29a148841f9f")
-		(property "Reference" "U10"
-			(at 72.39 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60"
-			(at 72.39 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT60"
-			(at 73.66 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
-			(at 73.66 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 73.66 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XT60-M."
-			(at 73.66 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98733"
-			(at 73.66 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98a63fc7-9f28-4917-90e9-c5bf55f32107")
-		)
-		(pin "2"
-			(uuid "b8bdc772-42e9-4b33-a288-00583359b80f")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -26436,6 +26608,238 @@
 		)
 	)
 	(symbol
+		(lib_id "Xt-60PW-M:XT60PW-M")
+		(at 72.39 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20d3ca44-ff07-4a16-848f-96467dab18c6")
+		(property "Reference" "J3"
+			(at 72.39 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 72.39 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:AMASS_XT60PW-M"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket, DC supply, male, PIN: 2"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SH1"
+			(uuid "1e002643-6d9e-4afe-b588-408626961bcd")
+		)
+		(pin "2"
+			(uuid "8d9a7639-6edc-42ab-bf0c-f1b9f4e87a73")
+		)
+		(pin "SH2"
+			(uuid "c8a277cc-97df-4630-b7c4-27bd793628e1")
+		)
+		(pin "1"
+			(uuid "9bd54309-455e-492b-9385-ec035c079f45")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 285.75 0)
 		(unit 1)
@@ -26625,7 +27029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.9852 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -26707,7 +27111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 24.4348 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -27294,8 +27698,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 344.17 414.02 270)
-		(mirror x)
+		(at 349.25 444.5 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27305,7 +27709,7 @@
 		(dnp no)
 		(uuid "29ef4470-7093-42c2-9afa-5c8902e50a2e")
 		(property "Reference" "TP57"
-			(at 351.282 406.908 90)
+			(at 342.9 440.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27316,7 +27720,7 @@
 			)
 		)
 		(property "Value" "IDGTP"
-			(at 351.282 409.448 90)
+			(at 342.9 443.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27327,7 +27731,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 344.17 408.94 0)
+			(at 344.17 444.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27338,7 +27742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 408.94 0)
+			(at 344.17 444.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27349,7 +27753,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 344.17 414.02 0)
+			(at 349.25 444.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30455,7 +30859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.3352 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -30578,119 +30982,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Xout1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad symbols:XT60")
-		(at 189.23 433.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fcafc60-6736-4979-96a5-0e9965cc64ac")
-		(property "Reference" "U11"
-			(at 187.96 424.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60"
-			(at 187.96 426.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT60"
-			(at 189.23 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
-			(at 189.23 421.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 433.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 189.23 419.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XT60-M."
-			(at 189.23 416.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98733"
-			(at 189.23 414.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3be16566-a8ee-4f89-bb7d-38ca35c1aa8c")
-		)
-		(pin "1"
-			(uuid "20191379-1e74-4129-8865-4571da1cc430")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -31745,7 +32036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:220nF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 170.4848 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -31795,7 +32086,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 361.95 415.29 0)
+		(at 361.95 445.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31805,7 +32096,7 @@
 		(dnp no)
 		(uuid "5abe576a-0c08-40e8-afa0-3a72a24b7ee4")
 		(property "Reference" "DC3"
-			(at 368.808 417.83 0)
+			(at 368.808 448.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31815,7 +32106,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 368.808 415.29 0)
+			(at 368.808 445.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31825,7 +32116,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
-			(at 362.9152 419.1 0)
+			(at 362.9152 449.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31836,7 +32127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 415.29 0)
+			(at 361.95 445.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31847,7 +32138,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 361.95 415.29 0)
+			(at 361.95 445.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32038,7 +32329,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:LTC4359-DCB")
-		(at 337.82 425.45 0)
+		(at 337.82 455.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32049,7 +32340,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cbddd94-227f-400b-8590-904504729e6e")
 		(property "Reference" "U7"
-			(at 350.52 419.0298 0)
+			(at 350.52 449.5098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32059,7 +32350,7 @@
 			)
 		)
 		(property "Value" "LTC4359-DCB"
-			(at 350.52 421.5698 0)
+			(at 350.52 452.0498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32069,7 +32360,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
-			(at 344.17 429.26 0)
+			(at 344.17 459.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32081,7 +32372,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4359.pdf"
-			(at 337.82 431.8 0)
+			(at 337.82 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32092,7 +32383,7 @@
 			)
 		)
 		(property "Description" "Ideal diode controller with reverse input protection, DFN-6"
-			(at 337.82 425.45 0)
+			(at 337.82 455.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32127,119 +32418,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad symbols:XT60")
-		(at 382.27 360.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d431e5e-2965-4e1e-8643-bedbda446bb0")
-		(property "Reference" "U12"
-			(at 381 351.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60"
-			(at 381 354.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT60"
-			(at 382.27 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
-			(at 382.27 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 382.27 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 382.27 346.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XT60-M."
-			(at 382.27 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98733"
-			(at 382.27 341.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd5ec68d-87aa-4332-bc7c-012265b9c8ae")
-		)
-		(pin "1"
-			(uuid "17dbb4ad-6ac2-4246-946f-e0afad5f071d")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -32318,6 +32496,238 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Xt-60PW-M:XT60PW-M")
+		(at 375.92 361.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5da7fb42-ff59-4aa3-8d90-1ae0f0982755")
+		(property "Reference" "J4"
+			(at 375.92 374.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 375.92 372.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:AMASS_XT60PW-M"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket, DC supply, male, PIN: 2"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 375.92 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SH1"
+			(uuid "f4f85212-3eed-4727-ae3f-1ba7c1fd188e")
+		)
+		(pin "2"
+			(uuid "202fe243-3068-4c22-a6e4-fa265c8a4082")
+		)
+		(pin "SH2"
+			(uuid "0091a3ef-02ec-4370-86ce-a9ecacd0b4df")
+		)
+		(pin "1"
+			(uuid "c5a6c614-ad2b-4882-af3a-072424ad0e8a")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -32560,7 +32970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:220nF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.6448 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -33159,7 +33569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:220nF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 183.8452 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -33890,7 +34300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:220nF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -34805,6 +35215,238 @@
 		)
 	)
 	(symbol
+		(lib_id "Xt-60PW-M:XT60PW-M")
+		(at 22.86 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77719419-f977-49ac-b207-a5f127ddf4e8")
+		(property "Reference" "J2"
+			(at 22.86 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 22.86 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:AMASS_XT60PW-M"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket, DC supply, male, PIN: 2"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 22.86 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SH1"
+			(uuid "007d7198-472e-4e91-87c4-f923581f67db")
+		)
+		(pin "2"
+			(uuid "83780862-a71c-425d-a0d0-daf1760fce4f")
+		)
+		(pin "SH2"
+			(uuid "78e61aea-67da-4426-8fdb-89a83b3d331b")
+		)
+		(pin "1"
+			(uuid "bb5efe52-3d72-4bdf-8e30-b1e09c5a5ace")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 104.14 91.44 0)
 		(unit 1)
@@ -34878,6 +35520,128 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Xshun1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad symbols:H7534N")
+		(at 353.06 415.29 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7945b2d5-515e-4975-8fae-21b7c0cac84b")
+		(property "Reference" "DFet4"
+			(at 357.632 407.162 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 357.632 409.448 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:NMOS"
+			(at 340.36 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49435644.pdf"
+			(at 337.82 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 353.06 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Huixin(慧芯)"
+			(at 335.28 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "H7534N"
+			(at 332.74 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49435644"
+			(at 330.2 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3099b5b5-195f-462a-b541-6ae40b370c39")
+		)
+		(pin "5"
+			(uuid "862968c8-512c-4970-a920-717fa3634bfd")
+		)
+		(pin "1"
+			(uuid "20743f5d-93a2-4d07-ab36-a0991398d913")
+		)
+		(pin "2"
+			(uuid "2548d87b-7539-4e78-878f-d4e0a1191153")
+		)
+		(pin "4"
+			(uuid "e166c2a7-0d49-422c-9288-42c4a13f91e8")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "DFet4")
 					(unit 1)
 				)
 			)
@@ -37232,6 +37996,88 @@
 	)
 	(symbol
 		(lib_id "BQ76952PFBR:R")
+		(at 353.06 430.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a1bd2a-95cf-4601-ac26-ea1844a1d46d")
+		(property "Reference" "DFetGate4"
+			(at 355.6 429.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 355.6 431.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 354.838 430.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 430.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805W8F100JT5E"
+			(at 353.06 430.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3584c34b-eb8b-463e-b99b-4ef777df9f73")
+		)
+		(pin "2"
+			(uuid "1681b948-4bcc-4310-83fc-38f8bcbfaf5e")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "DFetGate4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76952PFBR:R")
 		(at 299.72 353.06 180)
 		(unit 1)
 		(body_style 1)
@@ -37462,7 +38308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -39035,6 +39881,238 @@
 		)
 	)
 	(symbol
+		(lib_id "Xt-60PW-M:XT60PW-M")
+		(at 190.5 429.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98c8beb1-a902-432f-b5a1-a5012fc76426")
+		(property "Reference" "J6"
+			(at 190.5 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 190.5 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:AMASS_XT60PW-M"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket, DC supply, male, PIN: 2"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 190.5 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "SH1"
+			(uuid "6d3d059e-9b42-4b69-8afe-b1c68f243508")
+		)
+		(pin "2"
+			(uuid "0a01382e-4205-48c5-bb43-a135fbd6655b")
+		)
+		(pin "SH2"
+			(uuid "175ea67b-fdf3-40ed-86c4-b3dac7bed1d7")
+		)
+		(pin "1"
+			(uuid "21297e0c-e66a-42e7-992e-f9896b4b18e0")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 53.34 335.28 0)
 		(mirror y)
@@ -39589,120 +40667,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad symbols:XT60")
-		(at 22.86 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9cc4b35e-738e-43be-927c-04a42ae079dc")
-		(property "Reference" "U3"
-			(at 21.59 27.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60"
-			(at 21.59 30.226 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XT60"
-			(at 22.86 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C98733.pdf"
-			(at 22.86 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 22.86 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XT60-M."
-			(at 22.86 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98733"
-			(at 22.86 16.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d6fccae6-1d59-4805-aa73-09059173b63f")
-		)
-		(pin "2"
-			(uuid "28232f64-d63b-4a8c-bcb6-00a6b824fc8d")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 81.1281 31.75 0)
+		(at 86.2081 31.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -39713,7 +40679,7 @@
 		(dnp no)
 		(uuid "9cc8398e-8ac8-4f4b-8317-d0a06f5107e1")
 		(property "Reference" "TP9"
-			(at 83.6681 29.7181 0)
+			(at 88.7481 29.7181 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39724,7 +40690,7 @@
 			)
 		)
 		(property "Value" "PWRplusTP"
-			(at 83.6681 27.1781 0)
+			(at 88.7481 27.1781 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39735,7 +40701,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 76.0481 31.75 0)
+			(at 81.1281 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39746,7 +40712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.0481 31.75 0)
+			(at 81.1281 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39757,7 +40723,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 81.1281 31.75 0)
+			(at 86.2081 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39781,7 +40747,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Filled")
-		(at 314.96 419.1 270)
+		(at 314.96 449.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39792,7 +40758,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d09e303-0373-4008-98df-b63aff7aeb29")
 		(property "Reference" "DTVS70"
-			(at 317.5 417.8299 90)
+			(at 317.5 448.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39803,7 +40769,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Filled"
-			(at 317.5 420.3699 90)
+			(at 317.5 450.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39814,7 +40780,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:70V_TVS_Diode"
-			(at 314.96 419.1 0)
+			(at 314.96 449.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39825,7 +40791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 419.1 0)
+			(at 314.96 449.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39836,7 +40802,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 314.96 419.1 0)
+			(at 314.96 449.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40122,7 +41088,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 340.36 453.39 180)
+		(at 340.36 483.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40133,7 +41099,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f7e9e95-236d-478e-b171-550146a71dcd")
 		(property "Reference" "#PWR025"
-			(at 340.36 449.58 0)
+			(at 340.36 480.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40144,7 +41110,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 340.36 458.47 0)
+			(at 340.36 488.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40154,7 +41120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 453.39 0)
+			(at 340.36 483.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40165,7 +41131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 453.39 0)
+			(at 340.36 483.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40176,7 +41142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 340.36 453.39 0)
+			(at 340.36 483.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40310,7 +41276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100_330mW_R1210"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.562 195.58 90)
 			(hide yes)
 			(show_name no)
@@ -40391,7 +41357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100_330mW_R1210"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.942 195.58 90)
 			(hide yes)
 			(show_name no)
@@ -40413,7 +41379,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "0402WGF1000TCE"
 			(at 45.72 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -40646,7 +41612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.4248 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -42971,6 +43937,87 @@
 		)
 	)
 	(symbol
+		(lib_id "BQ76952PFBR:R")
+		(at 340.36 438.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bac85df2-9827-44fc-9b12-88d1a7f91983")
+		(property "Reference" "DFetGate3"
+			(at 343.154 433.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 343.154 436.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 342.138 438.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805W8F100JT5E"
+			(at 340.36 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cf9f880-ffad-4a24-800f-67205dfe230c")
+		)
+		(pin "2"
+			(uuid "c7387645-153e-4d1e-8d8d-163f661aa629")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "DFetGate3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 445.77 341.63 0)
 		(mirror y)
@@ -43741,7 +44788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.5048 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -44206,7 +45253,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 303.53 425.45 90)
+		(at 303.53 455.93 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -44217,7 +45264,7 @@
 		(dnp no)
 		(uuid "c7df5013-4c0d-49d0-8873-1be8cd71c48d")
 		(property "Reference" "TP56"
-			(at 296.418 432.562 90)
+			(at 296.418 463.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44228,7 +45275,7 @@
 			)
 		)
 		(property "Value" "IDTVSTP"
-			(at 296.418 430.022 90)
+			(at 296.418 460.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44239,7 +45286,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 303.53 430.53 0)
+			(at 303.53 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44250,7 +45297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 430.53 0)
+			(at 303.53 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44261,7 +45308,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 303.53 425.45 0)
+			(at 303.53 455.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44316,7 +45363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.5752 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -44449,7 +45496,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 38.1 39.37 0)
+		(at 44.45 39.37 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -44460,7 +45507,7 @@
 		(dnp no)
 		(uuid "c90ca8b8-327d-46d1-88c8-57368da74092")
 		(property "Reference" "#PWR02"
-			(at 38.1 35.56 0)
+			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44471,7 +45518,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 38.1 44.45 0)
+			(at 44.45 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44481,7 +45528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 39.37 0)
+			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44492,7 +45539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 39.37 0)
+			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44503,7 +45550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 38.1 39.37 0)
+			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45469,7 +46516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:220nF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 176.2252 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -45680,7 +46727,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 36.83 31.75 0)
+		(at 43.18 31.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -45691,7 +46738,7 @@
 		(dnp no)
 		(uuid "d721321f-0bd2-4d92-a1ec-1b17691539f3")
 		(property "Reference" "TP1"
-			(at 39.37 29.7181 0)
+			(at 45.72 29.7181 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45702,7 +46749,7 @@
 			)
 		)
 		(property "Value" "BATplusTP"
-			(at 39.37 27.1781 0)
+			(at 45.72 27.1781 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45713,7 +46760,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 31.75 31.75 0)
+			(at 38.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45724,7 +46771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 31.75 0)
+			(at 38.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45735,7 +46782,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 36.83 31.75 0)
+			(at 43.18 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47162,7 +48209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.34 173.0248 0)
 			(hide yes)
 			(show_name no)
@@ -47849,7 +48896,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad symbols:H7534N")
-		(at 340.36 403.86 270)
+		(at 340.36 427.99 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -47860,7 +48907,7 @@
 		(dnp no)
 		(uuid "f0bfd3e0-3c24-4223-b49e-69d230542f86")
 		(property "Reference" "DFet3"
-			(at 344.932 395.732 90)
+			(at 344.932 419.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47870,7 +48917,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 344.932 398.018 90)
+			(at 344.932 422.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47880,7 +48927,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:NMOS"
-			(at 327.66 403.86 0)
+			(at 327.66 427.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47891,7 +48938,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49435644.pdf"
-			(at 325.12 403.86 0)
+			(at 325.12 427.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47902,7 +48949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 403.86 0)
+			(at 340.36 427.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47913,7 +48960,7 @@
 			)
 		)
 		(property "Manufacturer" "Huixin(慧芯)"
-			(at 322.58 403.86 0)
+			(at 322.58 427.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47924,7 +48971,7 @@
 			)
 		)
 		(property "MPN" "H7534N"
-			(at 320.04 403.86 0)
+			(at 320.04 427.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47935,7 +48982,7 @@
 			)
 		)
 		(property "LCSC Part" "C49435644"
-			(at 317.5 403.86 0)
+			(at 317.5 427.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

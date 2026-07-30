@@ -9320,7 +9320,7 @@
 	)
 	(rectangle
 		(start 288.29 392.43)
-		(end 435.61 518.16)
+		(end 397.51 499.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -34541,7 +34541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 45.72 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -46114,7 +46114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 53.34 173.99 0)
 			(hide yes)
 			(show_name no)

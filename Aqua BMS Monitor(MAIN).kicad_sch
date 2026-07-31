@@ -13589,16 +13589,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 309.88) (xy 74.93 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34cc7d61-7d09-4ade-b0bb-960397d5fff2")
-	)
-	(wire
-		(pts
 			(xy 91.44 226.06) (xy 97.79 226.06)
 		)
 		(stroke
@@ -14929,6 +14919,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 303.53) (xy 67.31 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cae879-5fc4-4c47-a708-206b9200f4b9")
+	)
+	(wire
+		(pts
 			(xy 133.35 255.27) (xy 138.43 255.27)
 		)
 		(stroke
@@ -14956,16 +14956,6 @@
 			(type default)
 		)
 		(uuid "655c24ce-1670-42f8-ad61-6055a9ce727a")
-	)
-	(wire
-		(pts
-			(xy 26.67 309.88) (xy 33.02 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657cc2d9-eab3-4f29-a87c-b9ca7550a3b5")
 	)
 	(wire
 		(pts
@@ -16649,16 +16639,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 322.58) (xy 43.18 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54b82f2-7518-4a4f-b5fe-7ddaa4024fde")
-	)
-	(wire
-		(pts
 			(xy 53.34 168.91) (xy 53.34 173.99)
 		)
 		(stroke
@@ -16886,6 +16866,16 @@
 			(type default)
 		)
 		(uuid "c0f5c58b-29f7-4713-9e49-338228fe941c")
+	)
+	(wire
+		(pts
+			(xy 67.31 309.88) (xy 74.93 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1128cf8-657b-44e3-97c4-007d8e11b888")
 	)
 	(wire
 		(pts
@@ -17339,6 +17329,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 303.53) (xy 67.31 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d8e292-c553-44f7-a43d-2cf7d6a6b69e")
+	)
+	(wire
+		(pts
 			(xy 361.95 441.96) (xy 361.95 433.07)
 		)
 		(stroke
@@ -17646,6 +17646,16 @@
 			(type default)
 		)
 		(uuid "db9a1f4c-27f2-430f-b742-c04ec113fda2")
+	)
+	(wire
+		(pts
+			(xy 26.67 313.69) (xy 30.48 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcfd4b3-cbff-4fd8-8b59-5e7fb50b6a60")
 	)
 	(wire
 		(pts
@@ -21877,7 +21887,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 26.67 309.88 180)
+		(at 26.67 313.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21887,7 +21897,7 @@
 		)
 		(uuid "ae389512-ae98-460f-adeb-ef4784005f0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.7862 309.88 0)
+			(at 18.7862 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23551,7 +23561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -24781,7 +24791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:5.1k_R1210"
+		(property "Footprint" "easyeda2kicad:5.1k_100mW_R0603"
 			(at 378.46 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -25024,7 +25034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 77.47 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -26661,7 +26671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29952,7 +29962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -32053,7 +32063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100_3W_R2512"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 227.838 90)
 			(hide yes)
 			(show_name no)
@@ -35187,7 +35197,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 82.55 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -35655,7 +35665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100_3W_R2512"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -37565,7 +37575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 166.37 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -38419,7 +38429,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad symbols:SCF9550-45-07")
-		(at 43.18 316.23 90)
+		(at 36.83 313.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38427,10 +38437,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a363d38-d6e3-4b59-88a5-7dbde0052065")
 		(property "Reference" "3TFuse1"
-			(at 43.18 304.8 90)
+			(at 48.26 313.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38440,7 +38449,7 @@
 			)
 		)
 		(property "Value" "SCF9550-45-07"
-			(at 43.18 307.34 90)
+			(at 45.72 313.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38450,7 +38459,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:FUSE-SMD_3P-L9.5-W5.0_SFK-5030X"
-			(at 60.96 316.23 0)
+			(at 36.83 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38461,7 +38470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3667292.pdf"
-			(at 63.5 316.23 0)
+			(at 36.83 334.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38472,7 +38481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 316.23 0)
+			(at 36.83 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38483,7 +38492,7 @@
 			)
 		)
 		(property "Manufacturer" "EATON(伊顿)"
-			(at 66.04 316.23 0)
+			(at 36.83 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38494,7 +38503,7 @@
 			)
 		)
 		(property "MPN" "SCF9550-45-07"
-			(at 68.58 316.23 0)
+			(at 36.83 339.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38505,7 +38514,7 @@
 			)
 		)
 		(property "LCSC Part" "C3667292"
-			(at 71.12 316.23 0)
+			(at 36.83 341.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40017,7 +40026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -40722,7 +40731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.47 uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.4052 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -41794,7 +41803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.4248 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -42352,7 +42361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 59.69 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -43140,7 +43149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100_3W_R2512"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 36.068 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -44236,7 +44245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 44.45 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -45465,7 +45474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -45948,7 +45957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 166.37 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -47887,7 +47896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 45.72 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -48448,7 +48457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 48.26 97.79 0)
 			(hide yes)
 			(show_name no)

@@ -9879,7 +9879,7 @@
 	)
 	(text "Double-check that TVS capacitance won't affect rise-times"
 		(exclude_from_sim no)
-		(at 573.024 247.396 0)
+		(at 572.516 258.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10404,7 +10404,7 @@
 	)
 	(text "Recommended Wideband SMT \nferrites (742792693)"
 		(exclude_from_sim no)
-		(at 581.152 212.598 0)
+		(at 581.152 209.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10966,6 +10966,12 @@
 		(uuid "4afe29d3-fa58-4389-961c-adfce6e55f6b")
 	)
 	(junction
+		(at 593.09 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7c1f2d-da3e-44a4-adf0-cd9cdd573f55")
+	)
+	(junction
 		(at 44.45 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11390,12 +11396,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96fc1bf1-df0f-45fa-9b03-0862123a3c5e")
-	)
-	(junction
-		(at 593.09 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b1e3e93-acdf-49d2-8d71-4b277878bb8c")
 	)
 	(junction
 		(at 511.81 255.27)
@@ -16399,6 +16399,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 229.87) (xy 599.44 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3b200d-aacc-4454-98e5-3d38d1439488")
+	)
+	(wire
+		(pts
 			(xy 473.71 209.55) (xy 473.71 212.09)
 		)
 		(stroke
@@ -16726,16 +16736,6 @@
 			(type default)
 		)
 		(uuid "ba9a14ce-5ea6-4146-82b1-ae2c204a0bc4")
-	)
-	(wire
-		(pts
-			(xy 593.09 222.25) (xy 599.44 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad68be7-39ea-4fc1-8d30-62c537f0563d")
 	)
 	(wire
 		(pts
@@ -17979,7 +17979,7 @@
 	)
 	(wire
 		(pts
-			(xy 581.66 222.25) (xy 593.09 222.25)
+			(xy 581.66 222.25) (xy 599.44 222.25)
 		)
 		(stroke
 			(width 0)
@@ -18199,7 +18199,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 229.87) (xy 599.44 229.87)
+			(xy 576.58 229.87) (xy 593.09 229.87)
 		)
 		(stroke
 			(width 0)
@@ -23312,7 +23312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 663.9052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25914,7 +25914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:4.7uF_C1210"
+		(property "Footprint" "easyeda2kicad:4.7uF_C0402"
 			(at 675.3352 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26001,7 +26001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 482.2952 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -27664,7 +27664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10uF_C0805"
+		(property "Footprint" "easyeda2kicad:10uF_C0603"
 			(at 674.0652 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -27836,7 +27836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
 			(at 138.43 262.5852 0)
 			(hide yes)
 			(show_name no)
@@ -27997,7 +27997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 652.4752 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -28409,7 +28409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:4.7k_R1210"
+		(property "Footprint" "easyeda2kicad:4.7k_R0402"
 			(at 560.832 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -28491,7 +28491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 571.1952 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -28629,7 +28629,7 @@
 	)
 	(symbol
 		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
-		(at 593.09 229.87 90)
+		(at 593.09 237.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28639,7 +28639,7 @@
 		(dnp no)
 		(uuid "3433a469-3421-4071-adc8-863e58e65e20")
 		(property "Reference" "MCUTVS2"
-			(at 592.582 216.662 90)
+			(at 589.788 224.282 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28650,7 +28650,7 @@
 			)
 		)
 		(property "Value" "PTVSUC3D5VB"
-			(at 592.582 219.202 90)
+			(at 589.788 226.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28661,7 +28661,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
-			(at 600.71 229.87 0)
+			(at 600.71 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28672,7 +28672,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
-			(at 603.25 229.87 0)
+			(at 603.25 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28683,7 +28683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 593.09 229.87 0)
+			(at 593.09 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28694,7 +28694,7 @@
 			)
 		)
 		(property "Manufacturer" "Prisemi(芯导)"
-			(at 605.79 229.87 0)
+			(at 605.79 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28705,7 +28705,7 @@
 			)
 		)
 		(property "MPN" "PTVSUC3D5VB"
-			(at 608.33 229.87 0)
+			(at 608.33 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28716,7 +28716,7 @@
 			)
 		)
 		(property "LCSC Part" "C918847"
-			(at 610.87 229.87 0)
+			(at 610.87 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30802,7 +30802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10k_R1206"
+		(property "Footprint" "easyeda2kicad:10k_62.5mW_R0402"
 			(at 459.232 205.74 90)
 			(hide yes)
 			(show_name no)
@@ -31375,7 +31375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:2.2uF_C1210"
+		(property "Footprint" "easyeda2kicad:2.2uF_C0402"
 			(at 483.5652 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -31559,16 +31559,17 @@
 		(dnp no)
 		(uuid "54aa96ad-44e1-4c39-a042-0c4c36eed575")
 		(property "Reference" "FB1"
-			(at 573.278 217.17 90)
+			(at 574.548 214.122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2.2k"
 			(at 574.548 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31818,7 +31819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 590.2452 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -31905,7 +31906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10uF_C0805"
+		(property "Footprint" "easyeda2kicad:10uF_C0603"
 			(at 656.2852 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -32303,7 +32304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:47nF_C0603"
 			(at 362.9152 449.58 0)
 			(hide yes)
 			(show_name no)
@@ -33643,6 +33644,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 440.69 347.98 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33650,10 +33652,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65dec647-3005-4acf-a64e-05d14af80260")
 		(property "Reference" "C71"
-			(at 444.5 346.7099 0)
+			(at 436.88 346.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33664,7 +33665,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 444.5 349.2499 0)
+			(at 436.88 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33674,8 +33675,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
-			(at 441.6552 351.79 0)
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
+			(at 439.7248 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34158,7 +34159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 530.5552 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34647,7 +34648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
 			(at 441.6552 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -36263,7 +36264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
 			(at 186.3852 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -36662,7 +36663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100k_R1210"
+		(property "Footprint" "easyeda2kicad:100k_R0402"
 			(at 535.94 213.868 90)
 			(hide yes)
 			(show_name no)
@@ -36824,7 +36825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 641.0452 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -36912,7 +36913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:4.7k_R1210"
+		(property "Footprint" "easyeda2kicad:4.7k_R0402"
 			(at 550.672 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -36993,7 +36994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 665.1752 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -37321,7 +37322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 561.0352 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -38137,7 +38138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
 			(at 441.6552 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -39299,7 +39300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 540.7152 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -39467,7 +39468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 600.4052 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -42274,7 +42275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 519.1252 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -43313,7 +43314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 610.5652 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -43999,7 +44000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 580.0852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -44324,7 +44325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:100k_R1210"
+		(property "Footprint" "easyeda2kicad:100k_R0402"
 			(at 459.232 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -45553,7 +45554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:2.2uF_C1210"
+		(property "Footprint" "easyeda2kicad:2.2uF_C0402"
 			(at 470.8652 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -46851,7 +46852,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 593.09 237.49 180)
+		(at 593.09 245.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -46862,7 +46863,7 @@
 		(fields_autoplaced yes)
 		(uuid "da22c71d-b1b0-45ac-bfaf-f88dfec62d1c")
 		(property "Reference" "#PWR029"
-			(at 593.09 233.68 0)
+			(at 593.09 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46873,7 +46874,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 593.09 242.57 0)
+			(at 593.09 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46883,7 +46884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 593.09 237.49 0)
+			(at 593.09 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46894,7 +46895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 593.09 237.49 0)
+			(at 593.09 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46905,7 +46906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 593.09 237.49 0)
+			(at 593.09 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47044,7 +47045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 550.8752 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -47212,7 +47213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
 			(at 138.43 256.2352 0)
 			(hide yes)
 			(show_name no)
@@ -48053,7 +48054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10k_R1206"
+		(property "Footprint" "easyeda2kicad:10k_62.5mW_R0402"
 			(at 479.552 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -48214,7 +48215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1uF_C1210"
+		(property "Footprint" "easyeda2kicad:1uF_C0402"
 			(at 676.6052 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -48896,7 +48897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 620.7252 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -49063,7 +49064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "easyeda2kicad:100nF_C0402"
 			(at 630.8852 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -49129,7 +49130,7 @@
 		(dnp no)
 		(uuid "f8179f92-f56e-4bc7-a781-bec61cc16e24")
 		(property "Reference" "FB2"
-			(at 572.008 234.696 90)
+			(at 572.008 236.728 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49138,7 +49139,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2.2k"
 			(at 572.516 234.188 90)
 			(show_name no)
 			(do_not_autoplace no)

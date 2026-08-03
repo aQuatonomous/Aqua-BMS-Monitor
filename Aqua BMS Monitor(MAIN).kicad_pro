@@ -523,7 +523,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "Aqua BMS Monitor(MAIN).net",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -810,7 +810,7 @@
         "uuid": "d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
       }
     ],
-    "used_designators": "DFet4,J2-4,J6,DFetGate5,SWShunt5,DR6,LDR1,U8,S1",
+    "used_designators": "DFet4,J2-4,J6,LDR1,DFetGate5,SWShunt5,DR6,U8,S1",
     "variants": []
   },
   "sheets": [

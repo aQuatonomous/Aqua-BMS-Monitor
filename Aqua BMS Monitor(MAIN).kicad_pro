@@ -506,7 +506,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.1905,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -523,7 +523,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "Aqua BMS Monitor(MAIN).net",
+      "netlist": "",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -810,7 +810,7 @@
         "uuid": "d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
       }
     ],
-    "used_designators": "DFet4,J2-4,J6,LDR1,DFetGate5,SWShunt5,DR6,U8,S1",
+    "used_designators": "D1-2,better1,Sw1,BQ296115DSGR2,DFet4,J2-4,J6,U8,DFetGate5,LDR1,SWShunt5,DR6,S1-6",
     "variants": []
   },
   "sheets": [

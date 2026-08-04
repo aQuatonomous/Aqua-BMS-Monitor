@@ -610,6 +610,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BMS_SymbolLib:Trying_1101A2CQEA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "better"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Trying_1101A2CQEA_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Trying_1101A2CQEA_1_1"
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "On"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "Comm"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "Off"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BQ76952PFBR:BQ76952PFBR"
 			(pin_names
 				(offset 1.016)
@@ -2468,184 +2598,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS_Filled"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS_Filled"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_Filled_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_TVS_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -3513,6 +3465,678 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMF30A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF30A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 30Vrwm, SMF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMF30A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF30A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMF7V0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF7V0A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 7Vrwm, SMF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMF7V0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF7V0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EG1218:EG1218"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -5.08 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EG1218"
+				(at -5.08 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EG1218:SW_EG1218"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On, Through Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EG1218"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13895&manufacturer=E-Switch&part_name=EG1218&search_term=None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "AVAILABILITY" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EG1218_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -5.08)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy -1.27 1.905) (xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 -0.635) (xy 0 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -1.27 -3.175) (xy 0 -2.54) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635)
+						(xy 0.635 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -10124,7 +10748,7 @@
 	)
 	(text "PBat - voltage divider"
 		(exclude_from_sim no)
-		(at 229.108 48.006 0)
+		(at 235.458 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10594,6 +11218,12 @@
 		(uuid "0c11147c-450f-45ed-8af4-ccf8ce391d5a")
 	)
 	(junction
+		(at 237.49 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c346730-aaff-42f8-a063-9de394ea65c6")
+	)
+	(junction
 		(at 314.96 455.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10660,12 +11290,6 @@
 		(uuid "13e82227-3454-4a7d-9ef7-2e1fd10c9ae1")
 	)
 	(junction
-		(at 353.06 426.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13ee7750-f384-47b5-b6fd-d174a0163617")
-	)
-	(junction
 		(at 675.64 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10694,6 +11318,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "161af0b3-d1bb-4f44-99d1-594902f76f91")
+	)
+	(junction
+		(at 222.25 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "174b35d4-b38a-4da8-80a9-7988d2b538b6")
 	)
 	(junction
 		(at 299.72 342.9)
@@ -10742,12 +11372,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2359d12a-7d4c-463a-9a17-9ef1612e92a1")
-	)
-	(junction
-		(at 222.25 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2401fdf5-0206-435a-9380-5d8e89cde1f5")
 	)
 	(junction
 		(at 321.31 132.08)
@@ -10802,6 +11426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c889fab-12f6-4614-b193-4ba3552543a6")
+	)
+	(junction
+		(at 237.49 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa34422-9577-4d03-8b11-cee0673fb9b0")
 	)
 	(junction
 		(at 149.86 240.03)
@@ -10900,6 +11530,12 @@
 		(uuid "3f6c1620-0743-4ac7-99d0-821137ae5ae9")
 	)
 	(junction
+		(at 237.49 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "405aeef0-1e29-447b-a139-8359f71f2c40")
+	)
+	(junction
 		(at 398.78 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10940,6 +11576,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48705e9f-adb2-49fb-b856-f8e4487935ed")
+	)
+	(junction
+		(at 237.49 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495c45f2-98f2-4b59-8629-becefa2b87f6")
 	)
 	(junction
 		(at 321.31 157.48)
@@ -11222,6 +11864,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7da3c6d8-a499-42ad-bb8b-7e7e48435942")
+	)
+	(junction
+		(at 226.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df89f65-32e9-45c7-8c0e-d0bddfbbca49")
 	)
 	(junction
 		(at 638.81 354.33)
@@ -11890,6 +12538,12 @@
 		(uuid "f26fcafd-4113-4ae1-bd84-1a1434992e8e")
 	)
 	(junction
+		(at 237.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ad2e78-eef3-4173-a75e-5990a1beee43")
+	)
+	(junction
 		(at 502.92 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12229,6 +12883,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 100.33) (xy 237.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01527861-87ae-4497-8d38-4c7480702974")
+	)
+	(wire
+		(pts
 			(xy 104.14 102.87) (xy 118.11 102.87)
 		)
 		(stroke
@@ -12499,7 +13163,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 111.76) (xy 229.87 111.76)
+			(xy 218.44 111.76) (xy 232.41 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12606,16 +13270,6 @@
 			(type default)
 		)
 		(uuid "0ee60298-9714-48ae-86c1-c83fab33a52a")
-	)
-	(wire
-		(pts
-			(xy 240.03 87.63) (xy 247.65 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f36df71-6b52-437c-8fb3-f1047172557c")
 	)
 	(wire
 		(pts
@@ -12859,7 +13513,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 444.5) (xy 353.06 434.34)
+			(xy 353.06 444.5) (xy 353.06 439.42)
 		)
 		(stroke
 			(width 0)
@@ -12896,6 +13550,16 @@
 			(type default)
 		)
 		(uuid "1b3ec0cd-a4a9-4598-b447-e6136cacc26c")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b40034a-53e6-4e5d-8bb6-0ece7150a686")
 	)
 	(wire
 		(pts
@@ -12996,6 +13660,16 @@
 			(type default)
 		)
 		(uuid "2007a674-090c-4527-b91b-fe2b4753b571")
+	)
+	(wire
+		(pts
+			(xy 226.06 59.69) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200cbd2f-3ece-4dac-b0f7-3819ee4ec87c")
 	)
 	(wire
 		(pts
@@ -13309,6 +13983,26 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 132.08) (xy 247.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297a1afa-5081-43c5-bd93-93fbaed3771d")
+	)
+	(wire
+		(pts
+			(xy 224.79 55.88) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2984f0ea-c158-4a37-84d5-4b13eeec3b2c")
+	)
+	(wire
+		(pts
 			(xy 172.72 81.28) (xy 194.31 81.28)
 		)
 		(stroke
@@ -13346,6 +14040,16 @@
 			(type default)
 		)
 		(uuid "2b39941f-f317-44c8-a0f9-c8800cbb8e7b")
+	)
+	(wire
+		(pts
+			(xy 237.49 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb92106-1aab-4dcb-98c8-807bf78ac0be")
 	)
 	(wire
 		(pts
@@ -13446,6 +14150,16 @@
 			(type default)
 		)
 		(uuid "2dc702c7-a166-4ef7-aea0-6fb89de6bc85")
+	)
+	(wire
+		(pts
+			(xy 234.95 87.63) (xy 237.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b18b04-0591-4387-9536-53113cca3f33")
 	)
 	(wire
 		(pts
@@ -13929,6 +14643,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438a7b01-cdef-450a-bfa5-89c628b76c83")
+	)
+	(wire
+		(pts
 			(xy 668.02 266.7) (xy 665.48 266.7)
 		)
 		(stroke
@@ -14149,7 +14873,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 87.63) (xy 229.87 87.63)
+			(xy 233.68 59.69) (xy 226.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3937e8-7277-46ba-b89a-b6fe5ff22ce1")
+	)
+	(wire
+		(pts
+			(xy 222.25 87.63) (xy 232.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -14179,7 +14913,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 100.33) (xy 229.87 100.33)
+			(xy 218.44 100.33) (xy 232.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -14246,16 +14980,6 @@
 			(type default)
 		)
 		(uuid "4de29dd4-b5a4-431c-a61b-4bc19f053ab1")
-	)
-	(wire
-		(pts
-			(xy 345.44 426.72) (xy 353.06 426.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1ee686-a743-4832-aef1-a973d6fd4ea0")
 	)
 	(wire
 		(pts
@@ -15139,6 +15863,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 132.08) (xy 237.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e92de29-5433-4786-be63-43fd590a3492")
+	)
+	(wire
+		(pts
 			(xy 146.05 261.62) (xy 156.21 261.62)
 		)
 		(stroke
@@ -15336,6 +16070,16 @@
 			(type default)
 		)
 		(uuid "7870ba7a-1b8f-4215-b3af-d5ce0961020a")
+	)
+	(wire
+		(pts
+			(xy 234.95 121.92) (xy 237.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7968733d-d761-424b-b348-edd1db0c8aaa")
 	)
 	(wire
 		(pts
@@ -15599,16 +16343,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 111.76) (xy 247.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828579e6-070c-42b7-9c28-0db549f9f16b")
-	)
-	(wire
-		(pts
 			(xy 532.13 224.79) (xy 541.02 224.79)
 		)
 		(stroke
@@ -15676,6 +16410,16 @@
 			(type default)
 		)
 		(uuid "85656304-127c-4ddf-90d7-a8a051924397")
+	)
+	(wire
+		(pts
+			(xy 353.06 421.64) (xy 353.06 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857f40fd-f5dd-4fff-9011-45579f289d45")
 	)
 	(wire
 		(pts
@@ -15939,26 +16683,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 270.51) (xy 234.95 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9082a1f3-5406-4ff2-8c9c-bb3b45c31ad9")
-	)
-	(wire
-		(pts
-			(xy 240.03 100.33) (xy 247.65 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f919b0-48ea-40af-acf7-c7be37b52e57")
-	)
-	(wire
-		(pts
 			(xy 172.72 223.52) (xy 168.91 223.52)
 		)
 		(stroke
@@ -15986,6 +16710,16 @@
 			(type default)
 		)
 		(uuid "93d828c8-8839-499d-8640-3d2cb08fa7a7")
+	)
+	(wire
+		(pts
+			(xy 237.49 87.63) (xy 247.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93dea965-b3df-4ad4-968a-c6624d889f10")
 	)
 	(wire
 		(pts
@@ -16699,7 +17433,17 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 426.72) (xy 358.14 426.72)
+			(xy 237.49 121.92) (xy 247.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b765ac0f-c856-4b68-9360-d34b6968d28c")
+	)
+	(wire
+		(pts
+			(xy 345.44 426.72) (xy 358.14 426.72)
 		)
 		(stroke
 			(width 0)
@@ -16919,16 +17663,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 426.72) (xy 353.06 421.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c178fe67-04ed-477b-984a-924b356a0590")
-	)
-	(wire
-		(pts
 			(xy 226.06 341.63) (xy 234.95 341.63)
 		)
 		(stroke
@@ -17026,16 +17760,6 @@
 			(type default)
 		)
 		(uuid "c478306b-1ecc-4eb1-b665-79f8c329d96e")
-	)
-	(wire
-		(pts
-			(xy 234.95 279.4) (xy 234.95 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b43773-bad8-4c7b-9286-86f747abff5d")
 	)
 	(wire
 		(pts
@@ -17469,7 +18193,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 121.92) (xy 229.87 121.92)
+			(xy 218.44 121.92) (xy 232.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -17589,16 +18313,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 121.92) (xy 247.65 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9794145-9f8a-4b1a-89db-cae5ed0301af")
-	)
-	(wire
-		(pts
 			(xy 340.36 468.63) (xy 361.95 468.63)
 		)
 		(stroke
@@ -17616,16 +18330,6 @@
 			(type default)
 		)
 		(uuid "da05fdb9-ad41-406c-aef6-9c953d69714a")
-	)
-	(wire
-		(pts
-			(xy 240.03 132.08) (xy 247.65 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa853e5-0c56-4159-85f1-8266b4540517")
 	)
 	(wire
 		(pts
@@ -18089,6 +18793,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 111.76) (xy 237.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a23493-918b-4004-959a-759f33c904f5")
+	)
+	(wire
+		(pts
 			(xy 128.27 168.91) (xy 128.27 171.45)
 		)
 		(stroke
@@ -18329,7 +19043,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 132.08) (xy 218.44 132.08)
+			(xy 218.44 132.08) (xy 232.41 132.08)
 		)
 		(stroke
 			(width 0)
@@ -19461,30 +20175,6 @@
 			)
 		)
 	)
-	(global_label "REG1"
-		(shape input)
-		(at 234.95 262.89 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0835dd31-327e-4e15-9f9b-306bef309c38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 255.0063 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB_D+"
 		(shape output)
 		(at 539.75 194.31 0)
@@ -20327,7 +21017,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 219.71 59.69 180)
+		(at 224.79 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20337,7 +21027,7 @@
 		)
 		(uuid "4bcf583e-74b8-44d5-97e5-ed5b35f8816a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.8262 59.69 0)
+			(at 216.9062 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21839,7 +22529,7 @@
 	)
 	(global_label "PWR+"
 		(shape input)
-		(at 229.87 59.69 0)
+		(at 241.3 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21849,7 +22539,7 @@
 		)
 		(uuid "aba5e57f-a7ec-456b-809c-915008fa657f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.419 59.69 0)
+			(at 249.849 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22941,7 +23631,7 @@
 			)
 		)
 	)
-	(global_label "BAT"
+	(global_label "PWR+"
 		(shape input)
 		(at 269.24 262.89 90)
 		(fields_autoplaced yes)
@@ -22953,7 +23643,7 @@
 		)
 		(uuid "fd9f17a2-0a48-41a3-8486-055169ddfb08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 256.5786 90)
+			(at 269.24 254.341 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23069,7 +23759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1k_R1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 352.298 90)
 			(hide yes)
 			(show_name no)
@@ -23191,88 +23881,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 314.96 461.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0127fde1-5ff0-4c92-a69a-dd83d3fb6f74")
-		(property "Reference" "DTVS30"
-			(at 317.5 459.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 317.5 462.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:30V_TVS_Diode"
-			(at 314.96 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 314.96 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b7ace791-bb6e-487a-92f3-1233c34430bd")
-		)
-		(pin "1"
-			(uuid "07a6d808-08f0-4d81-9274-d109918eef53")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "DTVS30")
 					(unit 1)
 				)
 			)
@@ -23640,7 +24248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 363.22 463.55 0)
 			(hide yes)
 			(show_name no)
@@ -24276,7 +24884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.1552 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -24358,7 +24966,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10M_R1210"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 305.308 436.88 90)
 			(hide yes)
 			(show_name no)
@@ -24480,86 +25088,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Rshunt2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 234.95 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b21db4c-319c-4589-9b30-02644cb01ffa")
-		(property "Reference" "SWShunt2"
-			(at 234.95 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 234.95 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
-			(at 234.95 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4ecd5f6-b2a1-44cc-9e09-8ef5a2b37675")
-		)
-		(pin "2"
-			(uuid "546c4ba6-ea5f-46cc-91c5-fe40ac61df26")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SWShunt2")
 					(unit 1)
 				)
 			)
@@ -24915,86 +25443,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "OSCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 234.95 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1017b160-d531-42c9-9a6b-48b4f20408ba")
-		(property "Reference" "SWShunt1"
-			(at 234.95 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 234.95 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
-			(at 234.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aea2a992-99fd-46ff-a451-57a39efebd52")
-		)
-		(pin "2"
-			(uuid "a3951c41-9867-4a09-bf6a-969cee75a0f2")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SWShunt1")
 					(unit 1)
 				)
 			)
@@ -26220,6 +26668,237 @@
 		)
 	)
 	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 234.95 106.68 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19734c1e-276c-4344-b0d6-46db866480a4")
+		(property "Reference" "S4"
+			(at 236.2201 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 233.6801 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:SW_EG1218"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On, Through Hole"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13895&manufacturer=E-Switch&part_name=EG1218&search_term=None"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 234.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d3eb02a9-c1c1-4735-99d9-af1e16d0899a")
+		)
+		(pin "2"
+			(uuid "1797b4cd-c79b-498b-8f9f-82683cc53e2c")
+		)
+		(pin "3"
+			(uuid "5fdce68a-8379-477b-8e3d-9884a5031de3")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BQ76952PFBR:R")
 		(at 228.6 422.91 180)
 		(unit 1)
@@ -26379,6 +27058,237 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 234.95 116.84 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1de32786-b27b-402f-a2a8-58b4ef7e95db")
+		(property "Reference" "S5"
+			(at 236.2201 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 233.6801 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:SW_EG1218"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On, Through Hole"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13895&manufacturer=E-Switch&part_name=EG1218&search_term=None"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 234.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3878bda8-5d2a-4b52-b33e-1164de68106f")
+		)
+		(pin "2"
+			(uuid "58ddb458-2609-49a2-9825-9a6c1bcdd60a")
+		)
+		(pin "3"
+			(uuid "7a541cff-1295-4911-91b8-64e7561ba82a")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -27918,7 +28828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 344.17 444.5 0)
 			(hide yes)
 			(show_name no)
@@ -28164,7 +29074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.08 359.1052 0)
 			(hide yes)
 			(show_name no)
@@ -28774,7 +29684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 58.42 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -29102,86 +30012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 234.95 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "365e19e1-e270-4bd2-bc48-0d10d0dfdc0a")
-		(property "Reference" "SWShunt4"
-			(at 234.95 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 234.95 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
-			(at 234.95 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1029e880-2b86-4c3e-9b05-aeb35a0bc1a5")
-		)
-		(pin "2"
-			(uuid "38c27029-2b0b-49c9-b315-036be23736b1")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SWShunt4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 299.72 238.76 90)
 		(unit 1)
@@ -29269,6 +30099,237 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 234.95 127 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36b71eb5-905d-482e-89fa-09f13dcc8a5e")
+		(property "Reference" "S6"
+			(at 236.2201 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 233.6801 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:SW_EG1218"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On, Through Hole"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13895&manufacturer=E-Switch&part_name=EG1218&search_term=None"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ecbe5ae9-dc11-439f-844a-d39db964243d")
+		)
+		(pin "2"
+			(uuid "43e2a59d-611d-4a22-aa72-7b8b59fd742a")
+		)
+		(pin "3"
+			(uuid "883101fe-13aa-4e5b-b842-090895b522bb")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -29713,7 +30774,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DpackTP"
+		(property "Value" "ChGpackTP"
 			(at 239.268 410.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29724,7 +30785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 233.68 410.21 0)
 			(hide yes)
 			(show_name no)
@@ -30038,7 +31099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.1552 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -30439,7 +31500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.81 291.1348 0)
 			(hide yes)
 			(show_name no)
@@ -31955,6 +33016,236 @@
 		)
 	)
 	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 234.95 82.55 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58374909-9b0e-4a14-93db-063aee875880")
+		(property "Reference" "S2"
+			(at 236.2201 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 233.6801 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:SW_EG1218"
+			(at 234.95 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On, Through Hole"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13895&manufacturer=E-Switch&part_name=EG1218&search_term=None"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 234.95 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a0ce0c1b-79e8-4967-8892-fd50052f0434")
+		)
+		(pin "2"
+			(uuid "7ba2dc7f-115e-448f-bd4c-80bb89eedf48")
+		)
+		(pin "3"
+			(uuid "68f88fe7-6877-49be-9625-cf1bd16e099d")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 157.48 232.41 0)
 		(mirror y)
@@ -32386,7 +33677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10M_R1210"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.668 314.96 90)
 			(hide yes)
 			(show_name no)
@@ -33500,7 +34791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:20k_R1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.198 335.28 90)
 			(hide yes)
 			(show_name no)
@@ -33522,7 +34813,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor_0603"
 			(at 58.42 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -33543,99 +34834,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "FR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 234.95 275.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "654c3c67-132c-43f2-bdd6-2bb535390c8d")
-		(property "Reference" "LED4"
-			(at 238.76 275.9074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "XZCM2CRK53WA-8VF"
-			(at 238.76 278.4474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED0805-RD"
-			(at 234.95 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 234.95 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 234.95 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1911ad9-1384-4a44-a1cf-462600c13867")
-		)
-		(pin "2"
-			(uuid "84e841b7-297a-4600-9fd1-0889f34eaaa2")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -33961,86 +35159,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "DRgate1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 234.95 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69725bf7-c005-45e1-bf78-5212bb402de6")
-		(property "Reference" "SWShunt3"
-			(at 234.95 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 234.95 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
-			(at 234.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1f19d0d-7572-47fb-a7b9-1e3b70575916")
-		)
-		(pin "2"
-			(uuid "c95d9262-cde8-40d0-8ae3-c3730fc3e1bc")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SWShunt3")
 					(unit 1)
 				)
 			)
@@ -35275,7 +36393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 359.1052 0)
 			(hide yes)
 			(show_name no)
@@ -36026,7 +37144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10k_R1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 346.71 90)
 			(hide yes)
 			(show_name no)
@@ -36313,6 +37431,237 @@
 		)
 	)
 	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 234.95 95.25 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7dbf446c-3dc7-4975-bfe9-a78bd6792032")
+		(property "Reference" "S3"
+			(at 236.2201 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 233.6801 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:SW_EG1218"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 200mA, 30VDC SPDT, On-On, Through Hole"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13895&manufacturer=E-Switch&part_name=EG1218&search_term=None"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 234.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "216e77cf-38e0-479d-bd4d-94f8b16a4854")
+		)
+		(pin "2"
+			(uuid "ee94a127-a44d-4af8-98d7-05bedbcd248e")
+		)
+		(pin "3"
+			(uuid "75bca35e-7a38-43b9-9063-08d87a9f19e3")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 655.32 330.2 90)
 		(unit 1)
@@ -36583,7 +37932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 291.1348 0)
 			(hide yes)
 			(show_name no)
@@ -37043,84 +38392,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "MCUC17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 234.95 281.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "820345c7-c63a-4122-a99a-7cbc24dad874")
-		(property "Reference" "#PWR017"
-			(at 234.95 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 234.95 287.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 234.95 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4bb3cb4-ecbf-44b1-9f12-a5d3a1b27b66")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -37622,88 +38893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BQ76952PFBR:R")
-		(at 234.95 266.7 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8538b6af-44ca-4b3e-91f3-4065a76582df")
-		(property "Reference" "LEDR4"
-			(at 237.49 265.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 237.49 267.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:1k_R1206"
-			(at 236.728 266.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 234.95 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e744af79-3e39-4395-8da6-cd65f3ae8aba")
-		)
-		(pin "2"
-			(uuid "b07e6b29-ca7f-4e2d-bb72-6c65fdd88328")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "LEDR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 668.02 283.21 180)
 		(unit 1)
@@ -37815,7 +39004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 340.0552 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -38266,7 +39455,7 @@
 	)
 	(symbol
 		(lib_id "BQ76952PFBR:R")
-		(at 353.06 430.53 180)
+		(at 353.06 435.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38277,7 +39466,7 @@
 		(fields_autoplaced yes)
 		(uuid "89a1bd2a-95cf-4601-ac26-ea1844a1d46d")
 		(property "Reference" "DFetGate4"
-			(at 355.6 429.2599 0)
+			(at 355.6 434.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38288,7 +39477,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 355.6 431.7999 0)
+			(at 355.6 436.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38298,8 +39487,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 354.838 430.53 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 354.838 435.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38310,7 +39499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 430.53 0)
+			(at 353.06 435.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38321,7 +39510,7 @@
 			)
 		)
 		(property "Description" "0805W8F100JT5E"
-			(at 353.06 430.53 0)
+			(at 353.06 435.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38380,7 +39569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10k_R1206"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 301.498 353.06 90)
 			(hide yes)
 			(show_name no)
@@ -38659,7 +39848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10M_R1210"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.108 346.71 90)
 			(hide yes)
 			(show_name no)
@@ -39349,86 +40538,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "MCUC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 224.79 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "956cf44d-30fd-49fe-8bc0-0739f2a6ff06")
-		(property "Reference" "PWRtoBAT1"
-			(at 224.79 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 224.79 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
-			(at 224.79 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99019d29-e70a-4dfe-98e0-1caeba78e308")
-		)
-		(pin "2"
-			(uuid "d505ca85-32ba-4ac5-8072-7aab793c1111")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "PWRtoBAT1")
 					(unit 1)
 				)
 			)
@@ -40336,7 +41445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 52.3748 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -40932,88 +42041,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 314.96 449.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d09e303-0373-4008-98df-b63aff7aeb29")
-		(property "Reference" "DTVS70"
-			(at 317.5 448.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_TVS_Filled"
-			(at 317.5 450.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:70V_TVS_Diode"
-			(at 314.96 449.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 449.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 314.96 449.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3e8ff008-55b5-4e5a-b834-d24619adf4d9")
-		)
-		(pin "1"
-			(uuid "f6763df9-6fad-429c-bdbb-fe7937bb1ea6")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "DTVS70")
 					(unit 1)
 				)
 			)
@@ -42408,8 +43435,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 234.95 132.08 0)
+		(lib_id "Diode:SMF30A")
+		(at 314.96 461.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42418,29 +43445,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abda822e-b532-4b43-a775-d2b2ca097c42")
-		(property "Reference" "SWShunt5"
-			(at 234.95 124.46 0)
+		(uuid "ac02dfb3-251d-4ec1-b5f6-4cea4c0c7e2a")
+		(property "Reference" "D2"
+			(at 317.5 459.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 234.95 127 0)
+		(property "Value" "SMF30A"
+			(at 317.5 462.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SW_Push_YZA-009"
-			(at 234.95 127 0)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 320.04 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42450,8 +43479,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 234.95 127 0)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 314.96 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42461,8 +43490,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 132.08 0)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 30Vrwm, SMF"
+			(at 314.96 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42471,17 +43500,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "00277217-1553-4395-9f24-1da83fa760a5")
 		)
 		(pin "2"
-			(uuid "fbc340e8-827a-4293-acf5-36df78f9b965")
+			(uuid "8bee9055-0a1e-466e-97c8-6e2077ec22c7")
+		)
+		(pin "1"
+			(uuid "44e2ba48-b761-4f0b-a1a6-dcedd98ca0a6")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "SWShunt5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -42518,7 +43547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:0.1uF_C1210"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 340.0552 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -43839,7 +44868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 342.138 438.15 90)
 			(hide yes)
 			(show_name no)
@@ -44169,7 +45198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 127 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -44785,6 +45814,89 @@
 		)
 	)
 	(symbol
+		(lib_id "BMS_SymbolLib:Trying_1101A2CQEA")
+		(at 233.68 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5de7ba7-6123-4988-969a-cdea357c5115")
+		(property "Reference" "better1"
+			(at 234.95 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 233.68 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS footprint lib:1101A2CQEA-Switch"
+			(at 233.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9255694-ca4e-433f-b49b-88a6be7ecf04")
+		)
+		(pin "2"
+			(uuid "0d66cc78-6619-4a86-9ba9-633f5097ea97")
+		)
+		(pin "3"
+			(uuid "9ec0da6d-5e0b-4dfe-9221-a26a7c60b576")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "better1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BQ76952PFBR:R")
 		(at 149.86 316.23 180)
 		(unit 1)
@@ -45073,7 +46185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10M_R1210"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.328 411.48 90)
 			(hide yes)
 			(show_name no)
@@ -45155,7 +46267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 303.53 461.01 0)
 			(hide yes)
 			(show_name no)
@@ -45642,7 +46754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 144.78 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -45815,6 +46927,88 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMF7V0A")
+		(at 314.96 449.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd2bfd77-8f78-4774-bd6f-a73b47642a10")
+		(property "Reference" "D1"
+			(at 317.5 448.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF7V0A"
+			(at 317.5 450.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 309.88 449.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 314.96 448.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 7Vrwm, SMF"
+			(at 314.96 449.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "54d81b56-387e-43c9-9604-5d9a679bc9fb")
+		)
+		(pin "1"
+			(uuid "89f2245b-d520-44e4-bc3c-1b33e568ff2c")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -46357,7 +47551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10M_R1210"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 301.498 334.01 90)
 			(hide yes)
 			(show_name no)
@@ -47133,7 +48327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:10M_R1210"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.838 332.74 90)
 			(hide yes)
 			(show_name no)
@@ -48380,7 +49574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 257.81 356.87 0)
 			(hide yes)
 			(show_name no)

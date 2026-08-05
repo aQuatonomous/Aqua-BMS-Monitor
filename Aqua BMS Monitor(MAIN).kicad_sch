@@ -11326,12 +11326,6 @@
 		(uuid "17b676dd-0612-449d-b5f2-9febc7dfd174")
 	)
 	(junction
-		(at 581.66 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18f335fb-6632-40c4-a3b7-90b4f3d84cff")
-	)
-	(junction
 		(at 58.42 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11390,6 +11384,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25fc022c-71d1-452c-a697-f3cb077e453d")
+	)
+	(junction
+		(at 538.48 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27dd074e-3156-4621-a670-8949c1ec8a31")
 	)
 	(junction
 		(at 133.35 255.27)
@@ -11602,12 +11602,6 @@
 		(uuid "4afe29d3-fa58-4389-961c-adfce6e55f6b")
 	)
 	(junction
-		(at 593.09 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d7c1f2d-da3e-44a4-adf0-cd9cdd573f55")
-	)
-	(junction
 		(at 44.45 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11776,6 +11770,12 @@
 		(uuid "72a39bad-b169-466a-800c-7e8191a8f825")
 	)
 	(junction
+		(at 589.28 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7306e914-1040-4c32-8675-224cc2315d50")
+	)
+	(junction
 		(at 172.72 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11816,12 +11816,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75b17ddb-f70b-4bd3-9332-c0c4bee32815")
-	)
-	(junction
-		(at 541.02 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7797b63f-bae7-4383-85e7-9d58054fcf05")
 	)
 	(junction
 		(at 560.07 111.76)
@@ -11882,6 +11876,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f79ce3c-5f02-4e8a-855a-ca60a530dc6a")
+	)
+	(junction
+		(at 548.64 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b74e3e-0d42-4803-9715-92708dc74f30")
 	)
 	(junction
 		(at 172.72 223.52)
@@ -12086,12 +12086,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43abbb7-7a62-4294-92a4-78a8b91f3dd7")
-	)
-	(junction
-		(at 547.37 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a577a806-531b-4026-be25-021d593bc074")
 	)
 	(junction
 		(at 125.73 80.01)
@@ -12332,6 +12326,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6ae9235-8edd-4bfa-9279-adde98babb4f")
+	)
+	(junction
+		(at 584.2 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d75a68fd-2855-441c-b4f6-3d947eec1471")
 	)
 	(junction
 		(at 349.25 444.5)
@@ -13901,16 +13901,6 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 222.25) (xy 552.45 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c4476c-8a4e-4479-8143-97b51a281436")
-	)
-	(wire
-		(pts
 			(xy 269.24 262.89) (xy 269.24 264.16)
 		)
 		(stroke
@@ -14491,7 +14481,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 222.25) (xy 547.37 222.25)
+			(xy 532.13 222.25) (xy 538.48 222.25)
 		)
 		(stroke
 			(width 0)
@@ -14711,7 +14701,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 222.25) (xy 581.66 222.25)
+			(xy 576.58 222.25) (xy 589.28 222.25)
 		)
 		(stroke
 			(width 0)
@@ -15381,16 +15371,6 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 224.79) (xy 541.02 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c4695ea-f647-49d5-8550-4b81a8e38b45")
-	)
-	(wire
-		(pts
 			(xy 185.42 242.57) (xy 185.42 243.84)
 		)
 		(stroke
@@ -15651,6 +15631,16 @@
 	)
 	(wire
 		(pts
+			(xy 589.28 222.25) (xy 599.44 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6388cc55-590f-4720-b6d6-26cab17fd58a")
+	)
+	(wire
+		(pts
 			(xy 67.31 303.53) (xy 67.31 309.88)
 		)
 		(stroke
@@ -15891,16 +15881,6 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 224.79) (xy 562.61 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee6fc45-af2d-4079-b2e4-342515d029fa")
-	)
-	(wire
-		(pts
 			(xy 96.52 331.47) (xy 96.52 334.01)
 		)
 		(stroke
@@ -16078,6 +16058,16 @@
 			(type default)
 		)
 		(uuid "7870ba7a-1b8f-4215-b3af-d5ce0961020a")
+	)
+	(wire
+		(pts
+			(xy 538.48 222.25) (xy 552.45 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79214bd5-8f40-4387-8415-b77822c9d242")
 	)
 	(wire
 		(pts
@@ -16351,7 +16341,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 224.79) (xy 541.02 224.79)
+			(xy 532.13 224.79) (xy 548.64 224.79)
 		)
 		(stroke
 			(width 0)
@@ -17141,16 +17131,6 @@
 	)
 	(wire
 		(pts
-			(xy 593.09 229.87) (xy 599.44 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa3b200d-aacc-4454-98e5-3d38d1439488")
-	)
-	(wire
-		(pts
 			(xy 473.71 209.55) (xy 473.71 212.09)
 		)
 		(stroke
@@ -17318,6 +17298,16 @@
 			(type default)
 		)
 		(uuid "b35c9d6c-18da-40ac-b73f-d044260570f0")
+	)
+	(wire
+		(pts
+			(xy 584.2 229.87) (xy 599.44 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c2c383-fd79-4ca3-891d-6355ccf2543d")
 	)
 	(wire
 		(pts
@@ -18141,16 +18131,6 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 222.25) (xy 547.37 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2fc8943-62b0-45f1-8867-c7c34815c0d2")
-	)
-	(wire
-		(pts
 			(xy 469.9 153.67) (xy 469.9 161.29)
 		)
 		(stroke
@@ -18308,6 +18288,16 @@
 			(type default)
 		)
 		(uuid "d8d2465d-f275-495c-b8d9-d9a11a6a7ad8")
+	)
+	(wire
+		(pts
+			(xy 548.64 224.79) (xy 562.61 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96485d1-963f-4e3b-9787-ed76680dd2ea")
 	)
 	(wire
 		(pts
@@ -18681,16 +18671,6 @@
 	)
 	(wire
 		(pts
-			(xy 581.66 222.25) (xy 599.44 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ec75fe-9338-415d-a694-1d8b8a33ed27")
-	)
-	(wire
-		(pts
 			(xy 223.52 403.86) (xy 223.52 406.4)
 		)
 		(stroke
@@ -18911,7 +18891,7 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 229.87) (xy 593.09 229.87)
+			(xy 576.58 229.87) (xy 584.2 229.87)
 		)
 		(stroke
 			(width 0)
@@ -20462,7 +20442,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 599.44 229.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20473,7 +20453,7 @@
 		)
 		(uuid "18b9f5fb-33c4-4270-817e-296affd25307")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 605.9933 229.87 0)
+			(at 607.1046 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22070,7 +22050,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 388.62 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22081,7 +22061,7 @@
 		)
 		(uuid "8b1e6c6f-14d4-4804-9662-3049dee574e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.1128 175.26 0)
+			(at 396.2241 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22406,7 +22386,7 @@
 		)
 	)
 	(global_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 388.62 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22417,7 +22397,7 @@
 		)
 		(uuid "9a6c985f-110c-4da1-babb-a5d27ea68f56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.1733 172.72 0)
+			(at 396.2846 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22430,7 +22410,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 599.44 222.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22441,7 +22421,7 @@
 		)
 		(uuid "9dbfeeab-00cc-4be6-9c14-332ddf58d41d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 605.9328 222.25 0)
+			(at 607.0441 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25551,7 +25531,7 @@
 	)
 	(symbol
 		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
-		(at 581.66 229.87 90)
+		(at 538.48 229.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25561,7 +25541,7 @@
 		(dnp no)
 		(uuid "12d1f83c-469b-456b-ae23-df32a0caa180")
 		(property "Reference" "MCUTVS1"
-			(at 578.612 218.186 90)
+			(at 535.432 218.186 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25572,7 +25552,7 @@
 			)
 		)
 		(property "Value" "PTVSUC3D5VB"
-			(at 578.612 220.726 90)
+			(at 535.432 220.726 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25583,7 +25563,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
-			(at 589.28 229.87 0)
+			(at 546.1 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25594,7 +25574,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
-			(at 591.82 229.87 0)
+			(at 548.64 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25605,7 +25585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 581.66 229.87 0)
+			(at 538.48 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25616,7 +25596,7 @@
 			)
 		)
 		(property "Manufacturer" "Prisemi(芯导)"
-			(at 594.36 229.87 0)
+			(at 551.18 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25627,7 +25607,7 @@
 			)
 		)
 		(property "MPN" "PTVSUC3D5VB"
-			(at 596.9 229.87 0)
+			(at 553.72 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25638,7 +25618,7 @@
 			)
 		)
 		(property "LCSC Part" "C918847"
-			(at 599.44 229.87 0)
+			(at 556.26 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29561,7 +29541,7 @@
 	)
 	(symbol
 		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
-		(at 593.09 237.49 90)
+		(at 548.64 232.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29571,7 +29551,7 @@
 		(dnp no)
 		(uuid "3433a469-3421-4071-adc8-863e58e65e20")
 		(property "Reference" "MCUTVS2"
-			(at 589.788 224.282 90)
+			(at 545.338 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29582,7 +29562,7 @@
 			)
 		)
 		(property "Value" "PTVSUC3D5VB"
-			(at 589.788 226.568 90)
+			(at 545.338 221.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29593,7 +29573,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
-			(at 600.71 237.49 0)
+			(at 556.26 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29604,7 +29584,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
-			(at 603.25 237.49 0)
+			(at 558.8 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29615,7 +29595,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 593.09 237.49 0)
+			(at 548.64 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29626,7 +29606,7 @@
 			)
 		)
 		(property "Manufacturer" "Prisemi(芯导)"
-			(at 605.79 237.49 0)
+			(at 561.34 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29637,7 +29617,7 @@
 			)
 		)
 		(property "MPN" "PTVSUC3D5VB"
-			(at 608.33 237.49 0)
+			(at 563.88 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29648,7 +29628,7 @@
 			)
 		)
 		(property "LCSC Part" "C918847"
-			(at 610.87 237.49 0)
+			(at 566.42 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40004,7 +39984,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 547.37 226.06 180)
+		(at 589.28 222.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40014,7 +39994,7 @@
 		(dnp no)
 		(uuid "8f5f14a1-e980-42d7-897a-c05f583b64b4")
 		(property "Reference" "TP25"
-			(at 548.6401 231.14 90)
+			(at 590.5501 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40025,7 +40005,7 @@
 			)
 		)
 		(property "Value" "MCUSCLTP"
-			(at 546.1 231.14 90)
+			(at 588.01 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40036,7 +40016,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 542.29 226.06 0)
+			(at 584.2 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40047,7 +40027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 226.06 0)
+			(at 584.2 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40058,7 +40038,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 547.37 226.06 0)
+			(at 589.28 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44189,7 +44169,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 581.66 237.49 180)
+		(at 538.48 237.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -44200,7 +44180,7 @@
 		(fields_autoplaced yes)
 		(uuid "b922fc9a-c4ea-4810-b839-9ebbc803035f")
 		(property "Reference" "#PWR027"
-			(at 581.66 233.68 0)
+			(at 538.48 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44211,7 +44191,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 581.66 242.57 0)
+			(at 538.48 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44221,7 +44201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 581.66 237.49 0)
+			(at 538.48 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44232,7 +44212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 581.66 237.49 0)
+			(at 538.48 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44243,7 +44223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 581.66 237.49 0)
+			(at 538.48 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47678,7 +47658,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 593.09 245.11 180)
+		(at 548.64 240.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47689,7 +47669,7 @@
 		(fields_autoplaced yes)
 		(uuid "da22c71d-b1b0-45ac-bfaf-f88dfec62d1c")
 		(property "Reference" "#PWR029"
-			(at 593.09 241.3 0)
+			(at 548.64 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47700,7 +47680,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 593.09 250.19 0)
+			(at 548.64 245.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47710,7 +47690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 593.09 245.11 0)
+			(at 548.64 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47721,7 +47701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 593.09 245.11 0)
+			(at 548.64 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47732,7 +47712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 593.09 245.11 0)
+			(at 548.64 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48089,7 +48069,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 541.02 226.06 180)
+		(at 584.2 229.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48099,7 +48079,7 @@
 		(dnp no)
 		(uuid "ddcbde58-c69e-4599-8564-1a62c25abf74")
 		(property "Reference" "TP24"
-			(at 542.2901 231.14 90)
+			(at 585.4701 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48110,7 +48090,7 @@
 			)
 		)
 		(property "Value" "MCUSDATP"
-			(at 539.75 231.14 90)
+			(at 582.93 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48121,7 +48101,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 535.94 226.06 0)
+			(at 579.12 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48132,7 +48112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 535.94 226.06 0)
+			(at 579.12 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48143,7 +48123,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 541.02 226.06 0)
+			(at 584.2 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

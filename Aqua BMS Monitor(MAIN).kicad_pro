@@ -523,7 +523,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "Aqua BMS Monitor(MAIN).net",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""

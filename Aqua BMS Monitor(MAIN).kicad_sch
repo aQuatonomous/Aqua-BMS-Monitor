@@ -10301,7 +10301,7 @@
 		(uuid "457adbad-6473-4d5a-9a6e-3f5a56d2b865")
 	)
 	(rectangle
-		(start 506.73 97.79)
+		(start 619.76 97.79)
 		(end 694.69 134.62)
 		(stroke
 			(width 0)
@@ -10482,7 +10482,7 @@
 	)
 	(text "Power supply to VDD pins (1.8 - 3.6 V)\nThe 4.7 µF ceramic capacitor must be connected to one of the VDD pins"
 		(exclude_from_sim no)
-		(at 508.508 130.556 0)
+		(at 621.03 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11194,7 +11194,7 @@
 		(uuid "0a296fb3-7349-455c-b6e3-05fcabecdfe8")
 	)
 	(junction
-		(at 674.37 119.38)
+		(at 680.72 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a4a0b57-5b72-41e1-adc2-278be3bdea72")
@@ -11222,12 +11222,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c96bfc5-7c49-415b-8217-9a4a5e3536f0")
-	)
-	(junction
-		(at 549.91 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cdecdbb-8d38-440a-abf9-8eb8df7371b2")
 	)
 	(junction
 		(at 303.53 433.07)
@@ -11272,12 +11266,6 @@
 		(uuid "1375186c-ec75-4307-8702-1108f5411639")
 	)
 	(junction
-		(at 589.28 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1384819c-c55e-428e-bcff-6500ae28ab0f")
-	)
-	(junction
 		(at 165.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11290,7 +11278,7 @@
 		(uuid "14b508ed-6061-4fbe-8824-d02d817d71d8")
 	)
 	(junction
-		(at 662.94 111.76)
+		(at 669.29 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14f05750-209e-40d9-bf02-0dad3378e2d8")
@@ -11308,7 +11296,7 @@
 		(uuid "1607aaa2-3836-4161-9ad4-4605d689b76f")
 	)
 	(junction
-		(at 662.94 119.38)
+		(at 669.29 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "161af0b3-d1bb-4f44-99d1-594902f76f91")
@@ -11518,12 +11506,6 @@
 		(uuid "3e57ac2d-c247-4728-b9c2-e15f44e5c15b")
 	)
 	(junction
-		(at 609.6 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f6c1620-0743-4ac7-99d0-821137ae5ae9")
-	)
-	(junction
 		(at 237.49 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11554,16 +11536,10 @@
 		(uuid "43672693-7900-4ab1-aafc-f5f47c282281")
 	)
 	(junction
-		(at 651.51 119.38)
+		(at 657.86 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44482da3-476f-4105-aad0-e6c3f7caf101")
-	)
-	(junction
-		(at 619.76 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45efc160-e2d6-4e7f-a5f9-b35d39b5d1d0")
 	)
 	(junction
 		(at 675.64 349.25)
@@ -11686,12 +11662,6 @@
 		(uuid "5e2bf4c9-e5a0-4d5b-a832-b72debb4ec8d")
 	)
 	(junction
-		(at 619.76 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eba6fb2-355c-44af-a68e-e85c9c9042de")
-	)
-	(junction
 		(at 308.61 440.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11722,7 +11692,7 @@
 		(uuid "68239bd2-7fb7-40b7-9746-803d53c681fa")
 	)
 	(junction
-		(at 640.08 111.76)
+		(at 646.43 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "687a9cd0-3c22-4c54-9c82-be754a6bb218")
@@ -11794,12 +11764,6 @@
 		(uuid "74992a37-8362-4a78-acaf-b97b30481d1b")
 	)
 	(junction
-		(at 570.23 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "750858f6-4a53-4c4e-871e-91fab4c022c5")
-	)
-	(junction
 		(at 162.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11816,12 +11780,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75b17ddb-f70b-4bd3-9332-c0c4bee32815")
-	)
-	(junction
-		(at 560.07 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77ed6fc5-d1bc-4163-8ce0-6bc8feec4aed")
 	)
 	(junction
 		(at 96.52 334.01)
@@ -11866,12 +11824,6 @@
 		(uuid "7e65a7a1-14a4-4561-8384-17960a45e1e8")
 	)
 	(junction
-		(at 589.28 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f67d823-785e-4028-aed6-9a7e4f5e65c5")
-	)
-	(junction
 		(at 106.68 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11902,40 +11854,16 @@
 		(uuid "848be876-fae6-4850-85d0-59662898108e")
 	)
 	(junction
-		(at 560.07 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84afe771-24ac-4fd8-aa2d-e07431a24b34")
-	)
-	(junction
 		(at 502.92 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84f7ba7e-f753-42a1-949e-59f5ba7699b9")
 	)
 	(junction
-		(at 529.59 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84fd9f91-e93a-4709-bba2-14c04a92cba8")
-	)
-	(junction
-		(at 579.12 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854dcd67-59b2-46c6-9f82-3e5082446cfb")
-	)
-	(junction
 		(at 198.12 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86dbbf92-6f06-4577-9647-4c0eb2205db5")
-	)
-	(junction
-		(at 570.23 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86eac5a1-2db2-4bfd-8754-be5c8b0178a5")
 	)
 	(junction
 		(at 90.17 36.83)
@@ -11956,12 +11884,6 @@
 		(uuid "8a16cb35-2afc-40d6-8174-b4864c939506")
 	)
 	(junction
-		(at 539.75 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a29fdd9-b07b-4e5a-b9b6-e2ce1544fc07")
-	)
-	(junction
 		(at 358.14 426.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11972,12 +11894,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aedb6dd-d580-428b-b67c-7fea9798ccfc")
-	)
-	(junction
-		(at 599.44 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b1d1d68-8086-42df-95ae-4b0c111528c8")
 	)
 	(junction
 		(at 86.2081 34.29)
@@ -12010,12 +11926,6 @@
 		(uuid "8de52f2a-a1f7-49a7-b6ae-386c045c6dad")
 	)
 	(junction
-		(at 539.75 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94cb3001-5f73-4a18-878d-9df137973dfc")
-	)
-	(junction
 		(at 163.83 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12044,18 +11954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c807dd2-d8df-4ff9-876c-b85a655320ff")
-	)
-	(junction
-		(at 599.44 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e4f4440-18da-4c89-8c04-ee43b42ff78c")
-	)
-	(junction
-		(at 529.59 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f35dda9-ca03-435e-9e5a-bcf6b6bdb00b")
 	)
 	(junction
 		(at 139.7 292.1)
@@ -12098,12 +11996,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6f8f3b8-d182-48e9-9686-b4fcfe7e67c9")
-	)
-	(junction
-		(at 609.6 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a70f96a6-64b0-4594-a49f-fc5c2fc5e789")
 	)
 	(junction
 		(at 220.98 360.68)
@@ -12298,7 +12190,7 @@
 		(uuid "d138f05a-4b57-4e8b-9cdb-f299710ff4f8")
 	)
 	(junction
-		(at 651.51 111.76)
+		(at 657.86 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1effa13-94c5-4c56-8015-ddec2231989c")
@@ -12394,12 +12286,6 @@
 		(uuid "de29d7b5-f865-40fb-8586-bd556612c00c")
 	)
 	(junction
-		(at 579.12 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df64275f-6af9-480f-bc14-e0e05edee760")
-	)
-	(junction
 		(at 53.34 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12424,7 +12310,7 @@
 		(uuid "e2ab58de-e9cd-4494-b281-deffbb3ba64d")
 	)
 	(junction
-		(at 629.92 111.76)
+		(at 636.27 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3236984-3d88-4963-853c-be28507da94f")
@@ -12472,7 +12358,7 @@
 		(uuid "eccaa343-6a5a-43da-81c3-b0b8b189e982")
 	)
 	(junction
-		(at 629.92 119.38)
+		(at 636.27 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed04661e-3c5c-4358-ad28-5748e74705f1")
@@ -12580,7 +12466,7 @@
 		(uuid "fa4bd7dd-68a7-41a0-9e58-35d58e589d82")
 	)
 	(junction
-		(at 640.08 119.38)
+		(at 646.43 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fadd3217-47ad-45b7-b7ea-a1e9778aa703")
@@ -12644,12 +12530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "febb0569-b565-4e45-a75f-9be57e32efc5")
-	)
-	(junction
-		(at 549.91 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fee52e60-8fdf-48c9-8adb-f77bfd8c079b")
 	)
 	(junction
 		(at 321.31 144.78)
@@ -13061,7 +12941,7 @@
 	)
 	(wire
 		(pts
-			(xy 651.51 111.76) (xy 662.94 111.76)
+			(xy 657.86 110.49) (xy 669.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13268,16 +13148,6 @@
 			(type default)
 		)
 		(uuid "0ee60298-9714-48ae-86c1-c83fab33a52a")
-	)
-	(wire
-		(pts
-			(xy 518.16 111.76) (xy 529.59 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f561698-15f0-4919-844c-91e66ba1274a")
 	)
 	(wire
 		(pts
@@ -13721,16 +13591,6 @@
 	)
 	(wire
 		(pts
-			(xy 549.91 111.76) (xy 560.07 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221b0e0b-aab8-476d-a2a9-c0fbcd883d52")
-	)
-	(wire
-		(pts
 			(xy 214.63 313.69) (xy 215.9 313.69)
 		)
 		(stroke
@@ -13951,16 +13811,6 @@
 	)
 	(wire
 		(pts
-			(xy 609.6 119.38) (xy 619.76 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b9fb3a-404e-45ec-a4ad-94640757d476")
-	)
-	(wire
-		(pts
 			(xy 339.09 335.28) (xy 339.09 336.55)
 		)
 		(stroke
@@ -14138,16 +13988,6 @@
 			(type default)
 		)
 		(uuid "2db4d91d-c46b-4813-bb02-2c3ba025e98b")
-	)
-	(wire
-		(pts
-			(xy 570.23 111.76) (xy 579.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc702c7-a166-4ef7-aea0-6fb89de6bc85")
 	)
 	(wire
 		(pts
@@ -14511,16 +14351,6 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 119.38) (xy 549.91 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f508f3f-fc75-40af-9f3d-ecc89c317a8a")
-	)
-	(wire
-		(pts
 			(xy 234.95 326.39) (xy 234.95 330.2)
 		)
 		(stroke
@@ -14528,16 +14358,6 @@
 			(type default)
 		)
 		(uuid "3f98cf74-bee4-474b-8330-c336ff3663d7")
-	)
-	(wire
-		(pts
-			(xy 560.07 111.76) (xy 570.23 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fdbca1f-5ed7-4838-9ba2-1445f63cf164")
 	)
 	(wire
 		(pts
@@ -14971,7 +14791,7 @@
 	)
 	(wire
 		(pts
-			(xy 640.08 119.38) (xy 651.51 119.38)
+			(xy 646.43 118.11) (xy 657.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -15008,16 +14828,6 @@
 			(type default)
 		)
 		(uuid "50dea3c1-edc1-460f-8e3b-34abf736e668")
-	)
-	(wire
-		(pts
-			(xy 549.91 119.38) (xy 560.07 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ed17a4-9448-415b-9a84-2803e7f588c9")
 	)
 	(wire
 		(pts
@@ -15078,16 +14888,6 @@
 			(type default)
 		)
 		(uuid "52c2e445-dbec-475c-986f-37022037714f")
-	)
-	(wire
-		(pts
-			(xy 529.59 119.38) (xy 539.75 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52fde02d-2d63-4d4d-8919-4da8b64b581c")
 	)
 	(wire
 		(pts
@@ -15221,16 +15021,6 @@
 	)
 	(wire
 		(pts
-			(xy 539.75 111.76) (xy 549.91 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579fdf4a-d9d1-4a71-a74e-8df47045ba55")
-	)
-	(wire
-		(pts
 			(xy 76.2 80.01) (xy 125.73 80.01)
 		)
 		(stroke
@@ -15311,7 +15101,7 @@
 	)
 	(wire
 		(pts
-			(xy 640.08 111.76) (xy 651.51 111.76)
+			(xy 646.43 110.49) (xy 657.86 110.49)
 		)
 		(stroke
 			(width 0)
@@ -15791,7 +15581,7 @@
 	)
 	(wire
 		(pts
-			(xy 674.37 111.76) (xy 662.94 111.76)
+			(xy 680.72 110.49) (xy 669.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -15828,16 +15618,6 @@
 			(type default)
 		)
 		(uuid "6ce8e9e5-6f50-4136-b79f-91889c044117")
-	)
-	(wire
-		(pts
-			(xy 599.44 119.38) (xy 609.6 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d664905-1837-4f4a-9af4-c6540da59eb1")
 	)
 	(wire
 		(pts
@@ -16018,16 +15798,6 @@
 			(type default)
 		)
 		(uuid "7701123a-a118-41f7-bc1a-37e8ec840e7a")
-	)
-	(wire
-		(pts
-			(xy 518.16 119.38) (xy 529.59 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770248a2-68e8-4b4d-bc20-3a21054e3608")
 	)
 	(wire
 		(pts
@@ -16331,7 +16101,7 @@
 	)
 	(wire
 		(pts
-			(xy 629.92 119.38) (xy 640.08 119.38)
+			(xy 636.27 118.11) (xy 646.43 118.11)
 		)
 		(stroke
 			(width 0)
@@ -16441,7 +16211,7 @@
 	)
 	(wire
 		(pts
-			(xy 619.76 119.38) (xy 629.92 119.38)
+			(xy 626.11 118.11) (xy 636.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -16651,16 +16421,6 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 119.38) (xy 570.23 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fafe953-3521-4240-a6c8-b0ddd43c2005")
-	)
-	(wire
-		(pts
 			(xy 149.86 240.03) (xy 157.48 240.03)
 		)
 		(stroke
@@ -16691,7 +16451,7 @@
 	)
 	(wire
 		(pts
-			(xy 619.76 111.76) (xy 629.92 111.76)
+			(xy 626.11 110.49) (xy 636.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -16851,7 +16611,7 @@
 	)
 	(wire
 		(pts
-			(xy 662.94 119.38) (xy 674.37 119.38)
+			(xy 669.29 118.11) (xy 680.72 118.11)
 		)
 		(stroke
 			(width 0)
@@ -16921,7 +16681,7 @@
 	)
 	(wire
 		(pts
-			(xy 674.37 119.38) (xy 674.37 121.92)
+			(xy 680.72 118.11) (xy 680.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -17041,16 +16801,6 @@
 	)
 	(wire
 		(pts
-			(xy 589.28 119.38) (xy 599.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6208de8-70df-4486-8666-6e5f4d3f62f0")
-	)
-	(wire
-		(pts
 			(xy 449.58 368.3) (xy 450.85 368.3)
 		)
 		(stroke
@@ -17101,7 +16851,7 @@
 	)
 	(wire
 		(pts
-			(xy 651.51 119.38) (xy 662.94 119.38)
+			(xy 657.86 118.11) (xy 669.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -17258,26 +17008,6 @@
 			(type default)
 		)
 		(uuid "aed28620-5173-4aac-8c71-ffbc26d8240b")
-	)
-	(wire
-		(pts
-			(xy 609.6 111.76) (xy 619.76 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7dec75-e771-4b25-a52c-414c903ed41e")
-	)
-	(wire
-		(pts
-			(xy 589.28 111.76) (xy 599.44 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15ae32d-011a-42ca-86f9-6872d2402a3c")
 	)
 	(wire
 		(pts
@@ -17711,7 +17441,7 @@
 	)
 	(wire
 		(pts
-			(xy 629.92 111.76) (xy 640.08 111.76)
+			(xy 636.27 110.49) (xy 646.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -17881,16 +17611,6 @@
 	)
 	(wire
 		(pts
-			(xy 599.44 111.76) (xy 609.6 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77fcfde-3cb1-4da7-9fca-f437b51e8a53")
-	)
-	(wire
-		(pts
 			(xy 149.86 309.88) (xy 153.67 309.88)
 		)
 		(stroke
@@ -17918,16 +17638,6 @@
 			(type default)
 		)
 		(uuid "c90dc8a8-4732-490e-ae3b-b1a99dead308")
-	)
-	(wire
-		(pts
-			(xy 579.12 119.38) (xy 589.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c938e7a5-ece7-496f-9b8b-077d6e63d63b")
 	)
 	(wire
 		(pts
@@ -18261,16 +17971,6 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 119.38) (xy 579.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b9476f-a2e0-4494-8740-078df4beac5d")
-	)
-	(wire
-		(pts
 			(xy 233.68 406.4) (xy 238.76 406.4)
 		)
 		(stroke
@@ -18551,16 +18251,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 111.76) (xy 539.75 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15876f6-68cc-41b7-b1ef-f40044727765")
-	)
-	(wire
-		(pts
 			(xy 172.72 88.9) (xy 182.88 88.9)
 		)
 		(stroke
@@ -18708,16 +18398,6 @@
 			(type default)
 		)
 		(uuid "e769d91a-3c4f-4696-87ba-e934877e85ce")
-	)
-	(wire
-		(pts
-			(xy 579.12 111.76) (xy 589.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f88fe1-bbf9-456d-8bdc-0cb8d42200bb")
 	)
 	(wire
 		(pts
@@ -22627,7 +22307,7 @@
 	)
 	(global_label "VSS"
 		(shape input)
-		(at 674.37 119.38 0)
+		(at 680.72 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22637,7 +22317,7 @@
 		)
 		(uuid "b1c6f683-12df-4c34-81d7-db67585c8ce3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 680.8628 119.38 0)
+			(at 687.2128 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23107,7 +22787,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 674.37 111.76 0)
+		(at 680.72 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23117,7 +22797,7 @@
 		)
 		(uuid "d6eec051-705d-4bd2-96b1-ce83615b2982")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 680.9838 111.76 0)
+			(at 687.3338 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23890,7 +23570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 662.94 115.57 0)
+		(at 669.29 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23901,7 +23581,7 @@
 		(fields_autoplaced yes)
 		(uuid "01c27379-a84a-4d5d-98c0-c2db5094071a")
 		(property "Reference" "MCUC15"
-			(at 666.75 114.2999 0)
+			(at 673.1 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23912,7 +23592,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 666.75 116.8399 0)
+			(at 673.1 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23923,7 +23603,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 663.9052 119.38 0)
+			(at 670.2552 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23934,7 +23614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 662.94 115.57 0)
+			(at 669.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23945,7 +23625,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 662.94 115.57 0)
+			(at 669.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26332,7 +26012,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 674.37 115.57 0)
+		(at 680.72 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26343,7 +26023,7 @@
 		(fields_autoplaced yes)
 		(uuid "16f4200d-203e-4b3d-ba28-ac973d0bf836")
 		(property "Reference" "MCUC16"
-			(at 678.18 114.2999 0)
+			(at 684.53 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26354,7 +26034,7 @@
 			)
 		)
 		(property "Value" "4.7 uF"
-			(at 678.18 116.8399 0)
+			(at 684.53 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26365,7 +26045,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:4.7uF_C0402"
-			(at 675.3352 119.38 0)
+			(at 681.6852 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26376,7 +26056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 674.37 115.57 0)
+			(at 680.72 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26387,7 +26067,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 674.37 115.57 0)
+			(at 680.72 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28877,7 +28557,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 651.51 115.57 0)
+		(at 657.86 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28888,7 +28568,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b23d9d4-6ad3-4226-a98d-e1ea1da5a965")
 		(property "Reference" "MCUC14"
-			(at 655.32 114.2999 0)
+			(at 661.67 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28899,7 +28579,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 655.32 116.8399 0)
+			(at 661.67 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28910,7 +28590,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 652.4752 119.38 0)
+			(at 658.8252 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28921,7 +28601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 651.51 115.57 0)
+			(at 657.86 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28932,7 +28612,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 651.51 115.57 0)
+			(at 657.86 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29364,94 +29044,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "MCUR6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 570.23 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "304b6917-079c-452a-b4f0-cadcff782de2")
-		(property "Reference" "MCUC6"
-			(at 574.04 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 574.04 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 571.1952 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 570.23 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 570.23 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb13914")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e88")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC6")
 					(unit 1)
 				)
 			)
@@ -32772,94 +32364,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 589.28 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56856e27-ca44-466d-9a1a-a74e10c3773c")
-		(property "Reference" "MCUC8"
-			(at 593.09 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 593.09 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 590.2452 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 589.28 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 589.28 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb13915")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e89")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 655.32 307.34 0)
 		(unit 1)
 		(body_style 1)
@@ -35084,94 +34588,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 529.59 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ae5163b-d352-4200-a06c-b79fe005c0f2")
-		(property "Reference" "MCUC2"
-			(at 533.4 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 533.4 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 530.5552 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 529.59 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 529.59 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a916a8d5-fde0-46a7-9e7c-7c63ee39cb3d")
-		)
-		(pin "2"
-			(uuid "e3861280-5d41-414b-881c-5bd7db1fff04")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC2")
 					(unit 1)
 				)
 			)
@@ -37988,7 +37404,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 640.08 115.57 0)
+		(at 646.43 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37999,7 +37415,7 @@
 		(fields_autoplaced yes)
 		(uuid "8028198c-8eaa-4d8c-bb55-8d640139a405")
 		(property "Reference" "MCUC13"
-			(at 643.89 114.2999 0)
+			(at 650.24 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38010,7 +37426,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 643.89 116.8399 0)
+			(at 650.24 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38021,7 +37437,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 641.0452 119.38 0)
+			(at 647.3952 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38032,7 +37448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 640.08 115.57 0)
+			(at 646.43 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38043,7 +37459,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 640.08 115.57 0)
+			(at 646.43 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38400,94 +37816,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "CR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 560.07 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82e58947-226a-4d7e-80ee-3d501925d94d")
-		(property "Reference" "MCUC5"
-			(at 563.88 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 563.88 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 561.0352 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 560.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 560.07 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb13916")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e8a")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC5")
 					(unit 1)
 				)
 			)
@@ -39058,7 +38386,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 674.37 121.92 180)
+		(at 680.72 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39069,7 +38397,7 @@
 		(fields_autoplaced yes)
 		(uuid "86675de2-ac4b-4095-aa1b-690ee87daeb3")
 		(property "Reference" "#PWR043"
-			(at 674.37 118.11 0)
+			(at 680.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39080,7 +38408,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 674.37 127 0)
+			(at 680.72 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39090,7 +38418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 674.37 121.92 0)
+			(at 680.72 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39101,7 +38429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 674.37 121.92 0)
+			(at 680.72 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39112,7 +38440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 674.37 121.92 0)
+			(at 680.72 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40296,182 +39624,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "RD2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 539.75 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "952fc961-1574-4898-b2f9-11e0e3eb1709")
-		(property "Reference" "MCUC3"
-			(at 543.56 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 543.56 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 540.7152 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 539.75 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 539.75 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a916a8d5-fde0-46a7-9e7c-7c63ee39cb3e")
-		)
-		(pin "2"
-			(uuid "e3861280-5d41-414b-881c-5bd7db1fff05")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 599.44 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96486bd6-6dd0-48b5-8556-939f2b6b0904")
-		(property "Reference" "MCUC9"
-			(at 603.25 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 603.25 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 600.4052 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 599.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 599.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb13917")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e8b")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC9")
 					(unit 1)
 				)
 			)
@@ -42960,94 +42112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 518.16 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab293c80-a695-46e3-81b3-30c7a9416645")
-		(property "Reference" "MCUC1"
-			(at 521.97 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 521.97 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 519.1252 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 518.16 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a916a8d5-fde0-46a7-9e7c-7c63ee39cb3f")
-		)
-		(pin "2"
-			(uuid "e3861280-5d41-414b-881c-5bd7db1fff06")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 59.69 93.98 90)
 		(mirror x)
@@ -44001,94 +43065,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 609.6 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b54b8b7a-24e9-4df1-998d-f83c2be3c33f")
-		(property "Reference" "MCUC10"
-			(at 613.41 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 613.41 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 610.5652 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 609.6 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 609.6 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb13918")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e8c")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 92.71 86.36 90)
 		(unit 1)
@@ -44681,94 +43657,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 579.12 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc6d6138-6785-4073-90d2-034cfc4573ca")
-		(property "Reference" "MCUC7"
-			(at 582.93 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 582.93 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 580.0852 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 579.12 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb13919")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e8d")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC7")
 					(unit 1)
 				)
 			)
@@ -47818,94 +46706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 549.91 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dab37a37-2564-44fe-971a-fae7510f9e20")
-		(property "Reference" "MCUC4"
-			(at 553.72 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 553.72 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 550.8752 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 549.91 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 549.91 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5443e2e-301f-430f-99aa-1bbefeb1391a")
-		)
-		(pin "2"
-			(uuid "8f2b0830-6b7e-40a9-b3ab-2d08aec26e8e")
-		)
-		(instances
-			(project "aQua BMS MCU"
-				(path "/97847205-7db0-47b8-917f-7d31691e6ff5"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "MCUC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BQ76952PFBR:R")
 		(at 226.06 332.74 180)
 		(unit 1)
@@ -49593,7 +48393,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 619.76 115.57 0)
+		(at 626.11 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49604,7 +48404,7 @@
 		(fields_autoplaced yes)
 		(uuid "f26f679d-84c3-44c3-9d4c-c4a91afb0db7")
 		(property "Reference" "MCUC11"
-			(at 623.57 114.2999 0)
+			(at 629.92 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49615,7 +48415,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 623.57 116.8399 0)
+			(at 629.92 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49626,7 +48426,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 620.7252 119.38 0)
+			(at 627.0752 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49637,7 +48437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 619.76 115.57 0)
+			(at 626.11 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49648,7 +48448,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 619.76 115.57 0)
+			(at 626.11 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49760,7 +48560,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 629.92 115.57 0)
+		(at 636.27 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49771,7 +48571,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7966a5e-f7da-4f66-b5e1-76e987310c73")
 		(property "Reference" "MCUC12"
-			(at 633.73 114.2999 0)
+			(at 640.08 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49782,7 +48582,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 633.73 116.8399 0)
+			(at 640.08 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49793,7 +48593,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:100nF_C0402"
-			(at 630.8852 119.38 0)
+			(at 637.2352 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49804,7 +48604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 629.92 115.57 0)
+			(at 636.27 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49815,7 +48615,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 629.92 115.57 0)
+			(at 636.27 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

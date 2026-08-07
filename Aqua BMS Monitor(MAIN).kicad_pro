@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.254,
-          "min_island_area": 9.99999999996,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -523,7 +523,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "Aqua BMS Monitor(MAIN).net",
       "plot": "",
       "specctra_dsn": "",
       "vrml": ""
@@ -810,7 +810,7 @@
         "uuid": "d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
       }
     ],
-    "used_designators": "D1-2,better1,Sw1,BQ296115DSGR2,DFet4,J2-4,J6,U8,DFetGate5,LDR1,SWShunt5,DR6,S1-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

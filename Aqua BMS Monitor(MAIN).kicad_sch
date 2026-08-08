@@ -12088,12 +12088,6 @@
 		(uuid "b5fd2992-92f9-45e8-ac16-69919509c052")
 	)
 	(junction
-		(at 144.78 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b679df7e-3014-4e9d-bc60-f42150292641")
-	)
-	(junction
 		(at 222.25 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13401,7 +13395,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 187.96) (xy 144.78 190.5)
+			(xy 144.78 184.15) (xy 144.78 190.5)
 		)
 		(stroke
 			(width 0)
@@ -19058,16 +19052,6 @@
 			(type default)
 		)
 		(uuid "fd64c2ec-39cd-4a57-9213-962c487e13aa")
-	)
-	(wire
-		(pts
-			(xy 144.78 184.15) (xy 144.78 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feeee064-122d-44fa-a74b-87454ffd09a1")
 	)
 	(wire
 		(pts
@@ -34984,85 +34968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 144.78 187.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dca350f-e1b3-4fb3-af63-4f443519caa8")
-		(property "Reference" "TP19"
-			(at 149.86 186.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSSTP"
-			(at 149.86 189.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 144.78 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 144.78 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e357b4b-4589-4f88-aa91-c442bec7e96d")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VSS")
 		(at 25.4 109.22 180)
 		(unit 1)
@@ -40275,7 +40180,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ClampGateTP"
+		(property "Value" "CmpG"
 			(at 283.718 347.472 90)
 			(show_name no)
 			(do_not_autoplace no)

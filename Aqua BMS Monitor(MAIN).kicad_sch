@@ -11314,6 +11314,12 @@
 		(uuid "17b676dd-0612-449d-b5f2-9febc7dfd174")
 	)
 	(junction
+		(at 198.12 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa2d596-30db-4588-909d-1f1dc4267253")
+	)
+	(junction
 		(at 58.42 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13017,6 +13023,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 187.96) (xy 198.12 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090c11aa-0743-4e7e-858f-5f9e899457ff")
+	)
+	(wire
+		(pts
 			(xy 511.81 152.4) (xy 514.35 152.4)
 		)
 		(stroke
@@ -13367,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 185.42) (xy 198.12 189.23)
+			(xy 198.12 185.42) (xy 198.12 187.96)
 		)
 		(stroke
 			(width 0)
@@ -39625,6 +39641,83 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0c0182-1c8b-4160-b005-5b2c4a39839a")
+		(property "Reference" "TP3"
+			(at 194.818 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONN-TP"
+			(at 194.818 185.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99d6062e-cba3-4c33-adcc-8d6a0bae2b60")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

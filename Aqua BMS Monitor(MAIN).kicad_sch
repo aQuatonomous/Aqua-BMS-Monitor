@@ -10193,8 +10193,8 @@
 		(uuid "0161b732-29ee-4918-8aa3-05decd69c208")
 	)
 	(rectangle
-		(start 619.76 336.55)
-		(end 694.69 365.76)
+		(start 619.76 342.9)
+		(end 694.69 372.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -10459,7 +10459,7 @@
 	)
 	(rectangle
 		(start 619.76 317.5)
-		(end 694.69 336.55)
+		(end 694.69 342.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -10738,7 +10738,7 @@
 	)
 	(text "MCU Physical E-stop"
 		(exclude_from_sim no)
-		(at 633.984 340.614 0)
+		(at 633.984 346.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11170,12 +11170,6 @@
 		(uuid "067ceb1b-7645-4f16-aade-c67c452c2dd6")
 	)
 	(junction
-		(at 561.34 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "088e308d-f054-41ff-a6d8-ba00192fad12")
-	)
-	(junction
 		(at 40.64 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11272,7 +11266,7 @@
 		(uuid "13e82227-3454-4a7d-9ef7-2e1fd10c9ae1")
 	)
 	(junction
-		(at 675.64 354.33)
+		(at 675.64 360.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14b508ed-6061-4fbe-8824-d02d817d71d8")
@@ -11318,6 +11312,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17b676dd-0612-449d-b5f2-9febc7dfd174")
+	)
+	(junction
+		(at 198.12 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa2d596-30db-4588-909d-1f1dc4267253")
 	)
 	(junction
 		(at 58.42 328.93)
@@ -11420,6 +11420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fa34422-9577-4d03-8b11-cee0673fb9b0")
+	)
+	(junction
+		(at 651.51 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "315c7ff8-5a02-4138-aba9-cd1ecd2cd93a")
 	)
 	(junction
 		(at 149.86 240.03)
@@ -11554,7 +11560,7 @@
 		(uuid "44482da3-476f-4105-aad0-e6c3f7caf101")
 	)
 	(junction
-		(at 675.64 349.25)
+		(at 675.64 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48705e9f-adb2-49fb-b856-f8e4487935ed")
@@ -11588,6 +11594,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4afe29d3-fa58-4389-961c-adfce6e55f6b")
+	)
+	(junction
+		(at 662.94 323.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c53cdab-c576-43ab-8ed9-8ead1940b15f")
 	)
 	(junction
 		(at 44.45 36.83)
@@ -11728,6 +11740,12 @@
 		(uuid "6ce74baa-502b-4237-81c9-9f74530528cd")
 	)
 	(junction
+		(at 553.72 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f4fa7b3-cb0f-4882-baf3-b7df89cfeed9")
+	)
+	(junction
 		(at 52.07 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11836,7 +11854,7 @@
 		(uuid "7df89f65-32e9-45c7-8c0e-d0bddfbbca49")
 	)
 	(junction
-		(at 638.81 354.33)
+		(at 638.81 360.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e65a7a1-14a4-4561-8384-17960a45e1e8")
@@ -12088,6 +12106,12 @@
 		(uuid "b5fd2992-92f9-45e8-ac16-69919509c052")
 	)
 	(junction
+		(at 553.72 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98e7d7e-840d-4698-a27b-ed1d58674aa8")
+	)
+	(junction
 		(at 222.25 326.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12280,12 +12304,6 @@
 		(uuid "dc5c6801-e420-4807-8e7b-e650ba8c6495")
 	)
 	(junction
-		(at 561.34 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd44350d-1496-4d16-97fa-4d4578318be3")
-	)
-	(junction
 		(at 209.55 406.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12472,7 +12490,7 @@
 		(uuid "f8cdcd41-8d25-4a34-945e-7680f13c3ee5")
 	)
 	(junction
-		(at 638.81 349.25)
+		(at 638.81 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f5050b-8d4f-43ec-9c62-1ed33a3ebf3c")
@@ -12915,16 +12933,6 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 189.23) (xy 566.42 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0621a9bb-ed0f-4b7f-b611-db6ba1a46623")
-	)
-	(wire
-		(pts
 			(xy 181.61 120.65) (xy 181.61 129.54)
 		)
 		(stroke
@@ -13012,6 +13020,16 @@
 			(type default)
 		)
 		(uuid "08f86a97-15f7-48a6-8d04-f3e5cac5c5cb")
+	)
+	(wire
+		(pts
+			(xy 198.12 187.96) (xy 198.12 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090c11aa-0743-4e7e-858f-5f9e899457ff")
 	)
 	(wire
 		(pts
@@ -13285,7 +13303,7 @@
 	)
 	(wire
 		(pts
-			(xy 679.45 354.33) (xy 675.64 354.33)
+			(xy 679.45 360.68) (xy 675.64 360.68)
 		)
 		(stroke
 			(width 0)
@@ -13365,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 185.42) (xy 198.12 189.23)
+			(xy 198.12 185.42) (xy 198.12 187.96)
 		)
 		(stroke
 			(width 0)
@@ -13425,7 +13443,7 @@
 	)
 	(wire
 		(pts
-			(xy 675.64 349.25) (xy 671.83 349.25)
+			(xy 675.64 355.6) (xy 671.83 355.6)
 		)
 		(stroke
 			(width 0)
@@ -13545,6 +13563,16 @@
 	)
 	(wire
 		(pts
+			(xy 651.51 322.58) (xy 651.51 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5bfede-027c-4a54-a751-e2e9cd318ef8")
+	)
+	(wire
+		(pts
 			(xy 140.97 364.49) (xy 140.97 358.14)
 		)
 		(stroke
@@ -13562,16 +13590,6 @@
 			(type default)
 		)
 		(uuid "1ee93444-f558-45dc-ba52-99d507d283f8")
-	)
-	(wire
-		(pts
-			(xy 561.34 186.69) (xy 566.42 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6690fb-d7fa-4575-ac56-e951834eacdb")
 	)
 	(wire
 		(pts
@@ -14005,7 +14023,7 @@
 	)
 	(wire
 		(pts
-			(xy 638.81 349.25) (xy 641.35 349.25)
+			(xy 638.81 355.6) (xy 641.35 355.6)
 		)
 		(stroke
 			(width 0)
@@ -14025,7 +14043,7 @@
 	)
 	(wire
 		(pts
-			(xy 638.81 354.33) (xy 641.35 354.33)
+			(xy 638.81 360.68) (xy 641.35 360.68)
 		)
 		(stroke
 			(width 0)
@@ -14085,7 +14103,7 @@
 	)
 	(wire
 		(pts
-			(xy 675.64 354.33) (xy 671.83 354.33)
+			(xy 675.64 360.68) (xy 671.83 360.68)
 		)
 		(stroke
 			(width 0)
@@ -14162,6 +14180,16 @@
 			(type default)
 		)
 		(uuid "32fe328b-d94c-43aa-891f-d67c76fda1f9")
+	)
+	(wire
+		(pts
+			(xy 651.51 321.31) (xy 669.29 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3396fe46-372d-4a3f-b5e2-96be752d134c")
 	)
 	(wire
 		(pts
@@ -14285,7 +14313,7 @@
 	)
 	(wire
 		(pts
-			(xy 635 349.25) (xy 638.81 349.25)
+			(xy 635 355.6) (xy 638.81 355.6)
 		)
 		(stroke
 			(width 0)
@@ -14825,7 +14853,7 @@
 	)
 	(wire
 		(pts
-			(xy 679.45 349.25) (xy 675.64 349.25)
+			(xy 679.45 355.6) (xy 675.64 355.6)
 		)
 		(stroke
 			(width 0)
@@ -14875,6 +14903,16 @@
 	)
 	(wire
 		(pts
+			(xy 662.94 323.85) (xy 669.29 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e810ec8-30b2-4cb3-9969-93d65c940e2e")
+	)
+	(wire
+		(pts
 			(xy 96.52 86.36) (xy 120.65 86.36)
 		)
 		(stroke
@@ -14882,6 +14920,16 @@
 			(type default)
 		)
 		(uuid "4f632a70-8198-417a-b618-214a160d8d79")
+	)
+	(wire
+		(pts
+			(xy 553.72 186.69) (xy 566.42 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc5042a-a7ac-421d-98c3-10a07f50382c")
 	)
 	(wire
 		(pts
@@ -15305,7 +15353,7 @@
 	)
 	(wire
 		(pts
-			(xy 561.34 182.88) (xy 561.34 186.69)
+			(xy 553.72 185.42) (xy 553.72 186.69)
 		)
 		(stroke
 			(width 0)
@@ -15595,6 +15643,16 @@
 	)
 	(wire
 		(pts
+			(xy 553.72 189.23) (xy 566.42 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dff04f-cc00-4a80-b6df-2e57260b9416")
+	)
+	(wire
+		(pts
 			(xy 34.29 97.79) (xy 40.64 97.79)
 		)
 		(stroke
@@ -15695,7 +15753,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 186.69) (xy 561.34 186.69)
+			(xy 532.13 186.69) (xy 553.72 186.69)
 		)
 		(stroke
 			(width 0)
@@ -16025,7 +16083,7 @@
 	)
 	(wire
 		(pts
-			(xy 532.13 189.23) (xy 561.34 189.23)
+			(xy 532.13 189.23) (xy 553.72 189.23)
 		)
 		(stroke
 			(width 0)
@@ -16072,6 +16130,16 @@
 			(type default)
 		)
 		(uuid "7e4e9978-1815-408d-800b-80f0636f4e14")
+	)
+	(wire
+		(pts
+			(xy 669.29 328.93) (xy 669.29 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e753a1a-1398-4000-9705-01683bbaa49e")
 	)
 	(wire
 		(pts
@@ -17045,7 +17113,7 @@
 	)
 	(wire
 		(pts
-			(xy 638.81 354.33) (xy 638.81 356.87)
+			(xy 638.81 360.68) (xy 638.81 363.22)
 		)
 		(stroke
 			(width 0)
@@ -17595,7 +17663,7 @@
 	)
 	(wire
 		(pts
-			(xy 675.64 346.71) (xy 675.64 349.25)
+			(xy 675.64 353.06) (xy 675.64 355.6)
 		)
 		(stroke
 			(width 0)
@@ -17725,7 +17793,7 @@
 	)
 	(wire
 		(pts
-			(xy 635 354.33) (xy 638.81 354.33)
+			(xy 635 360.68) (xy 638.81 360.68)
 		)
 		(stroke
 			(width 0)
@@ -18255,7 +18323,7 @@
 	)
 	(wire
 		(pts
-			(xy 638.81 347.98) (xy 638.81 349.25)
+			(xy 638.81 354.33) (xy 638.81 355.6)
 		)
 		(stroke
 			(width 0)
@@ -18282,6 +18350,16 @@
 			(type default)
 		)
 		(uuid "dded3fc4-935b-45e7-9be6-f318c90b9767")
+	)
+	(wire
+		(pts
+			(xy 647.7 321.31) (xy 651.51 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf553c3-a209-41dc-afb6-e0111142d589")
 	)
 	(wire
 		(pts
@@ -18395,7 +18473,7 @@
 	)
 	(wire
 		(pts
-			(xy 675.64 354.33) (xy 675.64 356.87)
+			(xy 675.64 360.68) (xy 675.64 363.22)
 		)
 		(stroke
 			(width 0)
@@ -18692,6 +18770,16 @@
 			(type default)
 		)
 		(uuid "ec9d901e-9a99-4bfc-ba0f-20146d739f6f")
+	)
+	(wire
+		(pts
+			(xy 647.7 323.85) (xy 662.94 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4d2adc-142c-4a5d-a6fe-f5e2a481bb0c")
 	)
 	(wire
 		(pts
@@ -20041,7 +20129,7 @@
 	)
 	(global_label "USART1_RX"
 		(shape input)
-		(at 655.32 327.66 180)
+		(at 647.7 323.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20051,7 +20139,7 @@
 		)
 		(uuid "0adeb7d2-597a-4338-9627-ee8692028ffe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 641.812 327.66 0)
+			(at 634.192 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20521,7 +20609,7 @@
 	)
 	(global_label "USART1_TX"
 		(shape input)
-		(at 655.32 325.12 180)
+		(at 647.7 321.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20531,7 +20619,7 @@
 		)
 		(uuid "3c3bd69b-ce72-4a24-b47d-d0f70b9ff0e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 642.1144 325.12 0)
+			(at 634.4944 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20545,7 +20633,7 @@
 	)
 	(global_label "CFETOFF"
 		(shape output)
-		(at 635 354.33 180)
+		(at 635 360.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20555,7 +20643,7 @@
 		)
 		(uuid "3edacb37-1fe9-49c3-9014-7ce84e073bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 624.0319 354.33 0)
+			(at 624.0319 360.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21025,7 +21113,7 @@
 	)
 	(global_label "MCUCFETOFF"
 		(shape input)
-		(at 635 349.25 180)
+		(at 635 355.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21035,7 +21123,7 @@
 		)
 		(uuid "5a049e65-ba5b-4d34-8f28-407ee9fe24fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 619.98 349.25 0)
+			(at 619.98 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21385,7 +21473,7 @@
 	)
 	(global_label "DFETOFF"
 		(shape output)
-		(at 679.45 349.25 0)
+		(at 679.45 355.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21395,7 +21483,7 @@
 		)
 		(uuid "73f72814-09f5-4b4b-9e74-4357f52e96cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 690.4181 349.25 0)
+			(at 690.4181 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21481,7 +21569,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 641.35 351.79 180)
+		(at 641.35 358.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21491,7 +21579,7 @@
 		)
 		(uuid "7871a7e1-530a-47ac-9bec-07f9fc2d9e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 634.7362 351.79 0)
+			(at 634.7362 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21649,7 +21737,7 @@
 	)
 	(global_label "MCUDFETOFF"
 		(shape input)
-		(at 679.45 354.33 0)
+		(at 679.45 360.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21659,7 +21747,7 @@
 		)
 		(uuid "7eef30ec-82d3-4e5b-a5c5-63139df1f246")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 694.47 354.33 0)
+			(at 694.47 360.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23041,7 +23129,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 671.83 351.79 0)
+		(at 671.83 358.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23051,7 +23139,7 @@
 		)
 		(uuid "dce76317-e314-4e73-b086-6607fd925a8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 678.4438 351.79 0)
+			(at 678.4438 358.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25620,7 +25708,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 638.81 347.98 0)
+		(at 638.81 354.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25631,7 +25719,7 @@
 		(dnp no)
 		(uuid "13d2ac0b-dd09-4a07-997c-f26f3510e961")
 		(property "Reference" "TP66"
-			(at 640.588 342.8999 0)
+			(at 640.588 349.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25642,7 +25730,7 @@
 			)
 		)
 		(property "Value" "MCfetOffTP"
-			(at 640.588 345.44 0)
+			(at 640.588 351.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25653,7 +25741,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 633.73 347.98 0)
+			(at 633.73 354.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25664,7 +25752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 633.73 347.98 0)
+			(at 633.73 354.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25675,7 +25763,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 638.81 347.98 0)
+			(at 638.81 354.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30085,7 +30173,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 638.81 356.87 180)
+		(at 638.81 363.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30095,7 +30183,7 @@
 		(dnp no)
 		(uuid "39f98f18-209f-456c-bd16-e20b4b32eefc")
 		(property "Reference" "TP67"
-			(at 640.588 361.9501 0)
+			(at 640.588 368.3001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30106,7 +30194,7 @@
 			)
 		)
 		(property "Value" "CfetOffTP"
-			(at 640.588 359.41 0)
+			(at 640.588 365.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30117,7 +30205,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 633.73 356.87 0)
+			(at 633.73 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30128,7 +30216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 633.73 356.87 0)
+			(at 633.73 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30139,7 +30227,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 638.81 356.87 0)
+			(at 638.81 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30874,6 +30962,120 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "ChC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
+		(at 662.94 331.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e7c2e1b-653f-4838-bbc5-5c33b2e244c5")
+		(property "Reference" "MCUTVS4"
+			(at 659.892 319.786 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTVSUC3D5VB"
+			(at 659.892 322.326 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
+			(at 670.56 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
+			(at 673.1 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 662.94 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Prisemi(芯导)"
+			(at 675.64 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTVSUC3D5VB"
+			(at 678.18 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C918847"
+			(at 680.72 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08f80841-5923-4b2d-985f-b580ee221b44")
+		)
+		(pin "2"
+			(uuid "e6abb6e4-6b71-483b-b0c0-37726d163c08")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "MCUTVS4")
 					(unit 1)
 				)
 			)
@@ -31730,7 +31932,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 561.34 182.88 0)
+		(at 553.72 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31740,7 +31942,7 @@
 		(dnp no)
 		(uuid "4ce69325-fa53-4988-bfcd-925c00fdcfbf")
 		(property "Reference" "TP5"
-			(at 560.0699 177.8 90)
+			(at 552.4499 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31751,7 +31953,7 @@
 			)
 		)
 		(property "Value" "TXTP"
-			(at 562.61 177.8 90)
+			(at 554.99 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31762,7 +31964,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 566.42 182.88 0)
+			(at 558.8 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31773,7 +31975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 566.42 182.88 0)
+			(at 558.8 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31784,7 +31986,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 561.34 182.88 0)
+			(at 553.72 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31963,6 +32165,85 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "Xout1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 651.51 337.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e58de71-f2da-4547-b4fd-d711d68efa90")
+		(property "Reference" "#PWR039"
+			(at 651.51 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 654.05 339.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 651.51 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 651.51 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 651.51 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f2e2afb-1944-446e-9022-f7f4bbb032ce")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -37141,7 +37422,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 655.32 330.2 90)
+		(at 669.29 328.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37152,7 +37433,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e92d3e5-7ac4-4679-987f-813c022637bb")
 		(property "Reference" "#PWR036"
-			(at 659.13 330.2 0)
+			(at 669.29 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37163,18 +37444,18 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 651.51 330.1999 90)
+			(at 671.83 330.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 655.32 330.2 0)
+			(at 669.29 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37185,7 +37466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 655.32 330.2 0)
+			(at 669.29 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37196,7 +37477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 655.32 330.2 0)
+			(at 669.29 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37302,7 +37583,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 561.34 189.23 180)
+		(at 553.72 189.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37312,7 +37593,7 @@
 		(dnp no)
 		(uuid "7faf2cf2-912c-4700-bd79-4e501553d34d")
 		(property "Reference" "TP23"
-			(at 562.6101 194.31 90)
+			(at 554.9901 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37323,7 +37604,7 @@
 			)
 		)
 		(property "Value" "RXTP"
-			(at 560.07 194.31 90)
+			(at 552.45 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37334,7 +37615,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 556.26 189.23 0)
+			(at 548.64 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37345,7 +37626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 556.26 189.23 0)
+			(at 548.64 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37356,7 +37637,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 561.34 189.23 0)
+			(at 553.72 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39288,7 +39569,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 675.64 346.71 0)
+		(at 675.64 353.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -39299,7 +39580,7 @@
 		(dnp no)
 		(uuid "8cc00017-6a06-41d0-b6b6-cb784d8eeea6")
 		(property "Reference" "TP69"
-			(at 677.418 341.6299 0)
+			(at 677.418 347.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39310,7 +39591,7 @@
 			)
 		)
 		(property "Value" "DfetOffTP"
-			(at 677.418 344.17 0)
+			(at 677.418 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39321,7 +39602,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 670.56 346.71 0)
+			(at 670.56 353.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39332,7 +39613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 670.56 346.71 0)
+			(at 670.56 353.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39343,7 +39624,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 675.64 346.71 0)
+			(at 675.64 353.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39360,6 +39641,83 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0c0182-1c8b-4160-b005-5b2c4a39839a")
+		(property "Reference" "TP3"
+			(at 194.818 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONN-TP"
+			(at 194.818 185.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99d6062e-cba3-4c33-adcc-8d6a0bae2b60")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -39847,7 +40205,7 @@
 	)
 	(symbol
 		(lib_id "BMS_SymbolLib:MHPS2285N")
-		(at 641.35 349.25 0)
+		(at 641.35 355.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39858,7 +40216,7 @@
 		(fields_autoplaced yes)
 		(uuid "9653fcac-0987-4986-85a9-b3101a2ece0c")
 		(property "Reference" "S1"
-			(at 656.59 341.63 0)
+			(at 656.59 347.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39868,7 +40226,7 @@
 			)
 		)
 		(property "Value" "MHPS2285N"
-			(at 656.59 344.17 0)
+			(at 656.59 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39878,7 +40236,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:MHPS2285N"
-			(at 668.02 444.17 0)
+			(at 668.02 450.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39890,7 +40248,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf"
-			(at 668.02 544.17 0)
+			(at 668.02 550.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39902,7 +40260,7 @@
 			)
 		)
 		(property "Description" "Pushbutton Switches DPDT 0.1A 30V On-Mom"
-			(at 641.35 349.25 0)
+			(at 641.35 355.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39913,7 +40271,7 @@
 			)
 		)
 		(property "Height" "13.5"
-			(at 668.02 744.17 0)
+			(at 668.02 750.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39925,7 +40283,7 @@
 			)
 		)
 		(property "Mouser Part Number" "642-MHPS2285N"
-			(at 668.02 844.17 0)
+			(at 668.02 850.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39937,7 +40295,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Apem/MHPS2285N?qs=6hR9CYnVCPCmwxWl14NRKA%3D%3D"
-			(at 668.02 944.17 0)
+			(at 668.02 950.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39949,7 +40307,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Apem"
-			(at 668.02 1044.17 0)
+			(at 668.02 1050.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39961,7 +40319,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MHPS2285N"
-			(at 668.02 1144.17 0)
+			(at 668.02 1150.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41679,6 +42037,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 662.94 339.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5137e99-ebe4-4556-867e-916cb783a13f")
+		(property "Reference" "#PWR038"
+			(at 662.94 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 665.48 340.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 662.94 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 662.94 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 662.94 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "792c3e31-7415-4f43-bdac-8e2461eb8359")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 45.72 195.58 0)
 		(unit 1)
@@ -42251,7 +42688,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 675.64 356.87 180)
+		(at 675.64 363.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42261,7 +42698,7 @@
 		(dnp no)
 		(uuid "aa5d5d54-468e-4602-a258-dc94cadf4791")
 		(property "Reference" "TP68"
-			(at 677.418 361.9501 0)
+			(at 677.418 368.3001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42272,7 +42709,7 @@
 			)
 		)
 		(property "Value" "MDfetOffTP"
-			(at 677.418 359.41 0)
+			(at 677.418 365.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42283,7 +42720,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 670.56 356.87 0)
+			(at 670.56 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42294,7 +42731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 670.56 356.87 0)
+			(at 670.56 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42305,7 +42742,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 675.64 356.87 0)
+			(at 675.64 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43036,7 +43473,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 660.4 327.66 0)
+		(at 674.37 323.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43047,7 +43484,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2d40efa-c8fb-4a1b-8eb7-ae2dd217f63d")
 		(property "Reference" "J1"
-			(at 662.94 326.3899 0)
+			(at 676.91 322.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43058,7 +43495,7 @@
 			)
 		)
 		(property "Value" "UART Jpins"
-			(at 662.94 328.9299 0)
+			(at 676.91 325.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43069,7 +43506,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:3P_Pin_Header"
-			(at 660.4 327.66 0)
+			(at 674.37 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43080,7 +43517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 660.4 327.66 0)
+			(at 674.37 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43091,7 +43528,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 660.4 327.66 0)
+			(at 674.37 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47394,6 +47831,120 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5V_TVS_BI:PTVSUC3D5VB")
+		(at 651.51 330.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e206a0c3-1d40-499b-9bf8-16fee5a13380")
+		(property "Reference" "MCUTVS3"
+			(at 637.032 329.946 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTVSUC3D5VB"
+			(at 632.714 332.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:5V_TVS_SOD-323_L1.8-W1.3-LS2.5-BI"
+			(at 659.13 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSUC3D5VB_C918847.html"
+			(at 661.67 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 651.51 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Prisemi(芯导)"
+			(at 664.21 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTVSUC3D5VB"
+			(at 666.75 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C918847"
+			(at 669.29 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a1b98f2-1462-4b7c-b48f-714a63613688")
+		)
+		(pin "2"
+			(uuid "439ab5c0-b57f-4594-891d-51f4d7dcba13")
+		)
+		(instances
+			(project "Aqua BMS Monitor(MAIN)"
+				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
+					(reference "MCUTVS3")
 					(unit 1)
 				)
 			)

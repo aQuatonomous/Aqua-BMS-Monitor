@@ -12761,6 +12761,10 @@
 		(uuid "30caf324-9801-40f9-a531-746be126a39a")
 	)
 	(no_connect
+		(at 345.44 279.4)
+		(uuid "312227aa-f54c-4bad-906b-cb1738e82a11")
+	)
+	(no_connect
 		(at 532.13 201.93)
 		(uuid "34bb8c43-280a-496d-b23f-e0ec17c8ff55")
 	)
@@ -12787,6 +12791,10 @@
 	(no_connect
 		(at 367.03 109.22)
 		(uuid "698b7b31-183a-4ef4-b01e-56b6351a7d8d")
+	)
+	(no_connect
+		(at 345.44 259.08)
+		(uuid "7ad8d3de-cac5-4561-abcf-d82f50202c10")
 	)
 	(no_connect
 		(at 200.66 434.34)
@@ -12819,6 +12827,10 @@
 	(no_connect
 		(at 657.86 284.48)
 		(uuid "9afec6ec-2a59-4312-bf83-f16c2c8583ba")
+	)
+	(no_connect
+		(at 382.27 259.08)
+		(uuid "9b9421cc-6558-47b8-8a76-be4a9fb5a084")
 	)
 	(no_connect
 		(at 532.13 217.17)
@@ -12879,6 +12891,10 @@
 	(no_connect
 		(at 532.13 173.99)
 		(uuid "e7c2e9d4-3089-4c1e-bf6f-497b19cf2880")
+	)
+	(no_connect
+		(at 383.54 279.4)
+		(uuid "e897a382-3435-4a0d-b11b-59b3cd94cf71")
 	)
 	(no_connect
 		(at 532.13 163.83)
@@ -30569,7 +30585,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e31474ad-0304-4a37-9899-ea0c4e49323d")
+			(uuid "e31474ad-0304-4a37-9899-ea0c4e49323e")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -43106,84 +43122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 345.44 259.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1971863-dbbb-40d9-9592-ca6c25c2f9ed")
-		(property "Reference" "#PWR017"
-			(at 345.44 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 345.44 264.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 345.44 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1375f10e-c02e-4326-b014-46c570b55aa6")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_ST_STM32F2:STM32F205RETx")
 		(at 511.81 204.47 0)
 		(unit 1)
@@ -43893,84 +43831,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "XRC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 382.27 259.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8cd4fb4-628f-4bc0-83ae-b7c7e6320b37")
-		(property "Reference" "#PWR024"
-			(at 382.27 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 382.27 264.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 382.27 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bfbadb0-4221-4db6-a086-1334d8e5d058")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -47928,7 +47788,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e31474ad-0304-4a37-9899-ea0c4e49323d")
+			(uuid "e31474ad-0304-4a37-9899-ea0c4e49323f")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
@@ -48724,90 +48584,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e31474ad-0304-4a37-9899-ea0c4e49323d")
+			(uuid "e31474ad-0304-4a37-9899-ea0c4e493240")
 		)
 		(instances
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 383.54 279.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e893e85c-c8fa-4abf-80d8-e89562057670")
-		(property "Reference" "#PWR044"
-			(at 383.54 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 383.54 284.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 383.54 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 383.54 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0849204-4f8f-4738-9547-ba9966ca4695")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -50299,84 +50081,6 @@
 			(project "Aqua BMS Monitor(MAIN)"
 				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
 					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 345.44 279.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fec9c357-efa3-4d95-928c-e79cfdf9efee")
-		(property "Reference" "#PWR026"
-			(at 345.44 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 345.44 284.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 345.44 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5054d3f5-2120-4864-9b51-2d38b2150235")
-		)
-		(instances
-			(project "Aqua BMS Monitor(MAIN)"
-				(path "/d7eeacc8-0d33-4ea5-a0aa-fd0653295080"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
